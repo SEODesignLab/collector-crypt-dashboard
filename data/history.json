@@ -1,6 +1,12 @@
 {
  "acquisitions": [],
- "sales": [],
+ "sales": [
+  {
+   "time": "09-25 11:21",
+   "usdc_received": 24.01,
+   "tx": "3VJ7MSCyD2tHzmXi8mmgJqi3PkA85F7YipJy2j6sAdJT"
+  }
+ ],
  "balance_history": [
   {
    "ts": "2026-09-25T03:42:51.687168+00:00",
@@ -139,6 +145,12 @@
    "seller_usdc": 70.56,
    "bot_sol": 4.4929,
    "seller_sol": 0.2628
+  },
+  {
+   "ts": "2026-09-25T11:20:13.491668+00:00",
+   "seller_usdc": 94.57,
+   "bot_sol": 4.3089,
+   "seller_sol": 0.264
   }
  ]
 }
