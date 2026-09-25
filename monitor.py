@@ -147,11 +147,11 @@ def analyze_txns(sigs, max_decode=12):
         ts = datetime.fromtimestamp(tx['blockTime'], tz=timezone.utc).strftime('%m-%d %H:%M') if tx.get('blockTime') else ''
         if 'AcceptOfferForCore' in ixs:
             card = get_card_info_from_tx(tx, tx_keys) or {}
-            events.append({'type':'acquisition','time':ts,'usdc':abs(usdc_deltas.get(BOT,0)),'tx':s['signature'][:44],
+            events.append({'type':'acquisition','time':ts,'usdc':abs(usdc_deltas.get(BOT,0)),'tx':s['signature'],
                            'card': card.get('name',''), 'image': card.get('image',''), 'cc_id': card.get('cc_id',''), 'insured': card.get('insured','')})
         if 'BuyCore' in ixs and usdc_deltas.get(SELLER,0) > 0:
             card = get_card_info_from_tx(tx, tx_keys) or {}
-            events.append({'type':'sale','time':ts,'usdc':usdc_deltas[SELLER],'tx':s['signature'][:44],
+            events.append({'type':'sale','time':ts,'usdc':usdc_deltas[SELLER],'tx':s['signature'],
                            'card': card.get('name',''), 'image': card.get('image',''), 'cc_id': card.get('cc_id',''), 'insured': card.get('insured','')})
     return counts, events
 
