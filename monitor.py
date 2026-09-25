@@ -224,9 +224,10 @@ def main():
     seller_sol = get_sol_balance(SELLER)
     bot_usdc = get_usdc_balance(BOT)
     seller_usdc = get_usdc_balance(SELLER)
+    treasury_usdc = get_usdc_balance(TREASURY)
 
     # Balance history snapshot
-    history['balance_history'].append({'ts': now_iso, 'seller_usdc': round(seller_usdc,2), 'bot_sol': round(bot_sol,4), 'seller_sol': round(seller_sol,4)})
+    history['balance_history'].append({'ts': now_iso, 'seller_usdc': round(seller_usdc,2), 'treasury_usdc': round(treasury_usdc,2), 'bot_sol': round(bot_sol,4), 'seller_sol': round(seller_sol,4)})
     history['balance_history'] = history['balance_history'][-10000:]
 
     # Alerts
@@ -240,6 +241,13 @@ def main():
     if prev_seller_usdc is not None and abs(seller_usdc - prev_seller_usdc) >= BALANCE_MOVE_ALERT:
         direction = 'up' if seller_usdc > prev_seller_usdc else 'down'
         alerts.append(f"📊 Seller USDC moved ${abs(seller_usdc-prev_seller_usdc):.2f} {direction}: now ${seller_usdc:.2f}")
+    prev_treasury = None
+    for h in reversed(history['balance_history'][:-1]):
+        if 'treasury_usdc' in h:
+            prev_treasury = h['treasury_usdc']; break
+    if prev_treasury is not None and abs(treasury_usdc - prev_treasury) >= BALANCE_MOVE_ALERT:
+        direction = 'up' if treasury_usdc > prev_treasury else 'down'
+        alerts.append(f"🏦 Treasury USDC moved ${abs(treasury_usdc-prev_treasury):.2f} {direction}: now ${treasury_usdc:.2f}")
 
     # Write history
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -259,6 +267,7 @@ def main():
             'bot_offers_out': bot_accts,
             'bot_holdings': bot_holdings,
             'seller_usdc_balance': seller_usdc,
+            'treasury_usdc_balance': treasury_usdc,
             'seller_txns_per_day': rate(seller_sigs),
             'seller_listing_updates': seller_counts.get('UpdateListing', 0),
             'total_acquisitions': len(history['acquisitions']),
@@ -276,6 +285,7 @@ def main():
             'seller_sol_balance': seller_sol,
             'bot_usdc_balance': bot_usdc,
             'seller_usdc_balance': seller_usdc,
+            'treasury_usdc_balance': treasury_usdc,
             'bot_token_accounts': bot_accts,
             'seller_token_accounts': seller_accts,
         },
