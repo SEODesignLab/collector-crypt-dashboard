@@ -114,7 +114,7 @@ def fetch_arweave_meta(card):
         pass
     return card
 
-def analyze_txns(sigs, max_decode=12):
+def analyze_txns(sigs, max_decode=25):
     counts = {}
     events = []
     for s in sigs[:max_decode]:
