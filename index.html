@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Collector Crypt — Slab Bot Intelligence</title>
+<style>
+:root{--bg:#07090d;--card:#0d1219;--border:#1a2332;--green:#22c55e;--red:#ef4444;--blue:#3b82f6;--gold:#f59e0b;--text:#e2e8f0;--dim:#64748b;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'SF Mono',Consolas,monospace;padding:20px;max-width:1400px;margin:0 auto}
+h1{font-size:1.4em;letter-spacing:2px;margin-bottom:4px;text-align:center}
+h1 span{color:var(--gold)}
+.subtitle{text-align:center;color:var(--dim);font-size:.85em;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:24px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px}
+.card h2{font-size:.8em;color:var(--dim);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:12px}
+.big{font-size:1.9em;font-weight:bold}
+.pos{color:var(--green)}.neg{color:var(--red)}.gold{color:var(--gold)}.blue{color:var(--blue)}
+table{width:100%;border-collapse:collapse;font-size:.78em}
+th{color:var(--dim);text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);font-weight:normal;text-transform:uppercase;font-size:.85em}
+td{padding:6px 8px;border-bottom:1px solid #111827}
+tr:hover{background:#111827}
+.mono-sm{font-size:.72em;color:var(--dim)}
+.status{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.status.live{background:var(--green);box-shadow:0 0 8px var(--green)}
+.status.dead{background:var(--red)}
+.wallet{font-size:.72em;color:var(--blue);word-break:break-all}
+.updated{text-align:center;color:var(--dim);font-size:.75em;margin-top:20px}
+.bar{height:6px;background:#1a2332;border-radius:3px;overflow:hidden;margin-top:6px}
+.bar-fill{height:100%;background:var(--green)}
+.section{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:24px}
+.section h2{font-size:.9em;margin-bottom:14px;color:var(--gold)}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.7em;margin-left:8px}
+.badge.bot{background:#1e3a5f;color:#7cc4ff}
+.badge.seller{background:#3a2a1e;color:#ffb84d}
+@media(max-width:768px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<h1>🎴 COLLECTOR CRYPT — <span>SLAB BOT INTELLIGENCE</span></h1>
+<div class="subtitle">SEODesignLab · on-chain monitoring · auto-refresh 2h · data: Solana mainnet</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>🤖 Offer Bot — Activity <span class="badge bot">ACQUISITION</span></h2>
+    <div class="big" id="bot-rate">—</div>
+    <div class="mono-sm">txns/day · <span id="bot-window"></span></div>
+    <div class="mono-sm" style="margin-top:8px">Offers out: <span id="bot-offers" class="blue">—</span> · Holdings: <span id="bot-holdings">—</span></div>
+  </div>
+  <div class="card">
+    <h2>💰 Seller Wallet — Revenue <span class="badge seller">DISTRIBUTION</span></h2>
+    <div class="big gold" id="seller-usdc">—</div>
+    <div class="mono-sm">USDC balance (accumulated revenue)</div>
+    <div class="mono-sm" style="margin-top:8px">Listings repriced: <span id="seller-listings">—</span>/run</div>
+  </div>
+  <div class="card">
+    <h2>🛒 Bot Acquisitions (accepted lowballs)</h2>
+    <div class="big" id="acq-count">—</div>
+    <div class="mono-sm">in current window</div>
+    <div class="mono-sm" style="margin-top:8px">Total USDC spent: <span id="acq-total" class="neg">—</span></div>
+  </div>
+  <div class="card">
+    <h2>📤 Seller Sales</h2>
+    <div class="big" id="sale-count">—</div>
+    <div class="mono-sm">completed sales in window</div>
+    <div class="mono-sm" style="margin-top:8px">Total USDC received: <span id="sale-total" class="pos">—</span></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>🛒 Recent Bot Acquisitions (accepted offers)</h2>
+  <table id="acq-table">
+    <thead><tr><th>Time</th><th>Asset</th><th>USDC Paid</th><th>TX</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="mono-sm" id="acq-empty" style="padding:12px;color:var(--dim)">No acquisitions captured yet — monitoring continues.</div>
+</div>
+
+<div class="section">
+  <h2>📤 Recent Seller Sales</h2>
+  <table id="sale-table">
+    <thead><tr><th>Time</th><th>Asset</th><th>USDC Received</th><th>Buyer</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="mono-sm" id="sale-empty" style="padding:12px;color:var(--dim)">No sales captured yet — monitoring continues.</div>
+</div>
+
+<div class="section">
+  <h2>📋 Operation Profile (cumulative)</h2>
+  <table id="profile-table">
+    <thead><tr><th>Metric</th><th>Offer Bot</th><th>Seller Wallet</th></tr></thead>
+    <tbody>
+      <tr><td>Wallet</td><td class="wallet">FrY8u2MhPoV3xjSxeZf74ftPMdvthAo9or6fLGwLAXr8</td><td class="wallet">Dpua5doi7EKeh9oSEpCLe99o76eFFC5FrrartM95wQBQ</td></tr>
+      <tr><td>Role</td><td>Lowball offers + auto-rebid</td><td>List at market + reprice asks</td></tr>
+      <tr><td>Instruction mix</td><td id="bot-mix">—</td><td id="seller-mix">—</td></tr>
+      <tr><td>SOL float</td><td id="bot-sol">—</td><td id="seller-sol">—</td></tr>
+      <tr><td>USDC balance</td><td id="bot-usdc">—</td><td id="seller-usdc2">—</td></tr>
+      <tr><td>Token accounts</td><td id="bot-tokens">—</td><td id="seller-tokens">—</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="updated"><span class="status live"></span>Last updated: <span id="updated">—</span> · <a href="https://seodesignlab.github.io/collector-crypt-dashboard/" style="color:var(--blue)">source</a> · data refreshed every 2h by Forge</div>
+
+<script>
+async function load(){
+  try{
+    const r = await fetch('data/dashboard-data.json?t='+Date.now());
+    const d = await r.json();
+    document.getElementById('updated').textContent = new Date(d.generated).toLocaleString();
+    
+    // Stats cards
+    const s = d.summary || {};
+    document.getElementById('bot-rate').textContent = (s.bot_txns_per_day||'—');
+    document.getElementById('bot-window').textContent = s.bot_window||'';
+    document.getElementById('bot-offers').textContent = s.bot_offers_out||'—';
+    document.getElementById('bot-holdings').textContent = s.bot_holdings||'—';
+    document.getElementById('seller-usdc').textContent = '$'+(s.seller_usdc_balance||0).toFixed(2);
+    document.getElementById('seller-listings').textContent = s.seller_listing_updates||'—';
+    document.getElementById('acq-count').textContent = (d.acquisitions||[]).length;
+    document.getElementById('acq-total').textContent = '-$'+((d.acquisitions||[]).reduce((a,x)=>a+(x.usdc_paid||0),0)).toFixed(2);
+    document.getElementById('sale-count').textContent = (d.sales||[]).length;
+    document.getElementById('sale-total').textContent = '+$'+((d.sales||[]).reduce((a,x)=>a+(x.usdc_received||0),0)).toFixed(2);
+    
+    // Profile
+    const p = d.profile || {};
+    document.getElementById('bot-mix').textContent = p.bot_instruction_mix||'—';
+    document.getElementById('seller-mix').textContent = p.seller_instruction_mix||'—';
+    document.getElementById('bot-sol').textContent = (p.bot_sol_balance||0).toFixed(3)+' SOL';
+    document.getElementById('seller-sol').textContent = (p.seller_sol_balance||0).toFixed(3)+' SOL';
+    document.getElementById('bot-usdc').textContent = '$'+(p.bot_usdc_balance||0).toFixed(2);
+    document.getElementById('seller-usdc2').textContent = '$'+(p.seller_usdc_balance||0).toFixed(2);
+    document.getElementById('bot-tokens').textContent = p.bot_token_accounts||'—';
+    document.getElementById('seller-tokens').textContent = p.seller_token_accounts||'—';
+    
+    // Acquisitions table
+    const ab = document.querySelector('#acq-table tbody');
+    ab.innerHTML = '';
+    (d.acquisitions||[]).forEach(a=>{
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${a.time||''}</td><td class="mono-sm">${(a.asset||'').slice(0,12)}...</td><td class="neg">-$${(a.usdc_paid||0).toFixed(2)}</td><td class="mono-sm"><a href="https://solscan.io/tx/${a.tx}" style="color:var(--blue)">${(a.tx||'').slice(0,10)}…</a></td>`;
+      ab.appendChild(tr);
+    });
+    document.getElementById('acq-empty').style.display = (d.acquisitions||[]).length ? 'none':'block';
+    
+    // Sales table
+    const sb = document.querySelector('#sale-table tbody');
+    sb.innerHTML = '';
+    (d.sales||[]).forEach(a=>{
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${a.time||''}</td><td class="mono-sm">${(a.asset||'').slice(0,12)}...</td><td class="pos">+$${(a.usdc_received||0).toFixed(2)}</td><td class="mono-sm">${(a.buyer||'').slice(0,12)}…</td>`;
+      sb.appendChild(tr);
+    });
+    document.getElementById('sale-empty').style.display = (d.sales||[]).length ? 'none':'block';
+    
+  }catch(e){
+    document.getElementById('updated').textContent = 'load error: '+e.message;
+  }
+}
+load();
+setInterval(load, 120000);
+</script>
+</body>
+</html>
