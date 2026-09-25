@@ -216,6 +216,12 @@ def main():
     seen_sale = {e.get('tx') for e in history['sales']}
     new_acqs = merge_events(history['acquisitions'], bot_events, 'acquisition', seen_acq)
     new_sales = merge_events(history['sales'], seller_events, 'sale', seen_sale)
+    if 'sweeps' not in history: history['sweeps'] = []
+    seen_sweep = {e.get('tx') for e in history['sweeps']}
+    for ev in bot_events + seller_events:
+        if ev['type'] == 'sweep' and ev.get('tx') not in seen_sweep:
+            history['sweeps'].append({'time': ev['time'], 'usdc': round(ev['usdc'],2), 'tx': ev['tx']})
+            seen_sweep.add(ev['tx'])
 
     # Balances & stats
     bot_accts, bot_holdings = get_token_account_count(BOT)

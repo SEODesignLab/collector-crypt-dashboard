@@ -182,6 +182,20 @@
    "seller_usdc": 0.0,
    "bot_sol": 4.2171,
    "seller_sol": 0.2603
+  },
+  {
+   "ts": "2026-09-25T11:40:15.787888+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3788.68,
+   "bot_sol": 4.2171,
+   "seller_sol": 0.2603
+  }
+ ],
+ "sweeps": [
+  {
+   "time": "09-25 11:33",
+   "usdc": -94.57,
+   "tx": "5rS9WaRFV75dEZAGAbiBETuoZBrcJ471rpgNXkz6e7twgBx2y8wVS2pcrweDBxr8BWmnhQZ6GCjTv7PZH2RPwai6"
   }
  ]
 }
