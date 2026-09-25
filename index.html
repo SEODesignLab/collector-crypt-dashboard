@@ -80,7 +80,7 @@ tr:hover{background:#111827}
 <div class="section">
   <h2>🛒 Recent Bot Acquisitions (accepted offers)</h2>
   <table id="acq-table">
-    <thead><tr><th>Time</th><th>Asset</th><th>USDC Paid</th><th>TX</th></tr></thead>
+    <thead><tr><th></th><th>Card</th><th>Insured</th><th>USDC Paid</th><th>Links</th></tr></thead>
     <tbody></tbody>
   </table>
   <div class="mono-sm" id="acq-empty" style="padding:12px;color:var(--dim)">No acquisitions captured yet — monitoring continues.</div>
@@ -89,7 +89,7 @@ tr:hover{background:#111827}
 <div class="section">
   <h2>📤 Recent Seller Sales</h2>
   <table id="sale-table">
-    <thead><tr><th>Time</th><th>Asset</th><th>USDC Received</th><th>Buyer</th></tr></thead>
+    <thead><tr><th></th><th>Card</th><th>Insured</th><th>USDC Received</th><th>Links</th></tr></thead>
     <tbody></tbody>
   </table>
   <div class="mono-sm" id="sale-empty" style="padding:12px;color:var(--dim)">No sales captured yet — monitoring continues.</div>
@@ -151,9 +151,12 @@ async function load(){
     // Acquisitions table
     const ab = document.querySelector('#acq-table tbody');
     ab.innerHTML = '';
-    (d.acquisitions||[]).forEach(a=>{
+    (d.acquisitions||[]).slice(0,50).forEach(a=>{
       const tr = document.createElement('tr');
-      tr.innerHTML = `<td>${a.time||''}</td><td class="mono-sm">${(a.asset||'').slice(0,12)}...</td><td class="neg">-$${(a.usdc_paid||0).toFixed(2)}</td><td class="mono-sm"><a href="https://solscan.io/tx/${a.tx}" style="color:var(--blue)">${(a.tx||'').slice(0,10)}…</a></td>`;
+      const img = a.image?`<img src="${a.image}" style="width:32px;height:44px;object-fit:cover;border-radius:3px;display:block" loading="lazy">`:'<div style="width:32px;height:44px;background:#1a2332;border-radius:3px"></div>';
+      const name = a.card||'unknown card';
+      const shortName = name.length>42?name.slice(0,40)+'…':name;
+      tr.innerHTML = `<td style="white-space:nowrap">${a.time||''}<br>${img}</td><td title="${name}">${shortName}${a.cc_id?`<div class="mono-sm">${a.cc_id}</div>`:''}</td><td>${a.insured?('$'+a.insured):'—'}</td><td class="neg">-$${(a.usdc_paid||0).toFixed(2)}</td><td class="mono-sm"><a href="https://solscan.io/tx/${a.tx}" style="color:var(--blue)">tx</a></td>`;
       ab.appendChild(tr);
     });
     document.getElementById('acq-empty').style.display = (d.acquisitions||[]).length ? 'none':'block';
@@ -163,7 +166,10 @@ async function load(){
     sb.innerHTML = '';
     (d.sales||[]).slice(0,50).forEach(a=>{
       const tr = document.createElement('tr');
-      tr.innerHTML = `<td>${a.time||''}</td><td class="mono-sm">${(a.asset||'').slice(0,12)}...</td><td class="pos">+$${(a.usdc_received||0).toFixed(2)}</td><td class="mono-sm">${(a.buyer||'').slice(0,12)}…</td>`;
+      const img = a.image?`<img src="${a.image}" style="width:32px;height:44px;object-fit:cover;border-radius:3px;display:block" loading="lazy">`:'<div style="width:32px;height:44px;background:#1a2332;border-radius:3px"></div>';
+      const name = a.card||'unknown card';
+      const shortName = name.length>42?name.slice(0,40)+'…':name;
+      tr.innerHTML = `<td style="white-space:nowrap">${a.time||''}<br>${img}</td><td title="${name}">${shortName}${a.cc_id?`<div class="mono-sm">${a.cc_id}</div>`:''}</td><td>${a.insured?('$'+a.insured):'—'}</td><td class="pos">+$${(a.usdc_received||0).toFixed(2)}</td><td class="mono-sm"><a href="https://solscan.io/tx/${a.tx}" style="color:var(--blue)">tx</a></td>`;
       sb.appendChild(tr);
     });
     document.getElementById('sale-empty').style.display = (d.sales||[]).length ? 'none':'block';

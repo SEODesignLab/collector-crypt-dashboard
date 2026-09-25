@@ -9,7 +9,7 @@ Runs every 20m via cron (no_agent). Does:
   5. Prints to stdout ONLY if notable (stdout -> Telegram via cron delivery).
      Prints nothing = silent = no Telegram spam.
 """
-import requests, json, os, sys, subprocess
+import requests, json, os, sys, subprocess, base64, re
 from datetime import datetime, timezone
 
 RPC = 'https://solana-mainnet.g.alchemy.com/v2/WsIAMnMfQS4V1SdWpHS7o'
@@ -62,12 +62,70 @@ def get_recent_txns(wallet, limit=100):
     res = rpc_call('getSignaturesForAddress', [wallet, {'limit': limit}])
     return [s for s in (res or []) if not s.get('err')]
 
+def get_card_info_from_tx(tx, keys):
+    """Extract card metadata (name, arweave URI, image) from a CC instruction's
+    position-[6] metadata escrow account. Returns dict or None."""
+    try:
+        for ix in tx['transaction']['message']['instructions']:
+            if not isinstance(ix, dict): continue
+            p = ix.get('programId')
+            pid = keys[p] if isinstance(p, int) and p < len(keys) else str(p)
+            if 'CcmRKTu' not in pid: continue
+            accts = ix.get('accounts', [])
+            if len(accts) < 7: continue
+            meta_key = keys[accts[6]] if isinstance(accts[6], int) and accts[6] < len(keys) else accts[6]
+            r = requests.post(RPC, json={'jsonrpc':'2.0','id':9,'method':'getAccountInfo','params':[meta_key,{'encoding':'base64'}]}, timeout=15)
+            info = (r.json().get('result') or {}).get('value',{})
+            data = base64.b64decode(info['data'][0]) if info.get('data') else b''
+            # find arweave URI + name strings
+            uris = re.findall(rb'https://arweave\.net/[A-Za-z0-9_-]{20,}', data)
+            names = re.findall(rb'[\x20-\x7e]{8,90}', data)
+            card = {'meta_escrow': meta_key}
+            if uris:
+                card['meta_uri'] = uris[0].decode()
+            # name is usually the first long printable string that's not a URL
+            for n in names:
+                s = n.decode()
+                if not s.startswith('http') and len(s) > 10:
+                    card['name'] = s.rstrip('\x00?').strip()
+                    break
+            card = fetch_arweave_meta(card)
+            return card
+    except Exception:
+        return None
+    return None
+
+def fetch_arweave_meta(card):
+    """Enrich card dict with name/image/insured value from Arweave metadata JSON."""
+    uri = card.get('meta_uri')
+    if not uri: return card
+    try:
+        r = requests.get(uri, timeout=10)
+        if r.status_code == 200:
+            m = r.json()
+            card['full_name'] = m.get('name', card.get('name',''))
+            card['image'] = m.get('image','')
+            attrs = {a.get('trait_type'): a.get('value') for a in m.get('attributes',[]) if isinstance(a,dict)}
+            card['cc_id'] = attrs.get('Collector Crypt ID','')
+            card['insured'] = attrs.get('Insured Value','')
+            card['grader'] = attrs.get('Grading Company','')
+            card['serial'] = attrs.get('Serial Number','')
+    except Exception:
+        pass
+    return card
+
 def analyze_txns(sigs, max_decode=12):
     counts = {}
     events = []
     for s in sigs[:max_decode]:
-        tx = rpc_call('getTransaction', [s['signature'], {'maxSupportedTransactionVersion':0,'encoding':'json'}])
+        tx = rpc_call('getTransaction', [s['signature'], {'maxSupportedTransactionVersion':0,'encoding':'jsonParsed'}])
         if not tx: continue
+        tx_keys = []
+        for k in tx['transaction']['message'].get('accountKeys', []):
+            tx_keys.append(k.get('pubkey','') if isinstance(k, dict) else k)
+        loaded = tx.get('meta',{}).get('loadedAddresses',{})
+        if loaded:
+            tx_keys += loaded.get('writable',[]) + loaded.get('readonly',[])
         logs = tx.get('meta',{}).get('logMessages',[]) or []
         ixs = [l.replace('Program log: Instruction: ','') for l in logs if 'Instruction:' in l]
         for ix in ixs:
@@ -88,9 +146,13 @@ def analyze_txns(sigs, max_decode=12):
                 usdc_deltas[owner] = d
         ts = datetime.fromtimestamp(tx['blockTime'], tz=timezone.utc).strftime('%m-%d %H:%M') if tx.get('blockTime') else ''
         if 'AcceptOfferForCore' in ixs:
-            events.append({'type':'acquisition','time':ts,'usdc':abs(usdc_deltas.get(BOT,0)),'tx':s['signature'][:44]})
+            card = get_card_info_from_tx(tx, tx_keys) or {}
+            events.append({'type':'acquisition','time':ts,'usdc':abs(usdc_deltas.get(BOT,0)),'tx':s['signature'][:44],
+                           'card': card.get('name',''), 'image': card.get('image',''), 'cc_id': card.get('cc_id',''), 'insured': card.get('insured','')})
         if 'BuyCore' in ixs and usdc_deltas.get(SELLER,0) > 0:
-            events.append({'type':'sale','time':ts,'usdc':usdc_deltas[SELLER],'tx':s['signature'][:44]})
+            card = get_card_info_from_tx(tx, tx_keys) or {}
+            events.append({'type':'sale','time':ts,'usdc':usdc_deltas[SELLER],'tx':s['signature'][:44],
+                           'card': card.get('name',''), 'image': card.get('image',''), 'cc_id': card.get('cc_id',''), 'insured': card.get('insured','')})
     return counts, events
 
 def rate(sigs):
@@ -108,7 +170,11 @@ def merge_events(target, new_events, event_type, seen):
     for ev in new_events:
         if ev['type'] == event_type and ev.get('tx') not in seen:
             key = 'usdc_paid' if event_type=='acquisition' else 'usdc_received'
-            target.append({'time': ev['time'], key: round(ev['usdc'],2), 'tx': ev['tx']})
+            # enrich card info from Arweave (once per new event)
+            card = {'meta_escrow': '', 'meta_uri': '', 'name': ev.get('card','')}
+            # find the full event dict with meta_uri
+            card_full = {k: v for k, v in ev.items() if k in ('card','image','cc_id','insured')}
+            target.append({'time': ev['time'], key: round(ev['usdc'],2), 'tx': ev['tx'], **card_full})
             seen.add(ev['tx'])
             added += 1
     return added
@@ -171,8 +237,8 @@ def main():
     json.dump(history, open(HISTORY_FILE,'w'), indent=1)
 
     # Build dashboard data
-    recent_acqs = [{'time':e['time'],'usdc_paid':e['usdc_paid'],'tx':e['tx'],'asset':''} for e in reversed(history['acquisitions'])]
-    recent_sales = [{'time':e['time'],'usdc_received':e['usdc_received'],'tx':e['tx'],'asset':'','buyer':''} for e in reversed(history['sales'])]
+    recent_acqs = [{'time':e['time'],'usdc_paid':e['usdc_paid'],'tx':e['tx'],'card':e.get('card',''),'image':e.get('image',''),'cc_id':e.get('cc_id',''),'insured':e.get('insured','')} for e in reversed(history['acquisitions'])]
+    recent_sales = [{'time':e['time'],'usdc_received':e['usdc_received'],'tx':e['tx'],'card':e.get('card',''),'image':e.get('image',''),'cc_id':e.get('cc_id',''),'insured':e.get('insured',''),'buyer':''} for e in reversed(history['sales'])]
     total_acq = sum(e['usdc_paid'] for e in history['acquisitions'])
     total_sale = sum(e['usdc_received'] for e in history['sales'])
 
