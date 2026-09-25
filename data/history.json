@@ -19,7 +19,17 @@
    "insured": ""
   }
  ],
- "sales": [],
+ "sales": [
+  {
+   "time": "09-25 20:22",
+   "usdc_received": 29.4,
+   "tx": "4euPJUNoSVG3VFYyyvmBEZ88qUrqkUWFH1qiDFTRKPfR5z5fD8ZX3gfwaaTAWpvDSRzc2QcRBVaX4En5BW7h6bXr",
+   "card": "2025 Pokemon Japanese Playing Ca",
+   "image": "https://arweave.net/mbafmdhaamLVltMEjvae-TDWoAPtSMreEV4kp37wwZQ",
+   "cc_id": "2026071611C198481",
+   "insured": "33"
+  }
+ ],
  "balance_history": [
   {
    "ts": "2026-09-25T03:42:51.687168+00:00",
@@ -390,6 +400,13 @@
    "treasury_usdc": 4857.18,
    "bot_sol": 2.8095,
    "seller_sol": 0.235
+  },
+  {
+   "ts": "2026-09-25T20:20:16.034328+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4824.2,
+   "bot_sol": 2.8225,
+   "seller_sol": 0.2346
   }
  ],
  "sweeps": [

@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-25T20:00:15.943744+00:00",
+ "generated": "2026-09-25T20:20:16.034328+00:00",
  "summary": {
-  "bot_txns_per_day": 8972,
+  "bot_txns_per_day": 9558,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1014,
   "bot_holdings": 1,
   "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 4857.176587,
-  "seller_txns_per_day": 3252,
-  "seller_listing_updates": 22,
+  "treasury_usdc_balance": 4824.199092,
+  "seller_txns_per_day": 5791,
+  "seller_listing_updates": 8,
   "total_acquisitions": 2,
-  "total_sales": 0,
+  "total_sales": 1,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 0
+  "total_sale_usdc": 29.4
  },
  "balance_history": [
   {
@@ -384,6 +384,13 @@
    "treasury_usdc": 4857.18,
    "bot_sol": 2.8095,
    "seller_sol": 0.235
+  },
+  {
+   "ts": "2026-09-25T20:20:16.034328+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4824.2,
+   "bot_sol": 2.8225,
+   "seller_sol": 0.2346
   }
  ],
  "acquisitions": [
@@ -406,16 +413,27 @@
    "insured": ""
   }
  ],
- "sales": [],
+ "sales": [
+  {
+   "time": "09-25 20:22",
+   "usdc_received": 29.4,
+   "tx": "4euPJUNoSVG3VFYyyvmBEZ88qUrqkUWFH1qiDFTRKPfR5z5fD8ZX3gfwaaTAWpvDSRzc2QcRBVaX4En5BW7h6bXr",
+   "card": "2025 Pokemon Japanese Playing Ca",
+   "image": "https://arweave.net/mbafmdhaamLVltMEjvae-TDWoAPtSMreEV4kp37wwZQ",
+   "cc_id": "2026071611C198481",
+   "insured": "33",
+   "buyer": ""
+  }
+ ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:95, CancelOffer:6, MakeOffer:2",
-  "seller_instruction_mix": "UpdateListing:22, Transfer:2, MakeOffer:1",
-  "bot_sol_balance": 2.809526029,
-  "seller_sol_balance": 0.235030864,
+  "bot_instruction_mix": "UpdateOffer:204, MakeOffer:8, CancelOffer:5",
+  "seller_instruction_mix": "MakeOffer:16, UpdateListing:8, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 2.822489301,
+  "seller_sol_balance": 0.234636659,
   "bot_usdc_balance": 0.007618,
   "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 4857.176587,
+  "treasury_usdc_balance": 4824.199092,
   "bot_token_accounts": 1014,
-  "seller_token_accounts": 205
+  "seller_token_accounts": 206
  }
 }
