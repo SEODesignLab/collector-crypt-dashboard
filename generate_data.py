@@ -134,15 +134,14 @@ def main():
     bot_usdc = get_usdc_balance(BOT)
     seller_usdc = get_usdc_balance(SELLER)
     
-    # Merge new events into history (dedupe by tx sig)
+    # Merge new events into history (dedupe by tx sig) — UNLIMITED history, append-only
     def merge_events(target, new_events, event_type):
         seen = {e.get('tx') for e in target}
         for ev in new_events:
             if ev['type'] == event_type and ev.get('tx') not in seen:
                 target.append({'time': ev['time'], 'usdc_paid' if event_type=='acquisition' else 'usdc_received': round(ev['usdc'],2), 'tx': ev['tx']})
                 seen.add(ev.get('tx'))
-        # keep most recent 200
-        return target[-200:]
+        return target  # keep ALL history — never truncate
     
     history['acquisitions'] = merge_events(history['acquisitions'], bot_events, 'acquisition')
     history['sales'] = merge_events(history['sales'], seller_events, 'sale')
@@ -157,11 +156,27 @@ def main():
         parts = [f"{k}:{v}" for k,v in sorted(counts.items(), key=lambda x:-x[1])[:4]]
         return ', '.join(parts)
     
-    # Recent windows for display (last 25)
-    recent_acqs = [{'time':e['time'],'usdc_paid':e['usdc_paid'],'tx':e['tx'],'asset':''} for e in history['acquisitions'][-25:]]
+    # Recent windows for display (all history, newest first)
+    recent_acqs = [{'time':e['time'],'usdc_paid':e['usdc_paid'],'tx':e['tx'],'asset':''} for e in history['acquisitions']]
     recent_acqs.reverse()
-    recent_sales = [{'time':e['time'],'usdc_received':e['usdc_received'],'tx':e['tx'],'asset':'','buyer':''} for e in history['sales'][-25:]]
+    recent_sales = [{'time':e['time'],'usdc_received':e['usdc_received'],'tx':e['tx'],'asset':'','buyer':''} for e in history['sales']]
     recent_sales.reverse()
+    
+    # Append a time-series snapshot point every run (balance history — never truncated)
+    if 'balance_history' not in history:
+        history['balance_history'] = []
+    history['balance_history'].append({
+        'ts': now_iso,
+        'seller_usdc': round(seller_usdc, 2),
+        'bot_sol': round(bot_sol, 4),
+        'seller_sol': round(seller_sol, 4),
+    })
+    # cap balance_history at 10,000 points (~139 days at 20m cadence) to keep JSON sane
+    history['balance_history'] = history['balance_history'][-10000:]
+    
+    # Cumulative totals
+    total_acq_usdc = sum(e['usdc_paid'] for e in history['acquisitions'])
+    total_sale_usdc = sum(e['usdc_received'] for e in history['sales'])
     
     data = {
         'generated': now_iso,
@@ -173,7 +188,12 @@ def main():
             'seller_usdc_balance': seller_usdc,
             'seller_txns_per_day': seller_rate,
             'seller_listing_updates': seller_counts.get('UpdateListing', 0),
+            'total_acquisitions': len(history['acquisitions']),
+            'total_sales': len(history['sales']),
+            'total_acq_usdc': round(total_acq_usdc, 2),
+            'total_sale_usdc': round(total_sale_usdc, 2),
         },
+        'balance_history': history['balance_history'],
         'acquisitions': recent_acqs,
         'sales': recent_sales,
         'profile': {

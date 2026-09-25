@@ -38,7 +38,7 @@ tr:hover{background:#111827}
 </head>
 <body>
 <h1>🎴 COLLECTOR CRYPT — <span>SLAB BOT INTELLIGENCE</span></h1>
-<div class="subtitle">SEODesignLab · on-chain monitoring · auto-refresh 2h · data: Solana mainnet</div>
+<div class="subtitle">SEODesignLab · on-chain monitoring · auto-refresh 20m · full history retained · data: Solana mainnet</div>
 
 <div class="grid">
   <div class="card">
@@ -56,15 +56,25 @@ tr:hover{background:#111827}
   <div class="card">
     <h2>🛒 Bot Acquisitions (accepted lowballs)</h2>
     <div class="big" id="acq-count">—</div>
-    <div class="mono-sm">in current window</div>
-    <div class="mono-sm" style="margin-top:8px">Total USDC spent: <span id="acq-total" class="neg">—</span></div>
+    <div class="mono-sm">all-time · <span id="acq-total" class="neg">—</span> spent</div>
   </div>
   <div class="card">
     <h2>📤 Seller Sales</h2>
     <div class="big" id="sale-count">—</div>
-    <div class="mono-sm">completed sales in window</div>
-    <div class="mono-sm" style="margin-top:8px">Total USDC received: <span id="sale-total" class="pos">—</span></div>
+    <div class="mono-sm">all-time · <span id="sale-total" class="pos">—</span> received</div>
   </div>
+  <div class="card">
+    <h2>📊 Estimated Margin</h2>
+    <div class="big" id="margin">—</div>
+    <div class="mono-sm">sales revenue − acquisition cost</div>
+    <div class="mono-sm" style="margin-top:8px">Data points: <span id="datapoints">—</span></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>📈 Seller USDC Balance Over Time</h2>
+  <canvas id="usdc-chart" style="width:100%;height:180px"></canvas>
+  <div class="mono-sm" style="margin-top:8px">Each point = one 20-minute snapshot · full history retained</div>
 </div>
 
 <div class="section">
@@ -117,10 +127,15 @@ async function load(){
     document.getElementById('bot-holdings').textContent = s.bot_holdings||'—';
     document.getElementById('seller-usdc').textContent = '$'+(s.seller_usdc_balance||0).toFixed(2);
     document.getElementById('seller-listings').textContent = s.seller_listing_updates||'—';
-    document.getElementById('acq-count').textContent = (d.acquisitions||[]).length;
-    document.getElementById('acq-total').textContent = '-$'+((d.acquisitions||[]).reduce((a,x)=>a+(x.usdc_paid||0),0)).toFixed(2);
-    document.getElementById('sale-count').textContent = (d.sales||[]).length;
-    document.getElementById('sale-total').textContent = '+$'+((d.sales||[]).reduce((a,x)=>a+(x.usdc_received||0),0)).toFixed(2);
+    document.getElementById('acq-count').textContent = (s.total_acquisitions ?? (d.acquisitions||[]).length);
+    document.getElementById('acq-total').textContent = '-$'+(s.total_acq_usdc||0).toFixed(2);
+    document.getElementById('sale-count').textContent = (s.total_sales ?? (d.sales||[]).length);
+    document.getElementById('sale-total').textContent = '+$'+(s.total_sale_usdc||0).toFixed(2);
+    const margin = (s.total_sale_usdc||0) - (s.total_acq_usdc||0);
+    const marginEl = document.getElementById('margin');
+    marginEl.textContent = (margin>=0?'+':'')+'$'+margin.toFixed(2);
+    marginEl.className = 'big '+(margin>=0?'pos':'neg');
+    document.getElementById('datapoints').textContent = (d.balance_history||[]).length;
     
     // Profile
     const p = d.profile || {};
@@ -146,12 +161,42 @@ async function load(){
     // Sales table
     const sb = document.querySelector('#sale-table tbody');
     sb.innerHTML = '';
-    (d.sales||[]).forEach(a=>{
+    (d.sales||[]).slice(0,50).forEach(a=>{
       const tr = document.createElement('tr');
       tr.innerHTML = `<td>${a.time||''}</td><td class="mono-sm">${(a.asset||'').slice(0,12)}...</td><td class="pos">+$${(a.usdc_received||0).toFixed(2)}</td><td class="mono-sm">${(a.buyer||'').slice(0,12)}…</td>`;
       sb.appendChild(tr);
     });
     document.getElementById('sale-empty').style.display = (d.sales||[]).length ? 'none':'block';
+    
+    // USDC balance chart (canvas, no libraries)
+    const hist = d.balance_history||[];
+    if(hist.length > 1){
+      const canvas = document.getElementById('usdc-chart');
+      const dpr = window.devicePixelRatio||1;
+      const W = canvas.clientWidth, H = 180;
+      canvas.width = W*dpr; canvas.height = H*dpr;
+      const ctx = canvas.getContext('2d');
+      ctx.scale(dpr,dpr);
+      ctx.clearRect(0,0,W,H);
+      const vals = hist.map(h=>h.seller_usdc);
+      const min = Math.min(...vals), max = Math.max(...vals);
+      const pad = 10, range = (max-min)||1;
+      // grid lines
+      ctx.strokeStyle = '#1a2332'; ctx.fillStyle = '#64748b'; ctx.font = '10px monospace';
+      for(let g=0; g<=3; g++){
+        const y = pad + (H-2*pad)*g/3;
+        ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(W,y); ctx.stroke();
+        ctx.fillText('$'+(max-(range*g/3)).toFixed(0), 4, y-2);
+      }
+      // line
+      ctx.strokeStyle = '#f59e0b'; ctx.lineWidth = 2; ctx.beginPath();
+      hist.forEach((h,i)=>{
+        const x = W*i/(hist.length-1);
+        const y = pad + (H-2*pad)*(1-(h.seller_usdc-min)/range);
+        i?ctx.lineTo(x,y):ctx.moveTo(x,y);
+      });
+      ctx.stroke();
+    }
     
   }catch(e){
     document.getElementById('updated').textContent = 'load error: '+e.message;
