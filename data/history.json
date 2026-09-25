@@ -73,6 +73,12 @@
    "seller_usdc": 0.0,
    "bot_sol": 1.9632,
    "seller_sol": 0.2673
+  },
+  {
+   "ts": "2026-09-25T07:40:12.494073+00:00",
+   "seller_usdc": 0.0,
+   "bot_sol": 2.1835,
+   "seller_sol": 0.267
   }
  ]
 }
