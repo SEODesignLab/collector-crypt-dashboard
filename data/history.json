@@ -1,5 +1,15 @@
 {
- "acquisitions": [],
+ "acquisitions": [
+  {
+   "time": "09-25 14:21",
+   "usdc_paid": 0,
+   "tx": "3qnK6Nbyz9udCLvmqMUGPj1ff2HVLHzqEngcAwdvXXQ2LYBYgyLZtZqTyDx69nuLhXaiPpBwxy3xu61uVQAo9k7",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  }
+ ],
  "sales": [],
  "balance_history": [
   {
@@ -245,6 +255,13 @@
    "treasury_usdc": 4545.94,
    "bot_sol": 4.0301,
    "seller_sol": 0.2488
+  },
+  {
+   "ts": "2026-09-25T14:20:14.382366+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4113.22,
+   "bot_sol": 4.0362,
+   "seller_sol": 0.2486
   }
  ],
  "sweeps": [

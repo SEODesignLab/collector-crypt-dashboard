@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-25T14:00:14.282274+00:00",
+ "generated": "2026-09-25T14:20:14.382366+00:00",
  "summary": {
-  "bot_txns_per_day": 8015,
+  "bot_txns_per_day": 12396,
   "bot_window": "100 txns sampled",
-  "bot_offers_out": 1013,
-  "bot_holdings": 1,
+  "bot_offers_out": 1014,
+  "bot_holdings": 2,
   "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 4545.944207,
-  "seller_txns_per_day": 2619,
-  "seller_listing_updates": 24,
-  "total_acquisitions": 0,
+  "treasury_usdc_balance": 4113.218908,
+  "seller_txns_per_day": 2464,
+  "seller_listing_updates": 21,
+  "total_acquisitions": 1,
   "total_sales": 0,
   "total_acq_usdc": 0,
   "total_sale_usdc": 0
@@ -258,19 +258,36 @@
    "treasury_usdc": 4545.94,
    "bot_sol": 4.0301,
    "seller_sol": 0.2488
+  },
+  {
+   "ts": "2026-09-25T14:20:14.382366+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4113.22,
+   "bot_sol": 4.0362,
+   "seller_sol": 0.2486
   }
  ],
- "acquisitions": [],
+ "acquisitions": [
+  {
+   "time": "09-25 14:21",
+   "usdc_paid": 0,
+   "tx": "3qnK6Nbyz9udCLvmqMUGPj1ff2HVLHzqEngcAwdvXXQ2LYBYgyLZtZqTyDx69nuLhXaiPpBwxy3xu61uVQAo9k7",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  }
+ ],
  "sales": [],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:209, MakeOffer:3, CancelOffer:2",
-  "seller_instruction_mix": "UpdateListing:24, Transfer:1",
-  "bot_sol_balance": 4.030056115,
-  "seller_sol_balance": 0.248805745,
-  "bot_usdc_balance": 0.011018,
+  "bot_instruction_mix": "UpdateOffer:173, Transfer:5, CancelOffer:3, AcceptOfferForCore:1",
+  "seller_instruction_mix": "UpdateListing:21, Transfer:2, MakeOfferNDeposit:1",
+  "bot_sol_balance": 4.036240717,
+  "seller_sol_balance": 0.24855635,
+  "bot_usdc_balance": 254.711018,
   "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 4545.944207,
-  "bot_token_accounts": 1013,
-  "seller_token_accounts": 196
+  "treasury_usdc_balance": 4113.218908,
+  "bot_token_accounts": 1014,
+  "seller_token_accounts": 197
  }
 }
