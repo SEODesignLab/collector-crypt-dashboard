@@ -16,6 +16,8 @@ RPC = 'https://solana-mainnet.g.alchemy.com/v2/WsIAMnMfQS4V1SdWpHS7o'
 USDC_MINT = 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'
 BOT = 'FrY8u2MhPoV3xjSxeZf74ftPMdvthAo9or6fLGwLAXr8'
 SELLER = 'Dpua5doi7EKeh9oSEpCLe99o76eFFC5FrrartM95wQBQ'
+TREASURY = '51ENdycb5bfKEc7RKWRFzGmun7rEZ5zdLq8K3HP9tKx2'
+INTERNAL_WALLETS = {BOT, SELLER, TREASURY}
 DASH_DIR = '/root/collector-crypt-dashboard'
 DATA_DIR = os.path.join(DASH_DIR, 'data')
 DATA_FILE = os.path.join(DATA_DIR, 'dashboard-data.json')
@@ -153,6 +155,13 @@ def analyze_txns(sigs, max_decode=25):
             card = get_card_info_from_tx(tx, tx_keys) or {}
             events.append({'type':'sale','time':ts,'usdc':usdc_deltas[SELLER],'tx':s['signature'],
                            'card': card.get('name',''), 'image': card.get('image',''), 'cc_id': card.get('cc_id',''), 'insured': card.get('insured','')})
+        # Internal USDC sweeps between operation wallets (not P&L — capital cycling)
+        if not ixs or all(ix in ('Transfer',) for ix in ixs):
+            for owner, d in usdc_deltas.items():
+                if owner in INTERNAL_WALLETS and abs(d) >= 10:
+                    others = {o: dd for o, dd in usdc_deltas.items() if o in INTERNAL_WALLETS and o != owner}
+                    if others:
+                        events.append({'type':'sweep','time':ts,'usdc':d,'tx':s['signature'],'wallet':owner})
     return counts, events
 
 def rate(sigs):
