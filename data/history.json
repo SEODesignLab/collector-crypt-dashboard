@@ -82,6 +82,15 @@
    "image": "https://arweave.net/8UpItUCVpw9J6O9s5KCHWZFP1vm95n0OgCVwG0CHKPA",
    "cc_id": "202607164C199851",
    "insured": "40"
+  },
+  {
+   "time": "09-26 10:17",
+   "usdc_received": 65.66,
+   "tx": "25p7ftNdoc8JivXpD4RErTFJ14sZW4wWbRfY3Gw2btzvpjKmhvzB9SkiQzvjKXJ1nnZvoVQLciV18nWK5WNdqAai",
+   "card": "2026 Pokemon Mega Evolution Asce",
+   "image": "https://arweave.net/YvbtpjReNK0GEL27OuwvDX_tToM5afW7fs6DqHNpIBg",
+   "cc_id": "2026071643C195196",
+   "insured": "44"
   }
  ],
  "balance_history": [
@@ -748,6 +757,13 @@
    "treasury_usdc": 5007.75,
    "bot_sol": 2.8178,
    "seller_sol": 0.1966
+  },
+  {
+   "ts": "2026-09-26T10:20:19.915864+00:00",
+   "seller_usdc": 145.04,
+   "treasury_usdc": 5007.75,
+   "bot_sol": 2.8155,
+   "seller_sol": 0.1977
   }
  ],
  "sweeps": [
