@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-27T20:20:24.121007+00:00",
+ "generated": "2026-09-27T20:40:24.219912+00:00",
  "summary": {
-  "bot_txns_per_day": 10706,
+  "bot_txns_per_day": 9341,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1018,
-  "bot_holdings": 2,
-  "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 3826.710366,
-  "seller_txns_per_day": 2865,
-  "seller_listing_updates": 25,
+  "bot_holdings": 1,
+  "seller_usdc_balance": 149.94,
+  "treasury_usdc_balance": 4755.371209,
+  "seller_txns_per_day": 2699,
+  "seller_listing_updates": 21,
   "total_acquisitions": 12,
-  "total_sales": 6,
+  "total_sales": 8,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 252.84
+  "total_sale_usdc": 441.0
  },
  "balance_history": [
   {
@@ -1392,6 +1392,13 @@
    "treasury_usdc": 3826.71,
    "bot_sol": 2.4572,
    "seller_sol": 0.1668
+  },
+  {
+   "ts": "2026-09-27T20:40:24.219912+00:00",
+   "seller_usdc": 149.94,
+   "treasury_usdc": 4755.37,
+   "bot_sol": 2.3199,
+   "seller_sol": 0.1707
   }
  ],
  "acquisitions": [
@@ -1506,6 +1513,26 @@
  ],
  "sales": [
   {
+   "time": "09-27 20:38",
+   "usdc_received": 38.22,
+   "tx": "EN2PfuKZZ2t4JLT4N1itXJoPkFeTqzt5THWLY2NDpCGikBnFSCdviQACtZB8YHMEMNsRqZbRiJoZCdUa7MExrQB",
+   "card": "2021 Pokemon Sword & Shield Cele",
+   "image": "https://arweave.net/7YBt8eBdxxXGIOFXF1JVQRdXN2wfwnsj9PpSEyGMgbs",
+   "cc_id": "2026071614C197983",
+   "insured": "37",
+   "buyer": ""
+  },
+  {
+   "time": "09-27 20:40",
+   "usdc_received": 149.94,
+   "tx": "35HnQ4KHSsFD4ZZLBJrAdZ25fHe63CyQYB1xBV98dUboB8xjCtMopFWMbrNybotmGRrHrGyoAneo61R561kYMSh2",
+   "card": "2000 #12 Butterfree-Holo PSA 9 J",
+   "image": "https://arweave.net/GNeIFv5OkA_vvM03UYwJv_gUth947RPL1n1Y0R0sF_w",
+   "cc_id": "2026071435C191178",
+   "insured": "168",
+   "buyer": ""
+  },
+  {
    "time": "09-27 07:54",
    "usdc_received": 65.66,
    "tx": "3UNM855rvYsuz2dh9SFFxFc1sQeaKPUTdc2aSfpdPv4poVRtLCrs3wQMS5jhv3Nmz6NfesWqHPNr6KaqXBc2f13p",
@@ -1567,14 +1594,14 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:192, MakeOffer:11",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 2.457243394,
-  "seller_sol_balance": 0.166771453,
-  "bot_usdc_balance": 0.009619,
-  "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 3826.710366,
+  "bot_instruction_mix": "UpdateOffer:124, MakeOffer:2, CancelOffer:2",
+  "seller_instruction_mix": "UpdateListing:21, BuyCore:2, Transfer:2",
+  "bot_sol_balance": 2.319890028,
+  "seller_sol_balance": 0.170741557,
+  "bot_usdc_balance": 0.00182,
+  "seller_usdc_balance": 149.94,
+  "treasury_usdc_balance": 4755.371209,
   "bot_token_accounts": 1018,
-  "seller_token_accounts": 225
+  "seller_token_accounts": 226
  }
 }

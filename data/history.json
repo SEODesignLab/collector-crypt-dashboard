@@ -163,6 +163,24 @@
    "image": "https://arweave.net/UNkX5t8os045D9ygLq2JBknCKKMvB5ULf5H4ReOxbkw",
    "cc_id": "2026062421C158931",
    "insured": "75"
+  },
+  {
+   "time": "09-27 20:40",
+   "usdc_received": 149.94,
+   "tx": "35HnQ4KHSsFD4ZZLBJrAdZ25fHe63CyQYB1xBV98dUboB8xjCtMopFWMbrNybotmGRrHrGyoAneo61R561kYMSh2",
+   "card": "2000 #12 Butterfree-Holo PSA 9 J",
+   "image": "https://arweave.net/GNeIFv5OkA_vvM03UYwJv_gUth947RPL1n1Y0R0sF_w",
+   "cc_id": "2026071435C191178",
+   "insured": "168"
+  },
+  {
+   "time": "09-27 20:38",
+   "usdc_received": 38.22,
+   "tx": "EN2PfuKZZ2t4JLT4N1itXJoPkFeTqzt5THWLY2NDpCGikBnFSCdviQACtZB8YHMEMNsRqZbRiJoZCdUa7MExrQB",
+   "card": "2021 Pokemon Sword & Shield Cele",
+   "image": "https://arweave.net/7YBt8eBdxxXGIOFXF1JVQRdXN2wfwnsj9PpSEyGMgbs",
+   "cc_id": "2026071614C197983",
+   "insured": "37"
   }
  ],
  "balance_history": [
@@ -1543,6 +1561,13 @@
    "treasury_usdc": 3826.71,
    "bot_sol": 2.4572,
    "seller_sol": 0.1668
+  },
+  {
+   "ts": "2026-09-27T20:40:24.219912+00:00",
+   "seller_usdc": 149.94,
+   "treasury_usdc": 4755.37,
+   "bot_sol": 2.3199,
+   "seller_sol": 0.1707
   }
  ],
  "sweeps": [
@@ -1580,6 +1605,11 @@
    "time": "09-27 10:54",
    "usdc": -65.66,
    "tx": "5SzyLASGqcV1Y6bcUF9pxeBPBv3SCGE6kT8f1KXHXuN6kuUQ24wU2MCbndZPw4y26XC1p45kJTgUm9LGNa6Qfztv"
+  },
+  {
+   "time": "09-27 20:33",
+   "usdc": -44.1,
+   "tx": "9F56SRtK2E4QHcydLvvXWWEj4r4nBSoxkLRAVQAgr3FvjubpedSiYo8gVfw7xUfiSJFspLHjx1eE8LurFCKkEeW"
   }
  ]
 }
