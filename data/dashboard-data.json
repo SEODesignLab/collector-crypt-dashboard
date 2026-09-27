@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-27T07:00:25.568439+00:00",
+ "generated": "2026-09-27T07:20:25.662820+00:00",
  "summary": {
-  "bot_txns_per_day": 11294,
+  "bot_txns_per_day": 16180,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1014,
   "bot_holdings": 1,
-  "seller_usdc_balance": 80.7511,
-  "treasury_usdc_balance": 4742.091517,
-  "seller_txns_per_day": 2743,
-  "seller_listing_updates": 22,
-  "total_acquisitions": 11,
+  "seller_usdc_balance": 0.0011,
+  "treasury_usdc_balance": 4722.591517,
+  "seller_txns_per_day": 3437,
+  "seller_listing_updates": 23,
+  "total_acquisitions": 12,
   "total_sales": 5,
   "total_acq_usdc": 0,
   "total_sale_usdc": 187.18
@@ -1119,9 +1119,25 @@
    "treasury_usdc": 4742.09,
    "bot_sol": 2.2543,
    "seller_sol": 0.1969
+  },
+  {
+   "ts": "2026-09-27T07:20:25.662820+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4722.59,
+   "bot_sol": 2.2498,
+   "seller_sol": 0.198
   }
  ],
  "acquisitions": [
+  {
+   "time": "09-27 07:19",
+   "usdc_paid": 0,
+   "tx": "5b3nEs3VJiPaT7vg9gXdAKp1XFq3ZnMtXbtveEkJUhjnMuE5cxTJsPsRLstqVGtuhwUG4uLubm6vH4tWaGCFDBtw",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "09-26 20:38",
    "usdc_paid": 0,
@@ -1275,14 +1291,14 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:170, MakeOffer:8, CancelOffer:7",
-  "seller_instruction_mix": "UpdateListing:22, AdminForceCloseCoreListing:1, Transfer:1",
-  "bot_sol_balance": 2.254338105,
-  "seller_sol_balance": 0.196930005,
+  "bot_instruction_mix": "UpdateOffer:148, MakeOffer:13, CancelOffer:5, AcceptOfferForCore:1",
+  "seller_instruction_mix": "UpdateListing:23, Transfer:1",
+  "bot_sol_balance": 2.249849819,
+  "seller_sol_balance": 0.197955257,
   "bot_usdc_balance": 0.004118,
-  "seller_usdc_balance": 80.7511,
-  "treasury_usdc_balance": 4742.091517,
+  "seller_usdc_balance": 0.0011,
+  "treasury_usdc_balance": 4722.591517,
   "bot_token_accounts": 1014,
-  "seller_token_accounts": 212
+  "seller_token_accounts": 213
  }
 }
