@@ -154,6 +154,15 @@
    "image": "",
    "cc_id": "",
    "insured": ""
+  },
+  {
+   "time": "09-27 07:54",
+   "usdc_received": 65.66,
+   "tx": "3UNM855rvYsuz2dh9SFFxFc1sQeaKPUTdc2aSfpdPv4poVRtLCrs3wQMS5jhv3Nmz6NfesWqHPNr6KaqXBc2f13p",
+   "card": "2025 #027 Haunter PSA 9 Mep EN-M",
+   "image": "https://arweave.net/UNkX5t8os045D9ygLq2JBknCKKMvB5ULf5H4ReOxbkw",
+   "cc_id": "2026062421C158931",
+   "insured": "75"
   }
  ],
  "balance_history": [
@@ -1275,6 +1284,13 @@
    "treasury_usdc": 4592.09,
    "bot_sol": 2.2819,
    "seller_sol": 0.1977
+  },
+  {
+   "ts": "2026-09-27T08:00:25.831100+00:00",
+   "seller_usdc": 65.66,
+   "treasury_usdc": 4395.22,
+   "bot_sol": 2.4167,
+   "seller_sol": 0.1989
   }
  ],
  "sweeps": [
