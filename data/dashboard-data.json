@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-27T05:00:25.023852+00:00",
+ "generated": "2026-09-27T05:20:25.123228+00:00",
  "summary": {
-  "bot_txns_per_day": 10627,
+  "bot_txns_per_day": 11852,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1014,
   "bot_holdings": 1,
-  "seller_usdc_balance": 325.8511,
+  "seller_usdc_balance": 352.3111,
   "treasury_usdc_balance": 4822.963544,
-  "seller_txns_per_day": 2602,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 2932,
+  "seller_listing_updates": 24,
   "total_acquisitions": 11,
-  "total_sales": 4,
+  "total_sales": 5,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 160.72
+  "total_sale_usdc": 187.18
  },
  "balance_history": [
   {
@@ -1077,6 +1077,13 @@
    "treasury_usdc": 4822.96,
    "bot_sol": 2.2388,
    "seller_sol": 0.1958
+  },
+  {
+   "ts": "2026-09-27T05:20:25.123228+00:00",
+   "seller_usdc": 352.31,
+   "treasury_usdc": 4822.96,
+   "bot_sol": 2.2247,
+   "seller_sol": 0.1969
   }
  ],
  "acquisitions": [
@@ -1182,6 +1189,16 @@
  ],
  "sales": [
   {
+   "time": "09-27 05:21",
+   "usdc_received": 26.46,
+   "tx": "2oAp9zAHRyNJudP8NH4YpG78oFU419iu4HQzoqPtTG3iFbXKWb1Bej5vCw7b1waeNS8E7ea71k5WYRKXxRsRfnsx",
+   "card": "2018 #128 Full Art/Bonnie PSA 8",
+   "image": "",
+   "cc_id": "",
+   "insured": "",
+   "buyer": ""
+  },
+  {
    "time": "09-26 17:36",
    "usdc_received": 30.38,
    "tx": "4uPKzQ9qg6a5V6GdPqZHko2sVf6e5qeVykxvBXh23yiVzHmvacRkq3ZumLP8nznebKLMdLdQRpwvuYZ3S3ZCAS2y",
@@ -1223,12 +1240,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:115, CancelOffer:20, MakeOffer:14",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 2.238839261,
-  "seller_sol_balance": 0.195841488,
+  "bot_instruction_mix": "UpdateOffer:120, MakeOffer:13, CancelOffer:2",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 2.224676889,
+  "seller_sol_balance": 0.196944618,
   "bot_usdc_balance": 0.001918,
-  "seller_usdc_balance": 325.8511,
+  "seller_usdc_balance": 352.3111,
   "treasury_usdc_balance": 4822.963544,
   "bot_token_accounts": 1014,
   "seller_token_accounts": 211

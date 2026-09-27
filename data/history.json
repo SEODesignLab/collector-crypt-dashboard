@@ -136,6 +136,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026090232C241390",
    "cc_id": "2026090232C241390",
    "insured": "18"
+  },
+  {
+   "time": "09-27 05:21",
+   "usdc_received": 26.46,
+   "tx": "2oAp9zAHRyNJudP8NH4YpG78oFU419iu4HQzoqPtTG3iFbXKWb1Bej5vCw7b1waeNS8E7ea71k5WYRKXxRsRfnsx",
+   "card": "2018 #128 Full Art/Bonnie PSA 8",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
   }
  ],
  "balance_history": [
@@ -1201,6 +1210,13 @@
    "treasury_usdc": 4822.96,
    "bot_sol": 2.2388,
    "seller_sol": 0.1958
+  },
+  {
+   "ts": "2026-09-27T05:20:25.123228+00:00",
+   "seller_usdc": 352.31,
+   "treasury_usdc": 4822.96,
+   "bot_sol": 2.2247,
+   "seller_sol": 0.1969
   }
  ],
  "sweeps": [
