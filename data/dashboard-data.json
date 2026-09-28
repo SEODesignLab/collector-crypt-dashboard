@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-28T23:00:26.848726+00:00",
+ "generated": "2026-09-28T23:20:26.914428+00:00",
  "summary": {
-  "bot_txns_per_day": 13513,
-  "bot_window": "99 txns sampled",
+  "bot_txns_per_day": 11868,
+  "bot_window": "100 txns sampled",
   "bot_offers_out": 1018,
   "bot_holdings": 1,
-  "seller_usdc_balance": 175.4211,
-  "treasury_usdc_balance": 3202.827718,
-  "seller_txns_per_day": 2643,
-  "seller_listing_updates": 25,
-  "total_acquisitions": 16,
+  "seller_usdc_balance": 0.0011,
+  "treasury_usdc_balance": 3368.747718,
+  "seller_txns_per_day": 2767,
+  "seller_listing_updates": 24,
+  "total_acquisitions": 17,
   "total_sales": 9,
   "total_acq_usdc": 0,
   "total_sale_usdc": 477.26
@@ -1952,9 +1952,25 @@
    "treasury_usdc": 3202.83,
    "bot_sol": 4.3118,
    "seller_sol": 0.1478
+  },
+  {
+   "ts": "2026-09-28T23:20:26.914428+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3368.75,
+   "bot_sol": 4.2882,
+   "seller_sol": 0.1475
   }
  ],
  "acquisitions": [
+  {
+   "time": "09-28 23:22",
+   "usdc_paid": 0,
+   "tx": "4CWE73hY4r2xSM63MA2nnfpp6AMxKpEbbyYpfYzEcjnpgjCipFHVvapvZ6XpjWpxoACaKbVmMa3qQmxtZkBFXAKZ",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "09-28 20:22",
    "usdc_paid": 0,
@@ -2193,13 +2209,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:177, MakeOffer:13, CancelOffer:5",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 4.311823477,
-  "seller_sol_balance": 0.147786676,
-  "bot_usdc_balance": 0.00402,
-  "seller_usdc_balance": 175.4211,
-  "treasury_usdc_balance": 3202.827718,
+  "bot_instruction_mix": "UpdateOffer:118, CancelOffer:17, MakeOffer:13, AcceptOfferForCore:1",
+  "seller_instruction_mix": "UpdateListing:24",
+  "bot_sol_balance": 4.288151877,
+  "seller_sol_balance": 0.147457343,
+  "bot_usdc_balance": 0.00622,
+  "seller_usdc_balance": 0.0011,
+  "treasury_usdc_balance": 3368.747718,
   "bot_token_accounts": 1018,
   "seller_token_accounts": 229
  }
