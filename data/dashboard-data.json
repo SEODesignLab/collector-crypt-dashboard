@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-28T09:40:28.048949+00:00",
+ "generated": "2026-09-28T10:00:28.179720+00:00",
  "summary": {
-  "bot_txns_per_day": 26585,
-  "bot_window": "100 txns sampled",
-  "bot_offers_out": 1021,
-  "bot_holdings": 4,
+  "bot_txns_per_day": 13642,
+  "bot_window": "99 txns sampled",
+  "bot_offers_out": 1025,
+  "bot_holdings": 8,
   "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 4342.39381,
-  "seller_txns_per_day": 2550,
-  "seller_listing_updates": 24,
-  "total_acquisitions": 14,
+  "treasury_usdc_balance": 4027.833712,
+  "seller_txns_per_day": 2378,
+  "seller_listing_updates": 25,
+  "total_acquisitions": 15,
   "total_sales": 9,
   "total_acq_usdc": 0,
   "total_sale_usdc": 477.26
@@ -1672,9 +1672,25 @@
    "treasury_usdc": 4342.39,
    "bot_sol": 4.3432,
    "seller_sol": 0.1579
+  },
+  {
+   "ts": "2026-09-28T10:00:28.179720+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4027.83,
+   "bot_sol": 4.3756,
+   "seller_sol": 0.1577
   }
  ],
  "acquisitions": [
+  {
+   "time": "09-28 10:00",
+   "usdc_paid": 0,
+   "tx": "25npjCB6DM8J9KGLSEjKq2J1YvYxSpc3qCp4nUg55hhtndbynTpwCA1rWY9niHXm1ieSvkoeaTLCo4rreCCLdXbs",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "09-28 01:01",
    "usdc_paid": 0,
@@ -1895,14 +1911,14 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:227, CancelOffer:7, MakeOffer:4",
-  "seller_instruction_mix": "UpdateListing:24, MakeOffer:1",
-  "bot_sol_balance": 4.343213653,
-  "seller_sol_balance": 0.157906321,
+  "bot_instruction_mix": "UpdateOffer:200, MakeOffer:2, CancelOffer:2, AcceptOfferForPnft:2",
+  "seller_instruction_mix": "UpdateListing:25",
+  "bot_sol_balance": 4.375572973,
+  "seller_sol_balance": 0.157656926,
   "bot_usdc_balance": 0.00402,
   "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 4342.39381,
-  "bot_token_accounts": 1021,
+  "treasury_usdc_balance": 4027.833712,
+  "bot_token_accounts": 1025,
   "seller_token_accounts": 226
  }
 }
