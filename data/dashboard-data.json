@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-28T00:00:25.248396+00:00",
+ "generated": "2026-09-28T00:20:25.304815+00:00",
  "summary": {
-  "bot_txns_per_day": 9432,
+  "bot_txns_per_day": 23102,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1019,
   "bot_holdings": 2,
-  "seller_usdc_balance": 641.4111,
+  "seller_usdc_balance": 677.6711,
   "treasury_usdc_balance": 4611.061209,
-  "seller_txns_per_day": 2588,
-  "seller_listing_updates": 23,
+  "seller_txns_per_day": 2803,
+  "seller_listing_updates": 24,
   "total_acquisitions": 13,
-  "total_sales": 8,
+  "total_sales": 9,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 441.0
+  "total_sale_usdc": 477.26
  },
  "balance_history": [
   {
@@ -1469,6 +1469,13 @@
    "treasury_usdc": 4611.06,
    "bot_sol": 3.1878,
    "seller_sol": 0.1683
+  },
+  {
+   "ts": "2026-09-28T00:20:25.304815+00:00",
+   "seller_usdc": 677.67,
+   "treasury_usdc": 4611.06,
+   "bot_sol": 3.1497,
+   "seller_sol": 0.1695
   }
  ],
  "acquisitions": [
@@ -1592,6 +1599,16 @@
  ],
  "sales": [
   {
+   "time": "09-28 00:19",
+   "usdc_received": 36.26,
+   "tx": "41MpPsC428xu4ER9QaWjF8BapvFeHg7KwJs2YkAVfdXgz5KMGa5SsRC6jduMukVeX64fz36HWvnAbn9X2uMUKagK",
+   "card": "2025 #BT28-140 Son Goku, Best Un",
+   "image": "https://nft.collectorcrypt.com/front/2026091031C252788",
+   "cc_id": "2026091031C252788",
+   "insured": "25",
+   "buyer": ""
+  },
+  {
    "time": "09-27 20:38",
    "usdc_received": 38.22,
    "tx": "EN2PfuKZZ2t4JLT4N1itXJoPkFeTqzt5THWLY2NDpCGikBnFSCdviQACtZB8YHMEMNsRqZbRiJoZCdUa7MExrQB",
@@ -1673,12 +1690,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:93, CancelOffer:2",
-  "seller_instruction_mix": "UpdateListing:23, MakeOfferNDeposit:2",
-  "bot_sol_balance": 3.187824267,
-  "seller_sol_balance": 0.168342799,
+  "bot_instruction_mix": "UpdateOffer:242, CancelOffer:2",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 3.149656904,
+  "seller_sol_balance": 0.169502244,
   "bot_usdc_balance": 0.00182,
-  "seller_usdc_balance": 641.4111,
+  "seller_usdc_balance": 677.6711,
   "treasury_usdc_balance": 4611.061209,
   "bot_token_accounts": 1019,
   "seller_token_accounts": 226

@@ -190,6 +190,15 @@
    "image": "https://arweave.net/7YBt8eBdxxXGIOFXF1JVQRdXN2wfwnsj9PpSEyGMgbs",
    "cc_id": "2026071614C197983",
    "insured": "37"
+  },
+  {
+   "time": "09-28 00:19",
+   "usdc_received": 36.26,
+   "tx": "41MpPsC428xu4ER9QaWjF8BapvFeHg7KwJs2YkAVfdXgz5KMGa5SsRC6jduMukVeX64fz36HWvnAbn9X2uMUKagK",
+   "card": "2025 #BT28-140 Son Goku, Best Un",
+   "image": "https://nft.collectorcrypt.com/front/2026091031C252788",
+   "cc_id": "2026091031C252788",
+   "insured": "25"
   }
  ],
  "balance_history": [
@@ -1647,6 +1656,13 @@
    "treasury_usdc": 4611.06,
    "bot_sol": 3.1878,
    "seller_sol": 0.1683
+  },
+  {
+   "ts": "2026-09-28T00:20:25.304815+00:00",
+   "seller_usdc": 677.67,
+   "treasury_usdc": 4611.06,
+   "bot_sol": 3.1497,
+   "seller_sol": 0.1695
   }
  ],
  "sweeps": [
