@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-28T20:00:26.001446+00:00",
+ "generated": "2026-09-28T20:20:26.069950+00:00",
  "summary": {
-  "bot_txns_per_day": 39816,
-  "bot_window": "100 txns sampled",
-  "bot_offers_out": 1020,
-  "bot_holdings": 3,
+  "bot_txns_per_day": 10453,
+  "bot_window": "94 txns sampled",
+  "bot_offers_out": 1018,
+  "bot_holdings": 1,
   "seller_usdc_balance": 26.4611,
-  "treasury_usdc_balance": 3449.198122,
-  "seller_txns_per_day": 7372,
-  "seller_listing_updates": 20,
-  "total_acquisitions": 15,
+  "treasury_usdc_balance": 3436.798122,
+  "seller_txns_per_day": 4204,
+  "seller_listing_updates": 25,
+  "total_acquisitions": 16,
   "total_sales": 9,
   "total_acq_usdc": 0,
   "total_sale_usdc": 477.26
@@ -1889,9 +1889,25 @@
    "treasury_usdc": 3449.2,
    "bot_sol": 5.0252,
    "seller_sol": 0.1488
+  },
+  {
+   "ts": "2026-09-28T20:20:26.069950+00:00",
+   "seller_usdc": 26.46,
+   "treasury_usdc": 3436.8,
+   "bot_sol": 5.2644,
+   "seller_sol": 0.1485
   }
  ],
  "acquisitions": [
+  {
+   "time": "09-28 20:22",
+   "usdc_paid": 0,
+   "tx": "4PfoybBoTdRKAGngcXu2d4oy7eDP9W6Dw2qvc9aThRbT3FuX13TfQs1NDxeSrrr8aqEB2bXD22R5teVxA1jfs1cb",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "09-28 10:00",
    "usdc_paid": 0,
@@ -2121,14 +2137,14 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:214, CancelOffer:10, MakeOffer:5",
-  "seller_instruction_mix": "UpdateListing:20, MakeOffer:4, MakeOfferNDeposit:1",
-  "bot_sol_balance": 5.025160125,
-  "seller_sol_balance": 0.148775246,
+  "bot_instruction_mix": "UpdateOffer:81, CancelOffer:19, MakeOffer:18, AcceptOfferForCore:1",
+  "seller_instruction_mix": "UpdateListing:25",
+  "bot_sol_balance": 5.264381827,
+  "seller_sol_balance": 0.148461491,
   "bot_usdc_balance": 0.00402,
   "seller_usdc_balance": 26.4611,
-  "treasury_usdc_balance": 3449.198122,
-  "bot_token_accounts": 1020,
+  "treasury_usdc_balance": 3436.798122,
+  "bot_token_accounts": 1018,
   "seller_token_accounts": 226
  }
 }
