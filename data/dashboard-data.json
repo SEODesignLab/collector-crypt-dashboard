@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-29T06:20:28.914479+00:00",
+ "generated": "2026-09-29T06:40:29.013588+00:00",
  "summary": {
-  "bot_txns_per_day": 5924,
-  "bot_window": "99 txns sampled",
+  "bot_txns_per_day": 7393,
+  "bot_window": "96 txns sampled",
   "bot_offers_out": 1024,
   "bot_holdings": 7,
   "seller_usdc_balance": 52.9211,
-  "treasury_usdc_balance": 3503.518818,
-  "seller_txns_per_day": 2892,
-  "seller_listing_updates": 23,
-  "total_acquisitions": 18,
+  "treasury_usdc_balance": 3491.918818,
+  "seller_txns_per_day": 2795,
+  "seller_listing_updates": 17,
+  "total_acquisitions": 19,
   "total_sales": 10,
   "total_acq_usdc": 0,
   "total_sale_usdc": 530.18
@@ -2106,9 +2106,25 @@
    "treasury_usdc": 3503.52,
    "bot_sol": 5.001,
    "seller_sol": 0.3336
+  },
+  {
+   "ts": "2026-09-29T06:40:29.013588+00:00",
+   "seller_usdc": 52.92,
+   "treasury_usdc": 3491.92,
+   "bot_sol": 4.9966,
+   "seller_sol": 0.3208
   }
  ],
  "acquisitions": [
+  {
+   "time": "09-29 06:41",
+   "usdc_paid": 0,
+   "tx": "5Zcw96yjvZtZarFkhCUuN6rfNrrpr2ZCN31yT5ZaaFbExgCyFff73ANZ6cJccWE2DxjajYWz8KPD75kDwiJVfaNH",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "09-29 02:00",
    "usdc_paid": 0,
@@ -2375,13 +2391,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:35, CancelOffer:21, MakeOffer:16",
-  "seller_instruction_mix": "UpdateListing:23, MakeOfferNDeposit:1, BuyCore:1, Transfer:1",
-  "bot_sol_balance": 5.00104142,
-  "seller_sol_balance": 0.333565618,
+  "bot_instruction_mix": "UpdateOffer:28, MakeOffer:12, CancelOffer:9, AcceptOfferForCore:1",
+  "seller_instruction_mix": "UpdateListing:17, ListCore:4, ApprovePluginAuthority:4, ListPnft:4",
+  "bot_sol_balance": 4.996576017,
+  "seller_sol_balance": 0.320807978,
   "bot_usdc_balance": 0.00732,
   "seller_usdc_balance": 52.9211,
-  "treasury_usdc_balance": 3503.518818,
+  "treasury_usdc_balance": 3491.918818,
   "bot_token_accounts": 1024,
   "seller_token_accounts": 234
  }
