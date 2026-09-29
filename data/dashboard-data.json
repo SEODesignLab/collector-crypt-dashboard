@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-29T06:00:28.835485+00:00",
+ "generated": "2026-09-29T06:20:28.914479+00:00",
  "summary": {
-  "bot_txns_per_day": 7353,
-  "bot_window": "100 txns sampled",
+  "bot_txns_per_day": 5924,
+  "bot_window": "99 txns sampled",
   "bot_offers_out": 1024,
   "bot_holdings": 7,
-  "seller_usdc_balance": 0.0011,
+  "seller_usdc_balance": 52.9211,
   "treasury_usdc_balance": 3503.518818,
-  "seller_txns_per_day": 2998,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 2892,
+  "seller_listing_updates": 23,
   "total_acquisitions": 18,
-  "total_sales": 9,
+  "total_sales": 10,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 477.26
+  "total_sale_usdc": 530.18
  },
  "balance_history": [
   {
@@ -2099,6 +2099,13 @@
    "treasury_usdc": 3503.52,
    "bot_sol": 4.9866,
    "seller_sol": 0.3324
+  },
+  {
+   "ts": "2026-09-29T06:20:28.914479+00:00",
+   "seller_usdc": 52.92,
+   "treasury_usdc": 3503.52,
+   "bot_sol": 5.001,
+   "seller_sol": 0.3336
   }
  ],
  "acquisitions": [
@@ -2267,6 +2274,16 @@
  ],
  "sales": [
   {
+   "time": "09-29 06:09",
+   "usdc_received": 52.92,
+   "tx": "4UmrSskuQDtytJ7uthVbXChtBMaj5RvM65A1pnGjeDYrU4v17J3JGRMSF33z7LDnc8gPyvAkrfTSmEYaGTA5PYwY",
+   "card": "2025 #001 Tony Tony Chopper PSA",
+   "image": "https://nft.collectorcrypt.com/front/2026090241C240127",
+   "cc_id": "2026090241C240127",
+   "insured": "65",
+   "buyer": ""
+  },
+  {
    "time": "09-28 00:19",
    "usdc_received": 36.26,
    "tx": "41MpPsC428xu4ER9QaWjF8BapvFeHg7KwJs2YkAVfdXgz5KMGa5SsRC6jduMukVeX64fz36HWvnAbn9X2uMUKagK",
@@ -2358,12 +2375,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:30, CancelOffer:13, MakeOffer:9, AcceptOfferForPnft:4",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 4.986638032,
-  "seller_sol_balance": 0.332365948,
+  "bot_instruction_mix": "UpdateOffer:35, CancelOffer:21, MakeOffer:16",
+  "seller_instruction_mix": "UpdateListing:23, MakeOfferNDeposit:1, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 5.00104142,
+  "seller_sol_balance": 0.333565618,
   "bot_usdc_balance": 0.00732,
-  "seller_usdc_balance": 0.0011,
+  "seller_usdc_balance": 52.9211,
   "treasury_usdc_balance": 3503.518818,
   "bot_token_accounts": 1024,
   "seller_token_accounts": 234

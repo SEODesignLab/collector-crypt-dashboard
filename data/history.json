@@ -244,6 +244,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026091031C252788",
    "cc_id": "2026091031C252788",
    "insured": "25"
+  },
+  {
+   "time": "09-29 06:09",
+   "usdc_received": 52.92,
+   "tx": "4UmrSskuQDtytJ7uthVbXChtBMaj5RvM65A1pnGjeDYrU4v17J3JGRMSF33z7LDnc8gPyvAkrfTSmEYaGTA5PYwY",
+   "card": "2025 #001 Tony Tony Chopper PSA",
+   "image": "https://nft.collectorcrypt.com/front/2026090241C240127",
+   "cc_id": "2026090241C240127",
+   "insured": "65"
   }
  ],
  "balance_history": [
@@ -2331,6 +2340,13 @@
    "treasury_usdc": 3503.52,
    "bot_sol": 4.9866,
    "seller_sol": 0.3324
+  },
+  {
+   "ts": "2026-09-29T06:20:28.914479+00:00",
+   "seller_usdc": 52.92,
+   "treasury_usdc": 3503.52,
+   "bot_sol": 5.001,
+   "seller_sol": 0.3336
   }
  ],
  "sweeps": [
