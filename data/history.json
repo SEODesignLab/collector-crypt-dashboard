@@ -280,6 +280,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026090241C240127",
    "cc_id": "2026090241C240127",
    "insured": "65"
+  },
+  {
+   "time": "09-29 20:13",
+   "usdc_received": 54.88,
+   "tx": "2S9NXRTn2CjVk8v7MARtFiJsw8W9UNPditBebPiWcvUk25wwy5N3pvdBeTSnxxzoQgvASosp7bKL8V99oLx8ph7X",
+   "card": "2021 Pokemon Sword & Shield Cele",
+   "image": "https://arweave.net/6rlgIHBW4Xt9zAyK0UAmqn4dhvzY2_-NK_u9likFqCE",
+   "cc_id": "2026071653C195972",
+   "insured": "63"
   }
  ],
  "balance_history": [
@@ -2661,6 +2670,13 @@
    "treasury_usdc": 4704.56,
    "bot_sol": 5.445,
    "seller_sol": 0.2844
+  },
+  {
+   "ts": "2026-09-29T20:20:32.920966+00:00",
+   "seller_usdc": 153.86,
+   "treasury_usdc": 4704.56,
+   "bot_sol": 5.4534,
+   "seller_sol": 0.2856
   }
  ],
  "sweeps": [
