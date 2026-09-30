@@ -298,6 +298,15 @@
    "image": "https://arweave.net/6rlgIHBW4Xt9zAyK0UAmqn4dhvzY2_-NK_u9likFqCE",
    "cc_id": "2026071653C195972",
    "insured": "63"
+  },
+  {
+   "time": "09-30 12:41",
+   "usdc_received": 96.04,
+   "tx": "5MNy7ZyU3pamySKDiAtdY6yCBXGu94h2NWbzpBxKexG7BE2t1FrXWRhLZQ5aqkPG9qnR3iXBJxXnHjWqZW2u875L",
+   "card": "2004 Pokemon Ex Fire Red & Leaf",
+   "image": "https://arweave.net/YDcLvU5BQINqpHzPRmSivOrb54lS4vwOzr0Mxc4hKlU",
+   "cc_id": "2026071642C195179",
+   "insured": "84"
   }
  ],
  "balance_history": [
@@ -3022,6 +3031,13 @@
    "treasury_usdc": 3614.71,
    "bot_sol": 1.3754,
    "seller_sol": 0.2865
+  },
+  {
+   "ts": "2026-09-30T12:40:37.632548+00:00",
+   "seller_usdc": 150.92,
+   "treasury_usdc": 3614.71,
+   "bot_sol": 1.365,
+   "seller_sol": 0.2883
   }
  ],
  "sweeps": [

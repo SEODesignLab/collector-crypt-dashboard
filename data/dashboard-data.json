@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-30T12:20:37.536021+00:00",
+ "generated": "2026-09-30T12:40:37.632548+00:00",
  "summary": {
-  "bot_txns_per_day": 10016,
-  "bot_window": "99 txns sampled",
+  "bot_txns_per_day": 9846,
+  "bot_window": "98 txns sampled",
   "bot_offers_out": 1020,
   "bot_holdings": 3,
-  "seller_usdc_balance": 54.8811,
+  "seller_usdc_balance": 150.9211,
   "treasury_usdc_balance": 3614.706314,
-  "seller_txns_per_day": 219,
+  "seller_txns_per_day": 193,
   "seller_listing_updates": 0,
   "total_acquisitions": 22,
-  "total_sales": 11,
+  "total_sales": 12,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 585.06
+  "total_sale_usdc": 681.1
  },
  "balance_history": [
   {
@@ -2736,6 +2736,13 @@
    "treasury_usdc": 3614.71,
    "bot_sol": 1.3754,
    "seller_sol": 0.2865
+  },
+  {
+   "ts": "2026-09-30T12:40:37.632548+00:00",
+   "seller_usdc": 150.92,
+   "treasury_usdc": 3614.71,
+   "bot_sol": 1.365,
+   "seller_sol": 0.2883
   }
  ],
  "acquisitions": [
@@ -2940,6 +2947,16 @@
  ],
  "sales": [
   {
+   "time": "09-30 12:41",
+   "usdc_received": 96.04,
+   "tx": "5MNy7ZyU3pamySKDiAtdY6yCBXGu94h2NWbzpBxKexG7BE2t1FrXWRhLZQ5aqkPG9qnR3iXBJxXnHjWqZW2u875L",
+   "card": "2004 Pokemon Ex Fire Red & Leaf",
+   "image": "https://arweave.net/YDcLvU5BQINqpHzPRmSivOrb54lS4vwOzr0Mxc4hKlU",
+   "cc_id": "2026071642C195179",
+   "insured": "84",
+   "buyer": ""
+  },
+  {
    "time": "09-29 20:13",
    "usdc_received": 54.88,
    "tx": "2S9NXRTn2CjVk8v7MARtFiJsw8W9UNPditBebPiWcvUk25wwy5N3pvdBeTSnxxzoQgvASosp7bKL8V99oLx8ph7X",
@@ -3051,12 +3068,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:198, CancelOffer:8, MakeOffer:3",
-  "seller_instruction_mix": "MakeOffer:21, BuyPnft:2, Validate:2",
-  "bot_sol_balance": 1.375368141,
-  "seller_sol_balance": 0.286498047,
+  "bot_instruction_mix": "UpdateOffer:129, MakeOffer:14, CancelOffer:6",
+  "seller_instruction_mix": "MakeOffer:21, BuyCore:1, Transfer:1, BuyPnft:1",
+  "bot_sol_balance": 1.364979621,
+  "seller_sol_balance": 0.288334617,
   "bot_usdc_balance": 0.00502,
-  "seller_usdc_balance": 54.8811,
+  "seller_usdc_balance": 150.9211,
   "treasury_usdc_balance": 3614.706314,
   "bot_token_accounts": 1020,
   "seller_token_accounts": 247
