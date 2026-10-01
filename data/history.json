@@ -352,6 +352,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026082827C234907",
    "cc_id": "2026082827C234907",
    "insured": "60"
+  },
+  {
+   "time": "10-01 16:35",
+   "usdc_received": 94.08,
+   "tx": "LyYcGUt79QpYLGCuvRXvwEfcQeaf98gxiNJCUsXo6sNzmy3NLMyMyChTbxcS8eMacoDNKqRZmBo45Khoafq4BvX",
+   "card": "2009 #065 Pokemon Communication",
+   "image": "https://arweave.net/rG_m07LYnids50rcDMYbQXmuxxjl_F-gU-jTvLFHTk8",
+   "cc_id": "202607157C192107",
+   "insured": "48"
   }
  ],
  "balance_history": [
@@ -3664,6 +3673,13 @@
    "treasury_usdc": 3388.36,
    "bot_sol": 1.5393,
    "seller_sol": 0.2844
+  },
+  {
+   "ts": "2026-10-01T16:40:33.317591+00:00",
+   "seller_usdc": 94.08,
+   "treasury_usdc": 3247.85,
+   "bot_sol": 1.4971,
+   "seller_sol": 0.2861
   }
  ],
  "sweeps": [
