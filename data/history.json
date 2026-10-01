@@ -307,6 +307,15 @@
    "image": "https://arweave.net/YDcLvU5BQINqpHzPRmSivOrb54lS4vwOzr0Mxc4hKlU",
    "cc_id": "2026071642C195179",
    "insured": "84"
+  },
+  {
+   "time": "10-01 04:50",
+   "usdc_received": 50.47,
+   "tx": "2JRVjcn3bjzYqcqM2STmYBJHvXphVHz8Xu1qQMzw3V5PSAcem1QpjgBje4McM4nMoNt5VSFseABd8fg1C86EiMja",
+   "card": "2023 #OP01-021 Franky PSA 10 One",
+   "image": "https://arweave.net/P4AEf-691unu55ppGWw7chaXmLNrRZf_GPHeDPiokwA",
+   "cc_id": "2026080631C221662",
+   "insured": "65"
   }
  ],
  "balance_history": [
@@ -3374,6 +3383,13 @@
    "treasury_usdc": 4768.48,
    "bot_sol": 2.6524,
    "seller_sol": 0.2878
+  },
+  {
+   "ts": "2026-10-01T05:00:29.970815+00:00",
+   "seller_usdc": 50.47,
+   "treasury_usdc": 4768.48,
+   "bot_sol": 2.5874,
+   "seller_sol": 0.2895
   }
  ],
  "sweeps": [
