@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-01T11:40:31.861098+00:00",
+ "generated": "2026-10-01T12:00:31.990688+00:00",
  "summary": {
-  "bot_txns_per_day": 5005,
+  "bot_txns_per_day": 5113,
   "bot_window": "99 txns sampled",
   "bot_offers_out": 1021,
   "bot_holdings": 4,
-  "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 4208.15748,
-  "seller_txns_per_day": 2372,
-  "seller_listing_updates": 25,
-  "total_acquisitions": 23,
-  "total_sales": 13,
+  "seller_usdc_balance": 52.92,
+  "treasury_usdc_balance": 4189.98048,
+  "seller_txns_per_day": 2657,
+  "seller_listing_updates": 24,
+  "total_acquisitions": 24,
+  "total_sales": 14,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 731.57
+  "total_sale_usdc": 784.49
  },
  "balance_history": [
   {
@@ -3226,9 +3226,25 @@
    "treasury_usdc": 4208.16,
    "bot_sol": 1.3536,
    "seller_sol": 0.2841
+  },
+  {
+   "ts": "2026-10-01T12:00:31.990688+00:00",
+   "seller_usdc": 52.92,
+   "treasury_usdc": 4189.98,
+   "bot_sol": 1.3024,
+   "seller_sol": 0.2853
   }
  ],
  "acquisitions": [
+  {
+   "time": "10-01 12:00",
+   "usdc_paid": 0,
+   "tx": "3C41QW4PvCMjvUh1NxzDkyAf3nA5sbi2ZWXLrwUXACsbZWeTDKt3SwDTJPnu1zGm2BLTakwbC3BhgcB8EtozqzqK",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "10-01 06:41",
    "usdc_paid": 0,
@@ -3439,6 +3455,16 @@
  ],
  "sales": [
   {
+   "time": "10-01 11:51",
+   "usdc_received": 52.92,
+   "tx": "5mXu2PLuKNtktkwVMyJNZgyjYnVes8imDLcixhjWpe3KRvHV9kN9yPY3khHRcfG3kymxm7RasRCCeiQuXeuAdeNX",
+   "card": "2019 #059 Excadrill CGC 10 Prist",
+   "image": "https://nft.collectorcrypt.com/front/2026082827C234907",
+   "cc_id": "2026082827C234907",
+   "insured": "60",
+   "buyer": ""
+  },
+  {
    "time": "10-01 04:50",
    "usdc_received": 50.47,
    "tx": "2JRVjcn3bjzYqcqM2STmYBJHvXphVHz8Xu1qQMzw3V5PSAcem1QpjgBje4McM4nMoNt5VSFseABd8fg1C86EiMja",
@@ -3570,13 +3596,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:62, MakeOffer:15, CancelOffer:5",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 1.353597688,
-  "seller_sol_balance": 0.284103076,
+  "bot_instruction_mix": "UpdateOffer:51, MakeOffer:24, CancelOffer:6, AcceptOfferForCore:1",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 1.302411808,
+  "seller_sol_balance": 0.285286656,
   "bot_usdc_balance": 0.00942,
-  "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 4208.15748,
+  "seller_usdc_balance": 52.92,
+  "treasury_usdc_balance": 4189.98048,
   "bot_token_accounts": 1021,
   "seller_token_accounts": 247
  }

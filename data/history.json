@@ -206,6 +206,15 @@
    "image": "",
    "cc_id": "",
    "insured": ""
+  },
+  {
+   "time": "10-01 12:00",
+   "usdc_paid": 0,
+   "tx": "3C41QW4PvCMjvUh1NxzDkyAf3nA5sbi2ZWXLrwUXACsbZWeTDKt3SwDTJPnu1zGm2BLTakwbC3BhgcB8EtozqzqK",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
   }
  ],
  "sales": [
@@ -325,6 +334,15 @@
    "image": "https://arweave.net/P4AEf-691unu55ppGWw7chaXmLNrRZf_GPHeDPiokwA",
    "cc_id": "2026080631C221662",
    "insured": "65"
+  },
+  {
+   "time": "10-01 11:51",
+   "usdc_received": 52.92,
+   "tx": "5mXu2PLuKNtktkwVMyJNZgyjYnVes8imDLcixhjWpe3KRvHV9kN9yPY3khHRcfG3kymxm7RasRCCeiQuXeuAdeNX",
+   "card": "2019 #059 Excadrill CGC 10 Prist",
+   "image": "https://nft.collectorcrypt.com/front/2026082827C234907",
+   "cc_id": "2026082827C234907",
+   "insured": "60"
   }
  ],
  "balance_history": [
@@ -3539,6 +3557,13 @@
    "treasury_usdc": 4208.16,
    "bot_sol": 1.3536,
    "seller_sol": 0.2841
+  },
+  {
+   "ts": "2026-10-01T12:00:31.990688+00:00",
+   "seller_usdc": 52.92,
+   "treasury_usdc": 4189.98,
+   "bot_sol": 1.3024,
+   "seller_sol": 0.2853
   }
  ],
  "sweeps": [
