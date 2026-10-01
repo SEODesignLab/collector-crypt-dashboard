@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-01T14:20:32.631533+00:00",
+ "generated": "2026-10-01T14:40:32.721954+00:00",
  "summary": {
-  "bot_txns_per_day": 25232,
+  "bot_txns_per_day": 16386,
   "bot_window": "99 txns sampled",
-  "bot_offers_out": 1024,
-  "bot_holdings": 7,
-  "seller_usdc_balance": 107.8,
-  "treasury_usdc_balance": 3890.606682,
-  "seller_txns_per_day": 2366,
-  "seller_listing_updates": 25,
-  "total_acquisitions": 24,
+  "bot_offers_out": 1018,
+  "bot_holdings": 1,
+  "seller_usdc_balance": 0.0011,
+  "treasury_usdc_balance": 3988.466682,
+  "seller_txns_per_day": 2793,
+  "seller_listing_updates": 23,
+  "total_acquisitions": 25,
   "total_sales": 14,
   "total_acq_usdc": 0,
   "total_sale_usdc": 784.49
@@ -3282,9 +3282,25 @@
    "treasury_usdc": 3890.61,
    "bot_sol": 0.9225,
    "seller_sol": 0.2849
+  },
+  {
+   "ts": "2026-10-01T14:40:32.721954+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3988.47,
+   "bot_sol": 0.9284,
+   "seller_sol": 0.2845
   }
  ],
  "acquisitions": [
+  {
+   "time": "10-01 14:42",
+   "usdc_paid": 0,
+   "tx": "5NLbAKt5Zho7L3iPuFDuhFhCWnFUzv8wZBLEE7ZXJMk6SvzV8q4JnVRh6G4Yx34kFtYVjZ8s2A4mS6YgnTZ8TxbP",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "10-01 12:00",
    "usdc_paid": 0,
@@ -3645,14 +3661,14 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:220, MakeOffer:5, CancelOffer:4",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 0.922466885,
-  "seller_sol_balance": 0.284861236,
+  "bot_instruction_mix": "UpdateOffer:182, CancelOffer:10, MakeOffer:10, AcceptOfferForCore:1",
+  "seller_instruction_mix": "UpdateListing:23",
+  "bot_sol_balance": 0.928419525,
+  "seller_sol_balance": 0.284467543,
   "bot_usdc_balance": 0.00942,
-  "seller_usdc_balance": 107.8,
-  "treasury_usdc_balance": 3890.606682,
-  "bot_token_accounts": 1024,
+  "seller_usdc_balance": 0.0011,
+  "treasury_usdc_balance": 3988.466682,
+  "bot_token_accounts": 1018,
   "seller_token_accounts": 247
  }
 }
