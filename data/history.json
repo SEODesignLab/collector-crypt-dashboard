@@ -361,6 +361,15 @@
    "image": "https://arweave.net/rG_m07LYnids50rcDMYbQXmuxxjl_F-gU-jTvLFHTk8",
    "cc_id": "202607157C192107",
    "insured": "48"
+  },
+  {
+   "time": "10-01 17:56",
+   "usdc_received": 88.2,
+   "tx": "5nMoCgKvA45f8iaGYAyCdmo56aiiV1cdyKxcqCn7V5YLopg3jPLPXwhWb3ouJQm1eWnEgWi2FYssUoL4rabkZXEf",
+   "card": "1999 #58 Pikachu PSA 9 Game",
+   "image": "https://arweave.net/zFg3oJ5l7WgA0PXodCMXSBSVcBPum5eOveMtspOnppM",
+   "cc_id": "2026071632C193985",
+   "insured": "80"
   }
  ],
  "balance_history": [
@@ -3701,6 +3710,13 @@
    "treasury_usdc": 4299.38,
    "bot_sol": 1.3509,
    "seller_sol": 0.2852
+  },
+  {
+   "ts": "2026-10-01T18:00:33.753008+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4387.58,
+   "bot_sol": 1.2011,
+   "seller_sol": 0.2863
   }
  ],
  "sweeps": [
@@ -3773,6 +3789,11 @@
    "time": "10-01 16:51",
    "usdc": -94.08,
    "tx": "5PvdS4PTUXtumrmEnX6iHxJaRhmj2FFqAzogHpNeDcCjjJih8jvP7Jm2mc15dqaaXCdzJiZVoEehYztTHM3PAqQF"
+  },
+  {
+   "time": "10-01 18:00",
+   "usdc": -88.2,
+   "tx": "yYRCh2BAkM9Uq39S6qXzWm9P2zh8oqu65E1E3RQhfqQE4qz7ceFed3nmR4ZteuJJDWZaWgYE1TdaBnJNNnzf6kx"
   }
  ]
 }

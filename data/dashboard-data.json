@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-01T17:40:33.653413+00:00",
+ "generated": "2026-10-01T18:00:33.753008+00:00",
  "summary": {
-  "bot_txns_per_day": 8613,
-  "bot_window": "94 txns sampled",
+  "bot_txns_per_day": 8776,
+  "bot_window": "97 txns sampled",
   "bot_offers_out": 1019,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 4299.375363,
-  "seller_txns_per_day": 2639,
-  "seller_listing_updates": 25,
+  "seller_usdc_balance": 0.0001,
+  "treasury_usdc_balance": 4387.575363,
+  "seller_txns_per_day": 2666,
+  "seller_listing_updates": 20,
   "total_acquisitions": 25,
-  "total_sales": 15,
+  "total_sales": 16,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 878.57
+  "total_sale_usdc": 966.77
  },
  "balance_history": [
   {
@@ -3352,6 +3352,13 @@
    "treasury_usdc": 4299.38,
    "bot_sol": 1.3509,
    "seller_sol": 0.2852
+  },
+  {
+   "ts": "2026-10-01T18:00:33.753008+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4387.58,
+   "bot_sol": 1.2011,
+   "seller_sol": 0.2863
   }
  ],
  "acquisitions": [
@@ -3583,6 +3590,16 @@
  ],
  "sales": [
   {
+   "time": "10-01 17:56",
+   "usdc_received": 88.2,
+   "tx": "5nMoCgKvA45f8iaGYAyCdmo56aiiV1cdyKxcqCn7V5YLopg3jPLPXwhWb3ouJQm1eWnEgWi2FYssUoL4rabkZXEf",
+   "card": "1999 #58 Pikachu PSA 9 Game",
+   "image": "https://arweave.net/zFg3oJ5l7WgA0PXodCMXSBSVcBPum5eOveMtspOnppM",
+   "cc_id": "2026071632C193985",
+   "insured": "80",
+   "buyer": ""
+  },
+  {
    "time": "10-01 16:35",
    "usdc_received": 94.08,
    "tx": "LyYcGUt79QpYLGCuvRXvwEfcQeaf98gxiNJCUsXo6sNzmy3NLMyMyChTbxcS8eMacoDNKqRZmBo45Khoafq4BvX",
@@ -3734,13 +3751,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:69, MakeOffer:16, CancelOffer:5",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 1.350919177,
-  "seller_sol_balance": 0.285192687,
-  "bot_usdc_balance": 0.00382,
-  "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 4299.375363,
+  "bot_instruction_mix": "UpdateOffer:54, MakeOffer:24, CancelOffer:4, DepositToUserEscrow:1",
+  "seller_instruction_mix": "UpdateListing:20, MakeOffer:2, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 1.201099257,
+  "seller_sol_balance": 0.286320464,
+  "bot_usdc_balance": 0.00492,
+  "seller_usdc_balance": 0.0001,
+  "treasury_usdc_balance": 4387.575363,
   "bot_token_accounts": 1019,
   "seller_token_accounts": 247
  }
