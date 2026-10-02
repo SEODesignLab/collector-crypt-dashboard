@@ -397,6 +397,15 @@
    "image": "https://arweave.net/zFg3oJ5l7WgA0PXodCMXSBSVcBPum5eOveMtspOnppM",
    "cc_id": "2026071632C193985",
    "insured": "80"
+  },
+  {
+   "time": "10-02 00:34",
+   "usdc_received": 36.26,
+   "tx": "5uBzZWaQgCnK9oG96XNx1mhoU1pRRTMEeko9fCKBqmkJbZX8qRvF5y7bUQFtvMvQyRPvWkmuveqFXdmo7GKXyKbh",
+   "card": "2023 Pokemon Japanese Scarlet &",
+   "image": "https://arweave.net/yf2mJmP8yXBX-qUQQI7FwN6WjI_nDe6eGk1YC3SbXxE",
+   "cc_id": "2026071637C199624",
+   "insured": "20"
   }
  ],
  "balance_history": [
@@ -3877,6 +3886,13 @@
    "treasury_usdc": 4512.71,
    "bot_sol": 2.994,
    "seller_sol": 0.2811
+  },
+  {
+   "ts": "2026-10-02T00:40:35.688122+00:00",
+   "seller_usdc": 156.8,
+   "treasury_usdc": 4512.71,
+   "bot_sol": 2.9094,
+   "seller_sol": 0.2838
   }
  ],
  "sweeps": [
