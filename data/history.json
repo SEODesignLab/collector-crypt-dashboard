@@ -451,6 +451,15 @@
    "image": "https://arweave.net/yf2mJmP8yXBX-qUQQI7FwN6WjI_nDe6eGk1YC3SbXxE",
    "cc_id": "2026071637C199624",
    "insured": "20"
+  },
+  {
+   "time": "10-03 07:29",
+   "usdc_received": 68.6,
+   "tx": "34n14qxHmZwwsB3mDtPCAf9kLmz8HDQb3CbDUQUxXpKxWkipuM4v6uCymdLuUri8aCog53Vz844NwBMsg86MaWKK",
+   "card": "2022 #TG23 Full Art/Garchomp V P",
+   "image": "https://arweave.net/plXBLrzZVkyuu2Lm2WXnN1gL-feyEWSp6eDPd4_9WGo",
+   "cc_id": "2026071928C205592",
+   "insured": "76"
   }
  ],
  "balance_history": [
@@ -4582,6 +4591,13 @@
    "treasury_usdc": 4134.15,
    "bot_sol": 3.4217,
    "seller_sol": 0.2599
+  },
+  {
+   "ts": "2026-10-03T07:40:44.581427+00:00",
+   "seller_usdc": 68.6,
+   "treasury_usdc": 4134.15,
+   "bot_sol": 3.8689,
+   "seller_sol": 0.2612
   }
  ],
  "sweeps": [
