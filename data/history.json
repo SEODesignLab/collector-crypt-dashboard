@@ -5094,6 +5094,13 @@
    "treasury_usdc": 4132.62,
    "bot_sol": 1.9893,
    "seller_sol": 0.24
+  },
+  {
+   "ts": "2026-10-04T06:20:51.048333+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4132.62,
+   "bot_sol": 2.5918,
+   "seller_sol": 0.2397
   }
  ],
  "sweeps": [
