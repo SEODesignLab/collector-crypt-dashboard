@@ -487,6 +487,15 @@
    "image": "https://arweave.net/plXBLrzZVkyuu2Lm2WXnN1gL-feyEWSp6eDPd4_9WGo",
    "cc_id": "2026071928C205592",
    "insured": "76"
+  },
+  {
+   "time": "10-04 09:17",
+   "usdc_received": 59.78,
+   "tx": "UKabXgKRJJUHXEWcDWjkA4hJtTK2PC2Vmdpp946YRiBh3DPBruhmR7wBMxfvcjyZThQdrw2RZ5YbL8aBn2N7UEm",
+   "card": "2023 #167 Ivysaur PSA 10 Japanes",
+   "image": "https://arweave.net/Um-UCuG1WKnwZBiWtVqirjK64ve4jhzUl-mXkfnpIW0",
+   "cc_id": "2026071951C205981",
+   "insured": "68"
   }
  ],
  "balance_history": [
@@ -5157,6 +5166,13 @@
    "treasury_usdc": 3975.48,
    "bot_sol": 2.689,
    "seller_sol": 0.2373
+  },
+  {
+   "ts": "2026-10-04T09:20:51.909582+00:00",
+   "seller_usdc": 59.78,
+   "treasury_usdc": 3132.78,
+   "bot_sol": 0.1931,
+   "seller_sol": 0.2385
   }
  ],
  "sweeps": [

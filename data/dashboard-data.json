@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-04T09:00:51.848920+00:00",
+ "generated": "2026-10-04T09:20:51.909582+00:00",
  "summary": {
-  "bot_txns_per_day": 10165,
+  "bot_txns_per_day": 6990,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1020,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 3975.484428,
-  "seller_txns_per_day": 2546,
-  "seller_listing_updates": 25,
+  "seller_usdc_balance": 59.7811,
+  "treasury_usdc_balance": 3132.784428,
+  "seller_txns_per_day": 2609,
+  "seller_listing_updates": 24,
   "total_acquisitions": 36,
-  "total_sales": 18,
+  "total_sales": 19,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 1071.63
+  "total_sale_usdc": 1131.41
  },
  "balance_history": [
   {
@@ -4682,6 +4682,13 @@
    "treasury_usdc": 3975.48,
    "bot_sol": 2.689,
    "seller_sol": 0.2373
+  },
+  {
+   "ts": "2026-10-04T09:20:51.909582+00:00",
+   "seller_usdc": 59.78,
+   "treasury_usdc": 3132.78,
+   "bot_sol": 0.1931,
+   "seller_sol": 0.2385
   }
  ],
  "acquisitions": [
@@ -5012,6 +5019,16 @@
  ],
  "sales": [
   {
+   "time": "10-04 09:17",
+   "usdc_received": 59.78,
+   "tx": "UKabXgKRJJUHXEWcDWjkA4hJtTK2PC2Vmdpp946YRiBh3DPBruhmR7wBMxfvcjyZThQdrw2RZ5YbL8aBn2N7UEm",
+   "card": "2023 #167 Ivysaur PSA 10 Japanes",
+   "image": "https://arweave.net/Um-UCuG1WKnwZBiWtVqirjK64ve4jhzUl-mXkfnpIW0",
+   "cc_id": "2026071951C205981",
+   "insured": "68",
+   "buyer": ""
+  },
+  {
    "time": "10-03 07:29",
    "usdc_received": 68.6,
    "tx": "34n14qxHmZwwsB3mDtPCAf9kLmz8HDQb3CbDUQUxXpKxWkipuM4v6uCymdLuUri8aCog53Vz844NwBMsg86MaWKK",
@@ -5193,13 +5210,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:89, CancelOffer:3, MakeOffer:3",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 2.688999567,
-  "seller_sol_balance": 0.237297131,
-  "bot_usdc_balance": 0.004522,
-  "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 3975.484428,
+  "bot_instruction_mix": "UpdateOffer:52, Transfer:5, MakeOffer:4, CancelOffer:4",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 0.193106056,
+  "seller_sol_balance": 0.238496801,
+  "bot_usdc_balance": 0.0011,
+  "seller_usdc_balance": 59.7811,
+  "treasury_usdc_balance": 3132.784428,
   "bot_token_accounts": 1020,
   "seller_token_accounts": 253
  }
