@@ -496,6 +496,15 @@
    "image": "https://arweave.net/Um-UCuG1WKnwZBiWtVqirjK64ve4jhzUl-mXkfnpIW0",
    "cc_id": "2026071951C205981",
    "insured": "68"
+  },
+  {
+   "time": "10-05 16:34",
+   "usdc_received": 37.24,
+   "tx": "27B38NYPWcbtyZjXvXHENzKAMSz5MQVfKrXUhHxa55HAEx5Ac8yqgeS74RCELuLxdmVasEM3EDXcFVPkpFrX8Kz2",
+   "card": "2024 #080 Queen PSA 10 One Piece",
+   "image": "https://nft.collectorcrypt.com/front/2026090433C245045",
+   "cc_id": "2026090433C245045",
+   "insured": "35"
   }
  ],
  "balance_history": [
@@ -5824,6 +5833,13 @@
    "treasury_usdc": 3636.67,
    "bot_sol": 17.304,
    "seller_sol": 0.2136
+  },
+  {
+   "ts": "2026-10-05T16:40:08.123244+00:00",
+   "seller_usdc": 273.91,
+   "treasury_usdc": 3636.67,
+   "bot_sol": 16.9374,
+   "seller_sol": 0.2152
   }
  ],
  "sweeps": [
