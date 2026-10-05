@@ -505,6 +505,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026090433C245045",
    "cc_id": "2026090433C245045",
    "insured": "35"
+  },
+  {
+   "time": "10-05 20:15",
+   "usdc_received": 112.7,
+   "tx": "39XjeEAdvS4NiTp5Toan84d4CbYdtMz7S9jAiwvXBTH39YqdP4fWmCwWVLf2dpE6pPN5Vh1mM5SuiXJKdyf4VUNc",
+   "card": "2021 Pokemon Japanese Sword & Sh",
+   "image": "https://arweave.net/QMzXNJaQ9aoOckirFbwS3b4ichyV80IesbNpBhtYwgs",
+   "cc_id": "2026071612C194410",
+   "insured": "110"
   }
  ],
  "balance_history": [
@@ -5910,6 +5919,13 @@
    "treasury_usdc": 3519.97,
    "bot_sol": 15.6094,
    "seller_sol": 0.2153
+  },
+  {
+   "ts": "2026-10-05T20:20:09.169999+00:00",
+   "seller_usdc": 433.65,
+   "treasury_usdc": 3482.71,
+   "bot_sol": 15.453,
+   "seller_sol": 0.2165
   }
  ],
  "sweeps": [
