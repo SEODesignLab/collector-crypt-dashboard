@@ -550,6 +550,24 @@
    "image": "https://arweave.net/8PtnfjQ8Ml2MSDijQbgD7b5vtZXAR5bmgbR3GolSwGc",
    "cc_id": "202606219C155234",
    "insured": "78"
+  },
+  {
+   "time": "10-06 19:37",
+   "usdc_received": 39.2,
+   "tx": "4UYLKq1XDcm9QvrngrnuX6FprRR9RCzoGPUrRP2ZniDtjq5GpJ1XaqQJNgMpk96CDQmgiBt1XwNFzzkq1UH4KaCe",
+   "card": "2025 #183 Iono's Bellibolt EX PS",
+   "image": "https://nft.collectorcrypt.com/front/2026092141C264098",
+   "cc_id": "2026092141C264098",
+   "insured": "33"
+  },
+  {
+   "time": "10-06 19:36",
+   "usdc_received": 34.3,
+   "tx": "4MoHvKrz8Kr571SmKGoNdZnB1VGCeGRXFbPPDr9ynS1Hh7PZTRdfXnu97D73Qfxmt5furPxEkZw9rbq2vYEhbaUQ",
+   "card": "2025 #203 Team Rocket's Meowth P",
+   "image": "https://nft.collectorcrypt.com/front/2026090826C248727",
+   "cc_id": "2026090826C248727",
+   "insured": "35"
   }
  ],
  "balance_history": [
@@ -6445,6 +6463,13 @@
    "treasury_usdc": 3561.36,
    "bot_sol": 8.8659,
    "seller_sol": 0.1744
+  },
+  {
+   "ts": "2026-10-06T19:40:15.969120+00:00",
+   "seller_usdc": 73.5,
+   "treasury_usdc": 3522.66,
+   "bot_sol": 8.8064,
+   "seller_sol": 0.177
   }
  ],
  "sweeps": [

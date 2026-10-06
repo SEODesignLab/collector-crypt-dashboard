@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-06T19:20:15.870102+00:00",
+ "generated": "2026-10-06T19:40:15.969120+00:00",
  "summary": {
-  "bot_txns_per_day": 9341,
+  "bot_txns_per_day": 12118,
   "bot_window": "100 txns sampled",
-  "bot_offers_out": 1023,
-  "bot_holdings": 3,
-  "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 3561.35658,
-  "seller_txns_per_day": 2848,
-  "seller_listing_updates": 25,
+  "bot_offers_out": 1024,
+  "bot_holdings": 4,
+  "seller_usdc_balance": 73.5011,
+  "treasury_usdc_balance": 3522.65658,
+  "seller_txns_per_day": 3017,
+  "seller_listing_updates": 23,
   "total_acquisitions": 39,
-  "total_sales": 22,
+  "total_sales": 24,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 1362.69
+  "total_sale_usdc": 1436.19
  },
  "balance_history": [
   {
@@ -5907,6 +5907,13 @@
    "treasury_usdc": 3561.36,
    "bot_sol": 8.8659,
    "seller_sol": 0.1744
+  },
+  {
+   "ts": "2026-10-06T19:40:15.969120+00:00",
+   "seller_usdc": 73.5,
+   "treasury_usdc": 3522.66,
+   "bot_sol": 8.8064,
+   "seller_sol": 0.177
   }
  ],
  "acquisitions": [
@@ -6264,6 +6271,26 @@
  ],
  "sales": [
   {
+   "time": "10-06 19:36",
+   "usdc_received": 34.3,
+   "tx": "4MoHvKrz8Kr571SmKGoNdZnB1VGCeGRXFbPPDr9ynS1Hh7PZTRdfXnu97D73Qfxmt5furPxEkZw9rbq2vYEhbaUQ",
+   "card": "2025 #203 Team Rocket's Meowth P",
+   "image": "https://nft.collectorcrypt.com/front/2026090826C248727",
+   "cc_id": "2026090826C248727",
+   "insured": "35",
+   "buyer": ""
+  },
+  {
+   "time": "10-06 19:37",
+   "usdc_received": 39.2,
+   "tx": "4UYLKq1XDcm9QvrngrnuX6FprRR9RCzoGPUrRP2ZniDtjq5GpJ1XaqQJNgMpk96CDQmgiBt1XwNFzzkq1UH4KaCe",
+   "card": "2025 #183 Iono's Bellibolt EX PS",
+   "image": "https://nft.collectorcrypt.com/front/2026092141C264098",
+   "cc_id": "2026092141C264098",
+   "insured": "33",
+   "buyer": ""
+  },
+  {
    "time": "10-06 00:16",
    "usdc_received": 81.34,
    "tx": "hPAeV5ijGz9a5QrKK69qS6PqPJnPeZZNJoFoaLdosCjw7mzqCvVVJTg3gg7LwsUaJ7mC2mUZq8vjt262zUsVBoR",
@@ -6485,14 +6512,14 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:115, MakeOffer:9, CancelOffer:5",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 8.865937008,
-  "seller_sol_balance": 0.174356062,
+  "bot_instruction_mix": "UpdateOffer:131, MakeOffer:13, CancelOffer:1",
+  "seller_instruction_mix": "UpdateListing:23, BuyCore:2, Transfer:2",
+  "bot_sol_balance": 8.806377208,
+  "seller_sol_balance": 0.177004797,
   "bot_usdc_balance": 0.002601,
-  "seller_usdc_balance": 0.0011,
-  "treasury_usdc_balance": 3561.35658,
-  "bot_token_accounts": 1023,
+  "seller_usdc_balance": 73.5011,
+  "treasury_usdc_balance": 3522.65658,
+  "bot_token_accounts": 1024,
   "seller_token_accounts": 259
  }
 }
