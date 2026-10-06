@@ -523,6 +523,15 @@
    "image": "https://arweave.net/QMzXNJaQ9aoOckirFbwS3b4ichyV80IesbNpBhtYwgs",
    "cc_id": "2026071612C194410",
    "insured": "110"
+  },
+  {
+   "time": "10-06 00:16",
+   "usdc_received": 81.34,
+   "tx": "hPAeV5ijGz9a5QrKK69qS6PqPJnPeZZNJoFoaLdosCjw7mzqCvVVJTg3gg7LwsUaJ7mC2mUZq8vjt262zUsVBoR",
+   "card": "2023 #002 Wartortle PSA 10 Clb-T",
+   "image": "https://arweave.net/8PtnfjQ8Ml2MSDijQbgD7b5vtZXAR5bmgbR3GolSwGc",
+   "cc_id": "202606219C155234",
+   "insured": "78"
   }
  ],
  "balance_history": [
@@ -6012,6 +6021,13 @@
    "treasury_usdc": 3690.1,
    "bot_sol": 13.8423,
    "seller_sol": 0.2144
+  },
+  {
+   "ts": "2026-10-06T00:20:10.327200+00:00",
+   "seller_usdc": 81.34,
+   "treasury_usdc": 3690.1,
+   "bot_sol": 13.6893,
+   "seller_sol": 0.2156
   }
  ],
  "sweeps": [

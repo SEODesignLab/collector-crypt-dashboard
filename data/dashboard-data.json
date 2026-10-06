@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-06T00:00:10.264109+00:00",
+ "generated": "2026-10-06T00:20:10.327200+00:00",
  "summary": {
-  "bot_txns_per_day": 45714,
+  "bot_txns_per_day": 44536,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1020,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0011,
+  "seller_usdc_balance": 81.3411,
   "treasury_usdc_balance": 3690.098795,
-  "seller_txns_per_day": 2914,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 3143,
+  "seller_listing_updates": 15,
   "total_acquisitions": 37,
-  "total_sales": 21,
+  "total_sales": 22,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 1281.35
+  "total_sale_usdc": 1362.69
  },
  "balance_history": [
   {
@@ -5501,6 +5501,13 @@
    "treasury_usdc": 3690.1,
    "bot_sol": 13.8423,
    "seller_sol": 0.2144
+  },
+  {
+   "ts": "2026-10-06T00:20:10.327200+00:00",
+   "seller_usdc": 81.34,
+   "treasury_usdc": 3690.1,
+   "bot_sol": 13.6893,
+   "seller_sol": 0.2156
   }
  ],
  "acquisitions": [
@@ -5840,6 +5847,16 @@
  ],
  "sales": [
   {
+   "time": "10-06 00:16",
+   "usdc_received": 81.34,
+   "tx": "hPAeV5ijGz9a5QrKK69qS6PqPJnPeZZNJoFoaLdosCjw7mzqCvVVJTg3gg7LwsUaJ7mC2mUZq8vjt262zUsVBoR",
+   "card": "2023 #002 Wartortle PSA 10 Clb-T",
+   "image": "https://arweave.net/8PtnfjQ8Ml2MSDijQbgD7b5vtZXAR5bmgbR3GolSwGc",
+   "cc_id": "202606219C155234",
+   "insured": "78",
+   "buyer": ""
+  },
+  {
    "time": "10-05 20:15",
    "usdc_received": 112.7,
    "tx": "39XjeEAdvS4NiTp5Toan84d4CbYdtMz7S9jAiwvXBTH39YqdP4fWmCwWVLf2dpE6pPN5Vh1mM5SuiXJKdyf4VUNc",
@@ -6051,12 +6068,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:207, MakeOffer:8, CancelOffer:4",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 13.842250075,
-  "seller_sol_balance": 0.214403983,
+  "bot_instruction_mix": "UpdateOffer:220, MakeOffer:5",
+  "seller_instruction_mix": "UpdateListing:15, MakeOffer:9, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 13.689336835,
+  "seller_sol_balance": 0.215635833,
   "bot_usdc_balance": 0.0071,
-  "seller_usdc_balance": 0.0011,
+  "seller_usdc_balance": 81.3411,
   "treasury_usdc_balance": 3690.098795,
   "bot_token_accounts": 1020,
   "seller_token_accounts": 254
