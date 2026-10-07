@@ -586,6 +586,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026090826C248727",
    "cc_id": "2026090826C248727",
    "insured": "35"
+  },
+  {
+   "time": "10-07 10:41",
+   "usdc_received": 341.04,
+   "tx": "5EHXQjCHNZGZXNDNdh4UK2nDHGixpSkK2PdHuWEszu8ME9emdRD4L2Fg9bPpPYWFhCm2dJkFrqZpPy1dzxbkKYWV",
+   "card": "1998 #95 Onix CGC 9.5 Pokemon Ja",
+   "image": "https://arweave.net/fuowRIvrYtmEuqRotnA5Z2GW4iw5vkNkrGOkhmRnYUo",
+   "cc_id": "2026070959C182026",
+   "insured": "80"
   }
  ],
  "balance_history": [
@@ -6796,6 +6805,13 @@
    "treasury_usdc": 3341.66,
    "bot_sol": 2.3599,
    "seller_sol": 0.1393
+  },
+  {
+   "ts": "2026-10-07T10:40:20.339691+00:00",
+   "seller_usdc": 341.04,
+   "treasury_usdc": 3341.66,
+   "bot_sol": 2.3778,
+   "seller_sol": 0.1409
   }
  ],
  "sweeps": [

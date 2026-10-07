@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-07T10:20:20.238599+00:00",
+ "generated": "2026-10-07T10:40:20.339691+00:00",
  "summary": {
-  "bot_txns_per_day": 21274,
-  "bot_window": "98 txns sampled",
+  "bot_txns_per_day": 18989,
+  "bot_window": "100 txns sampled",
   "bot_offers_out": 1021,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 341.04,
   "treasury_usdc_balance": 3341.65564,
-  "seller_txns_per_day": 3008,
-  "seller_listing_updates": 18,
+  "seller_txns_per_day": 2489,
+  "seller_listing_updates": 24,
   "total_acquisitions": 41,
-  "total_sales": 24,
+  "total_sales": 25,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 1436.19
+  "total_sale_usdc": 1777.23
  },
  "balance_history": [
   {
@@ -6222,6 +6222,13 @@
    "treasury_usdc": 3341.66,
    "bot_sol": 2.3599,
    "seller_sol": 0.1393
+  },
+  {
+   "ts": "2026-10-07T10:40:20.339691+00:00",
+   "seller_usdc": 341.04,
+   "treasury_usdc": 3341.66,
+   "bot_sol": 2.3778,
+   "seller_sol": 0.1409
   }
  ],
  "acquisitions": [
@@ -6597,6 +6604,16 @@
  ],
  "sales": [
   {
+   "time": "10-07 10:41",
+   "usdc_received": 341.04,
+   "tx": "5EHXQjCHNZGZXNDNdh4UK2nDHGixpSkK2PdHuWEszu8ME9emdRD4L2Fg9bPpPYWFhCm2dJkFrqZpPy1dzxbkKYWV",
+   "card": "1998 #95 Onix CGC 9.5 Pokemon Ja",
+   "image": "https://arweave.net/fuowRIvrYtmEuqRotnA5Z2GW4iw5vkNkrGOkhmRnYUo",
+   "cc_id": "2026070959C182026",
+   "insured": "80",
+   "buyer": ""
+  },
+  {
    "time": "10-06 19:36",
    "usdc_received": 34.3,
    "tx": "4MoHvKrz8Kr571SmKGoNdZnB1VGCeGRXFbPPDr9ynS1Hh7PZTRdfXnu97D73Qfxmt5furPxEkZw9rbq2vYEhbaUQ",
@@ -6838,12 +6855,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:137, CancelOffer:16, MakeOffer:3",
-  "seller_instruction_mix": "UpdateListing:18, MakeOffer:5, Transfer:2, ListCore:1",
-  "bot_sol_balance": 2.35991686,
-  "seller_sol_balance": 0.139325825,
+  "bot_instruction_mix": "UpdateOffer:180, CancelOffer:10, MakeOffer:5",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 2.37780242,
+  "seller_sol_balance": 0.140904955,
   "bot_usdc_balance": 0.007001,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 341.04,
   "treasury_usdc_balance": 3341.65564,
   "bot_token_accounts": 1021,
   "seller_token_accounts": 271
