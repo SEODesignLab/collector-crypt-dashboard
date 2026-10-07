@@ -622,6 +622,15 @@
    "image": "https://arweave.net/28Z5RcLmqL6o6DT52R0r0l1bKnVBFXlKH1B7qQrQkUc",
    "cc_id": "2026072035C207820",
    "insured": "35"
+  },
+  {
+   "time": "10-07 23:29",
+   "usdc_received": 34.3,
+   "tx": "3XyND5hiX4nPHL78WRz4YmCv7Hvsmsac29DgKiDziArHJ3Y7pv9AEtg9qdu33RgkMpU2BHBPVpriyykwsxqnzd7e",
+   "card": "",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
   }
  ],
  "balance_history": [
@@ -7105,6 +7114,13 @@
    "treasury_usdc": 4356.39,
    "bot_sol": 2.9731,
    "seller_sol": 0.1237
+  },
+  {
+   "ts": "2026-10-07T23:40:24.187902+00:00",
+   "seller_usdc": 316.54,
+   "treasury_usdc": 4356.39,
+   "bot_sol": 2.9332,
+   "seller_sol": 0.1252
   }
  ],
  "sweeps": [
