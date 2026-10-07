@@ -604,6 +604,15 @@
    "image": "https://arweave.net/fuowRIvrYtmEuqRotnA5Z2GW4iw5vkNkrGOkhmRnYUo",
    "cc_id": "2026070959C182026",
    "insured": "80"
+  },
+  {
+   "time": "10-07 19:19",
+   "usdc_received": 70.56,
+   "tx": "2FPmco4gg2KypxJrHr9t5GN7fLKFWuYGhx2s2YqoDjDBaf6yBsuT63Su6sFptLQP3rfq5QBSpupnsZYXRPCPTJ4j",
+   "card": "2025 #149 Team Rocket's Meowth P",
+   "image": "https://arweave.net/ggTt9rgyKpYOepS7-mdnwAy6AASB_e0NSuHgrVFsVLM",
+   "cc_id": "202607104C182101",
+   "insured": "75"
   }
  ],
  "balance_history": [
@@ -6996,6 +7005,13 @@
    "treasury_usdc": 4370.39,
    "bot_sol": 3.3968,
    "seller_sol": 0.1248
+  },
+  {
+   "ts": "2026-10-07T19:20:22.938238+00:00",
+   "seller_usdc": 245.0,
+   "treasury_usdc": 4370.39,
+   "bot_sol": 3.3683,
+   "seller_sol": 0.126
   }
  ],
  "sweeps": [

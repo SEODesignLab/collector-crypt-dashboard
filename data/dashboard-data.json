@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-07T19:00:22.856981+00:00",
+ "generated": "2026-10-07T19:20:22.938238+00:00",
  "summary": {
-  "bot_txns_per_day": 27580,
-  "bot_window": "98 txns sampled",
+  "bot_txns_per_day": 52364,
+  "bot_window": "100 txns sampled",
   "bot_offers_out": 1021,
   "bot_holdings": 1,
-  "seller_usdc_balance": 174.4411,
+  "seller_usdc_balance": 245.0011,
   "treasury_usdc_balance": 4370.391479,
-  "seller_txns_per_day": 3254,
-  "seller_listing_updates": 24,
+  "seller_txns_per_day": 3161,
+  "seller_listing_updates": 23,
   "total_acquisitions": 42,
-  "total_sales": 25,
+  "total_sales": 26,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 1777.23
+  "total_sale_usdc": 1847.79
  },
  "balance_history": [
   {
@@ -6404,6 +6404,13 @@
    "treasury_usdc": 4370.39,
    "bot_sol": 3.3968,
    "seller_sol": 0.1248
+  },
+  {
+   "ts": "2026-10-07T19:20:22.938238+00:00",
+   "seller_usdc": 245.0,
+   "treasury_usdc": 4370.39,
+   "bot_sol": 3.3683,
+   "seller_sol": 0.126
   }
  ],
  "acquisitions": [
@@ -6788,6 +6795,16 @@
  ],
  "sales": [
   {
+   "time": "10-07 19:19",
+   "usdc_received": 70.56,
+   "tx": "2FPmco4gg2KypxJrHr9t5GN7fLKFWuYGhx2s2YqoDjDBaf6yBsuT63Su6sFptLQP3rfq5QBSpupnsZYXRPCPTJ4j",
+   "card": "2025 #149 Team Rocket's Meowth P",
+   "image": "https://arweave.net/ggTt9rgyKpYOepS7-mdnwAy6AASB_e0NSuHgrVFsVLM",
+   "cc_id": "202607104C182101",
+   "insured": "75",
+   "buyer": ""
+  },
+  {
    "time": "10-07 10:41",
    "usdc_received": 341.04,
    "tx": "5EHXQjCHNZGZXNDNdh4UK2nDHGixpSkK2PdHuWEszu8ME9emdRD4L2Fg9bPpPYWFhCm2dJkFrqZpPy1dzxbkKYWV",
@@ -7039,12 +7056,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:148, CancelOffer:8, MakeOffer:7, AcceptOfferForCore:1",
-  "seller_instruction_mix": "UpdateListing:24, MakeOffer:1",
-  "bot_sol_balance": 3.396762992,
-  "seller_sol_balance": 0.124842212,
+  "bot_instruction_mix": "UpdateOffer:180, CancelOffer:10, MakeOffer:4",
+  "seller_instruction_mix": "UpdateListing:23, MakeOffer:2, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 3.368346832,
+  "seller_sol_balance": 0.125985567,
   "bot_usdc_balance": 0.005763,
-  "seller_usdc_balance": 174.4411,
+  "seller_usdc_balance": 245.0011,
   "treasury_usdc_balance": 4370.391479,
   "bot_token_accounts": 1021,
   "seller_token_accounts": 272
