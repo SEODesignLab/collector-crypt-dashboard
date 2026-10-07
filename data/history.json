@@ -6812,6 +6812,13 @@
    "treasury_usdc": 3341.66,
    "bot_sol": 2.3778,
    "seller_sol": 0.1409
+  },
+  {
+   "ts": "2026-10-07T11:00:20.513690+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3849.3,
+   "bot_sol": 2.3611,
+   "seller_sol": 0.142
   }
  ],
  "sweeps": [
@@ -6939,6 +6946,11 @@
    "time": "10-07 08:37",
    "usdc": -68.11,
    "tx": "4nQMGFeG5PPEZJDifA4vV61AY2x1tCKDZxMXxV2c4151JRjpdPF2pBGu8inMGi18g5fdF8TxusQqvJJcSAYWNm3e"
+  },
+  {
+   "time": "10-07 10:58",
+   "usdc": -507.64,
+   "tx": "67Db9h96qDdPWVHP2bx8wFGmEg3upqSPy7eayfU2em1QPGGwUrftiXziHBAZiUYUdPr2qmn8TUmuga3YQijwvvTC"
   }
  ]
 }
