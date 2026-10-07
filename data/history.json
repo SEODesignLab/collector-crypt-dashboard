@@ -613,6 +613,15 @@
    "image": "https://arweave.net/ggTt9rgyKpYOepS7-mdnwAy6AASB_e0NSuHgrVFsVLM",
    "cc_id": "202607104C182101",
    "insured": "75"
+  },
+  {
+   "time": "10-07 22:15",
+   "usdc_received": 37.24,
+   "tx": "3KUeJsWRJyzfuXHn5KA2NRVbbyzYiS5qWajKG3iPL17VEU3x6k5sdjd9AuSdTXn7yCgr4nux6LDR5Ted15WsoPLq",
+   "card": "1997 #NA Mankey CGC 10 Rocket Ga",
+   "image": "https://arweave.net/28Z5RcLmqL6o6DT52R0r0l1bKnVBFXlKH1B7qQrQkUc",
+   "cc_id": "2026072035C207820",
+   "insured": "35"
   }
  ],
  "balance_history": [
@@ -7068,6 +7077,13 @@
    "treasury_usdc": 4356.39,
    "bot_sol": 3.3041,
    "seller_sol": 0.1234
+  },
+  {
+   "ts": "2026-10-07T22:20:23.808018+00:00",
+   "seller_usdc": 282.24,
+   "treasury_usdc": 4356.39,
+   "bot_sol": 3.1787,
+   "seller_sol": 0.1246
   }
  ],
  "sweeps": [
