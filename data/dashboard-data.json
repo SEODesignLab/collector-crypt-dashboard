@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-08T07:20:26.413261+00:00",
+ "generated": "2026-10-08T07:40:26.507532+00:00",
  "summary": {
-  "bot_txns_per_day": 1342,
+  "bot_txns_per_day": 797,
   "bot_window": "100 txns sampled",
-  "bot_offers_out": 1024,
-  "bot_holdings": 3,
+  "bot_offers_out": 1025,
+  "bot_holdings": 4,
   "seller_usdc_balance": 59.7811,
-  "treasury_usdc_balance": 3003.034001,
-  "seller_txns_per_day": 2660,
+  "treasury_usdc_balance": 2871.289853,
+  "seller_txns_per_day": 2517,
   "seller_listing_updates": 25,
-  "total_acquisitions": 42,
+  "total_acquisitions": 46,
   "total_sales": 28,
   "total_acq_usdc": 0,
   "total_sale_usdc": 1919.33
@@ -6663,9 +6663,52 @@
    "treasury_usdc": 3003.03,
    "bot_sol": 3.8104,
    "seller_sol": 0.1157
+  },
+  {
+   "ts": "2026-10-08T07:40:26.507532+00:00",
+   "seller_usdc": 59.78,
+   "treasury_usdc": 2871.29,
+   "bot_sol": 3.8177,
+   "seller_sol": 0.1155
   }
  ],
  "acquisitions": [
+  {
+   "time": "10-08 07:35",
+   "usdc_paid": 0,
+   "tx": "44yruvknccj5aQUUyuj3ZtHJ1S7EWBjuHPwEbayRU5Qr2tTCTQEefCw2C2v4A3STLaAmSDDpqnqJndVDvM5gBB8C",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
+  {
+   "time": "10-08 07:37",
+   "usdc_paid": 0,
+   "tx": "3j3KoyyXdpPqA9L7Actst5uypE73h6rTATpuj9beGFdkEWgrgSXwFRWGNkFfHSYapVE41XVH6kVGSE5USMNNeRcA",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
+  {
+   "time": "10-08 07:39",
+   "usdc_paid": 0,
+   "tx": "5cUpx3BMebBiw9S6bNCapwJaF1XYGgHdRbyCMetvB8Zt84b6Ghg93hPY96TBBHRFiEaqQgKVceyAWMzQ6FRHs3c8",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
+  {
+   "time": "10-08 07:39",
+   "usdc_paid": 0,
+   "tx": "2ZYTXU8p2RoVdgwqK7YufQN5GRiVcoQ7Yw1u44jcrUwXoufXbp6U2toKZueMGegRgs6prfwgV4sAsGMxZK5256H6",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "10-07 19:02",
    "usdc_paid": 0,
@@ -7328,14 +7371,14 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:183, CancelOffer:4, MakeOffer:3, AcceptOfferForPnft:1",
+  "bot_instruction_mix": "UpdateOffer:144, AcceptOfferForCore:4, Transfer:4, CancelOffer:4",
   "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 3.810350149,
-  "seller_sol_balance": 0.115735814,
+  "bot_sol_balance": 3.817690749,
+  "seller_sol_balance": 0.115494464,
   "bot_usdc_balance": 0.009063,
   "seller_usdc_balance": 59.7811,
-  "treasury_usdc_balance": 3003.034001,
-  "bot_token_accounts": 1024,
+  "treasury_usdc_balance": 2871.289853,
+  "bot_token_accounts": 1025,
   "seller_token_accounts": 273
  }
 }
