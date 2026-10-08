@@ -703,6 +703,15 @@
    "image": "https://arweave.net/U-l93cGd0maGiV8Y4Pa6kGBV96Z9R7KuOVGWvTVIFEE",
    "cc_id": "2026062111C157708",
    "insured": "41"
+  },
+  {
+   "time": "10-08 19:37",
+   "usdc_received": 33.32,
+   "tx": "5fBomRUiHTwhBNJJbfFSecn7hs8e7T9dm24hX6Uje6w3XNiqFTxpbaToBP4tk5BwFuwyFSg1ZDZHcKAsrBGKwMB4",
+   "card": "2024 #190 Pikachu CGC 10 Black S",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
   }
  ],
  "balance_history": [
@@ -7606,6 +7615,13 @@
    "treasury_usdc": 2697.46,
    "bot_sol": 2.3553,
    "seller_sol": 0.104
+  },
+  {
+   "ts": "2026-10-08T19:40:29.958576+00:00",
+   "seller_usdc": 122.5,
+   "treasury_usdc": 2697.46,
+   "bot_sol": 2.2981,
+   "seller_sol": 0.1052
   }
  ],
  "sweeps": [

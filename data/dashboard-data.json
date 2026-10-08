@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-08T19:20:29.858288+00:00",
+ "generated": "2026-10-08T19:40:29.958576+00:00",
  "summary": {
-  "bot_txns_per_day": 42772,
+  "bot_txns_per_day": 47735,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1026,
   "bot_holdings": 5,
-  "seller_usdc_balance": 89.18,
+  "seller_usdc_balance": 122.5,
   "treasury_usdc_balance": 2697.458064,
-  "seller_txns_per_day": 2503,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 2713,
+  "seller_listing_updates": 24,
   "total_acquisitions": 46,
-  "total_sales": 32,
+  "total_sales": 33,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 2134.93
+  "total_sale_usdc": 2168.25
  },
  "balance_history": [
   {
@@ -6915,6 +6915,13 @@
    "treasury_usdc": 2697.46,
    "bot_sol": 2.3553,
    "seller_sol": 0.104
+  },
+  {
+   "ts": "2026-10-08T19:40:29.958576+00:00",
+   "seller_usdc": 122.5,
+   "treasury_usdc": 2697.46,
+   "bot_sol": 2.2981,
+   "seller_sol": 0.1052
   }
  ],
  "acquisitions": [
@@ -7335,6 +7342,16 @@
  ],
  "sales": [
   {
+   "time": "10-08 19:37",
+   "usdc_received": 33.32,
+   "tx": "5fBomRUiHTwhBNJJbfFSecn7hs8e7T9dm24hX6Uje6w3XNiqFTxpbaToBP4tk5BwFuwyFSg1ZDZHcKAsrBGKwMB4",
+   "card": "2024 #190 Pikachu CGC 10 Black S",
+   "image": "",
+   "cc_id": "",
+   "insured": "",
+   "buyer": ""
+  },
+  {
    "time": "10-08 17:48",
    "usdc_received": 39.2,
    "tx": "KJVAh5BUfukvuvKZVqaNbPGyYHNYvcD31a6ezthSeM31thj5aCNED8f9akg8GRzL5VDeoWJKPzzziVEVM9Ktz9P",
@@ -7656,12 +7673,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:184, MakeOffer:10, CancelOffer:5",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 2.35526,
-  "seller_sol_balance": 0.10403032,
+  "bot_instruction_mix": "UpdateOffer:139, MakeOffer:14, CancelOffer:6",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 2.298087366,
+  "seller_sol_balance": 0.1052139,
   "bot_usdc_balance": 0.002364,
-  "seller_usdc_balance": 89.18,
+  "seller_usdc_balance": 122.5,
   "treasury_usdc_balance": 2697.458064,
   "bot_token_accounts": 1026,
   "seller_token_accounts": 275
