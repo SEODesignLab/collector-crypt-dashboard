@@ -685,6 +685,15 @@
    "image": "https://arweave.net/safd3rk4Xj_kVyW3i94rfpLUPRbROdxxEVxTcLkdRPk",
    "cc_id": "2026073046C215303",
    "insured": "35"
+  },
+  {
+   "time": "10-08 12:20",
+   "usdc_received": 49.98,
+   "tx": "67BHXqCFyLUqN3oZxgdDEmLx4hpxwLrYtc4tQnVGfnmb8GHmt8fkL3WAWeb2TZR1rDqXeqxT69jVqtg4hHsLG6CG",
+   "card": "2001 #3 Hitmontop CGC 8.5 Pokemo",
+   "image": "https://arweave.net/DNB1Xh-fS4YTUQluVf9YulWDYqVskRvu1-A4qIlbFX4",
+   "cc_id": "2026072227C210078",
+   "insured": "42"
   }
  ],
  "balance_history": [
@@ -7434,6 +7443,13 @@
    "treasury_usdc": 4196.75,
    "bot_sol": 2.5485,
    "seller_sol": 0.1132
+  },
+  {
+   "ts": "2026-10-08T12:20:27.847650+00:00",
+   "seller_usdc": 49.98,
+   "treasury_usdc": 4184.9,
+   "bot_sol": 2.4919,
+   "seller_sol": 0.115
   }
  ],
  "sweeps": [
