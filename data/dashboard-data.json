@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-08T17:40:29.377662+00:00",
+ "generated": "2026-10-08T18:00:29.489222+00:00",
  "summary": {
-  "bot_txns_per_day": 24439,
+  "bot_txns_per_day": 22333,
   "bot_window": "99 txns sampled",
   "bot_offers_out": 1025,
   "bot_holdings": 4,
-  "seller_usdc_balance": 49.98,
+  "seller_usdc_balance": 89.18,
   "treasury_usdc_balance": 3436.654514,
-  "seller_txns_per_day": 2276,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 2148,
+  "seller_listing_updates": 22,
   "total_acquisitions": 46,
-  "total_sales": 31,
+  "total_sales": 32,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 2095.73
+  "total_sale_usdc": 2134.93
  },
  "balance_history": [
   {
@@ -6880,6 +6880,13 @@
    "treasury_usdc": 3436.65,
    "bot_sol": 2.8308,
    "seller_sol": 0.1039
+  },
+  {
+   "ts": "2026-10-08T18:00:29.489222+00:00",
+   "seller_usdc": 89.18,
+   "treasury_usdc": 3436.65,
+   "bot_sol": 2.7817,
+   "seller_sol": 0.1052
   }
  ],
  "acquisitions": [
@@ -7300,6 +7307,16 @@
  ],
  "sales": [
   {
+   "time": "10-08 17:48",
+   "usdc_received": 39.2,
+   "tx": "KJVAh5BUfukvuvKZVqaNbPGyYHNYvcD31a6ezthSeM31thj5aCNED8f9akg8GRzL5VDeoWJKPzzziVEVM9Ktz9P",
+   "card": "2021 #005 Full Art/Pikachu PSA 9",
+   "image": "https://arweave.net/U-l93cGd0maGiV8Y4Pa6kGBV96Z9R7KuOVGWvTVIFEE",
+   "cc_id": "2026062111C157708",
+   "insured": "41",
+   "buyer": ""
+  },
+  {
    "time": "10-08 12:20",
    "usdc_received": 49.98,
    "tx": "67BHXqCFyLUqN3oZxgdDEmLx4hpxwLrYtc4tQnVGfnmb8GHmt8fkL3WAWeb2TZR1rDqXeqxT69jVqtg4hHsLG6CG",
@@ -7611,12 +7628,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:164, CancelOffer:8, MakeOffer:5",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 2.830818803,
-  "seller_sol_balance": 0.103870685,
+  "bot_instruction_mix": "UpdateOffer:99, CancelOffer:14, MakeOffer:10",
+  "seller_instruction_mix": "UpdateListing:22, BuyCore:1, Transfer:1, MakeOffer:1",
+  "bot_sol_balance": 2.781708963,
+  "seller_sol_balance": 0.1051888,
   "bot_usdc_balance": 0.002364,
-  "seller_usdc_balance": 49.98,
+  "seller_usdc_balance": 89.18,
   "treasury_usdc_balance": 3436.654514,
   "bot_token_accounts": 1025,
   "seller_token_accounts": 275
