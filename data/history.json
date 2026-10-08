@@ -712,6 +712,15 @@
    "image": "",
    "cc_id": "",
    "insured": ""
+  },
+  {
+   "time": "10-08 22:14",
+   "usdc_received": 63.7,
+   "tx": "5n4sNbJbK9qt23hkgnaAdtxViALuSPGfA3B5pAkeETyQc1VGdDKT8jjpCHGpR7BngWSMJYkZ8ZdW6GQqvN1S17Hy",
+   "card": "2024 #7 Lamine Yamal PSA 8 Panin",
+   "image": "https://arweave.net/vm7NcIXzCzitRX1WFHhWzldaLbWuvWTq3QFLMjIXNuM",
+   "cc_id": "2026080245C219184",
+   "insured": "25"
   }
  ],
  "balance_history": [
@@ -7671,6 +7680,13 @@
    "treasury_usdc": 1900.24,
    "bot_sol": 1.553,
    "seller_sol": 0.1046
+  },
+  {
+   "ts": "2026-10-08T22:20:30.719073+00:00",
+   "seller_usdc": 366.52,
+   "treasury_usdc": 1900.24,
+   "bot_sol": 1.4689,
+   "seller_sol": 0.1073
   }
  ],
  "sweeps": [
