@@ -676,6 +676,15 @@
    "image": "https://arweave.net/GJ-Wz9WQJU-Ny7Y8qCRn8b8gT2YuCG0if9YubPkBeUc",
    "cc_id": "2026072240C210206",
    "insured": "81"
+  },
+  {
+   "time": "10-08 10:41",
+   "usdc_received": 30.38,
+   "tx": "5Jbfcd6PNbFX7BqppAUnQwTadhuKAArYKUW2UAtoa8SHifNHdxqJDHy6ynkzwTQcCRvSEZyfeEivv4CH2vLAVM42",
+   "card": "2025 #232 Mega Dragonite ex CGC",
+   "image": "https://arweave.net/safd3rk4Xj_kVyW3i94rfpLUPRbROdxxEVxTcLkdRPk",
+   "cc_id": "2026073046C215303",
+   "insured": "35"
   }
  ],
  "balance_history": [
@@ -7390,6 +7399,13 @@
    "treasury_usdc": 3577.28,
    "bot_sol": 3.7093,
    "seller_sol": 0.1146
+  },
+  {
+   "ts": "2026-10-08T10:40:27.373226+00:00",
+   "seller_usdc": 30.38,
+   "treasury_usdc": 3577.28,
+   "bot_sol": 3.7245,
+   "seller_sol": 0.1159
   }
  ],
  "sweeps": [

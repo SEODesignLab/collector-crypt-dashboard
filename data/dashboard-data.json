@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-08T10:20:27.279994+00:00",
+ "generated": "2026-10-08T10:40:27.373226+00:00",
  "summary": {
-  "bot_txns_per_day": 24686,
-  "bot_window": "98 txns sampled",
+  "bot_txns_per_day": 11738,
+  "bot_window": "97 txns sampled",
   "bot_offers_out": 1022,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 30.38,
   "treasury_usdc_balance": 3577.276788,
-  "seller_txns_per_day": 2682,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 2451,
+  "seller_listing_updates": 24,
   "total_acquisitions": 46,
-  "total_sales": 29,
+  "total_sales": 30,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 2015.37
+  "total_sale_usdc": 2045.75
  },
  "balance_history": [
   {
@@ -6726,6 +6726,13 @@
    "treasury_usdc": 3577.28,
    "bot_sol": 3.7093,
    "seller_sol": 0.1146
+  },
+  {
+   "ts": "2026-10-08T10:40:27.373226+00:00",
+   "seller_usdc": 30.38,
+   "treasury_usdc": 3577.28,
+   "bot_sol": 3.7245,
+   "seller_sol": 0.1159
   }
  ],
  "acquisitions": [
@@ -7146,6 +7153,16 @@
  ],
  "sales": [
   {
+   "time": "10-08 10:41",
+   "usdc_received": 30.38,
+   "tx": "5Jbfcd6PNbFX7BqppAUnQwTadhuKAArYKUW2UAtoa8SHifNHdxqJDHy6ynkzwTQcCRvSEZyfeEivv4CH2vLAVM42",
+   "card": "2025 #232 Mega Dragonite ex CGC",
+   "image": "https://arweave.net/safd3rk4Xj_kVyW3i94rfpLUPRbROdxxEVxTcLkdRPk",
+   "cc_id": "2026073046C215303",
+   "insured": "35",
+   "buyer": ""
+  },
+  {
    "time": "10-08 08:58",
    "usdc_received": 96.04,
    "tx": "RJRTu58DDxs2KCbWsq69SxpHbq3GzAwpqEgVj9QjcHwSH6fajd4AGAqxTjrAuMWfnpgMRVMXT9n2sMtNhAM8QL1",
@@ -7437,12 +7454,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:136, MakeOffer:12, CancelOffer:4",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 3.709252139,
-  "seller_sol_balance": 0.114603458,
+  "bot_instruction_mix": "UpdateOffer:69, CancelOffer:26, MakeOffer:13",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 3.724471459,
+  "seller_sol_balance": 0.115891623,
   "bot_usdc_balance": 0.001264,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 30.38,
   "treasury_usdc_balance": 3577.276788,
   "bot_token_accounts": 1022,
   "seller_token_accounts": 275
