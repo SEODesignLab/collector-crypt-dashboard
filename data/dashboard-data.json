@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-09T20:20:37.095127+00:00",
+ "generated": "2026-10-09T20:40:37.190182+00:00",
  "summary": {
-  "bot_txns_per_day": 92903,
+  "bot_txns_per_day": 45474,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1024,
   "bot_holdings": 2,
-  "seller_usdc_balance": 206.78,
+  "seller_usdc_balance": 251.86,
   "treasury_usdc_balance": 3891.344487,
-  "seller_txns_per_day": 2674,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 2770,
+  "seller_listing_updates": 21,
   "total_acquisitions": 46,
-  "total_sales": 40,
+  "total_sales": 41,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 2582.79
+  "total_sale_usdc": 2627.87
  },
  "balance_history": [
   {
@@ -7440,6 +7440,13 @@
    "treasury_usdc": 3891.34,
    "bot_sol": 6.0919,
    "seller_sol": 0.3882
+  },
+  {
+   "ts": "2026-10-09T20:40:37.190182+00:00",
+   "seller_usdc": 251.86,
+   "treasury_usdc": 3891.34,
+   "bot_sol": 6.0562,
+   "seller_sol": 0.3895
   }
  ],
  "acquisitions": [
@@ -7860,6 +7867,16 @@
  ],
  "sales": [
   {
+   "time": "10-09 20:42",
+   "usdc_received": 45.08,
+   "tx": "4K18erQpvUDJ3T3CthpzfdTChQR4Q7sdeQPvNPEhYbnQy4doFWhdNCQdEwArdaC2ve1ras9WhYbkgoY67ych2QnQ",
+   "card": "2023 #087 Sandile PSA 10 Japanes",
+   "image": "https://arweave.net/FMFVunRR8bcVXByLn7Ab2NbRX2rEVKwZDvipmPBFduQ",
+   "cc_id": "2026071240C184546",
+   "insured": "40",
+   "buyer": ""
+  },
+  {
    "time": "10-09 16:27",
    "usdc_received": 29.4,
    "tx": "2thFqaqYDXo71rXQi7pCu3wLa7TDj6Nj811Gb3Kv93bGBmYcK1LwvAWKUVQa5HX5PKDAtWyny3SZykdAiVLcqMvX",
@@ -8261,12 +8278,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:234, CancelOffer:5, MakeOffer:1",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 6.091883623,
-  "seller_sol_balance": 0.388221755,
+  "bot_instruction_mix": "UpdateOffer:160, MakeOffer:11, CancelOffer:10",
+  "seller_instruction_mix": "UpdateListing:21, MakeOffer:3, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 6.056218103,
+  "seller_sol_balance": 0.38946165,
   "bot_usdc_balance": 0.001164,
-  "seller_usdc_balance": 206.78,
+  "seller_usdc_balance": 251.86,
   "treasury_usdc_balance": 3891.344487,
   "bot_token_accounts": 1024,
   "seller_token_accounts": 278

@@ -775,6 +775,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026090228C241516",
    "cc_id": "2026090228C241516",
    "insured": "33"
+  },
+  {
+   "time": "10-09 20:42",
+   "usdc_received": 45.08,
+   "tx": "4K18erQpvUDJ3T3CthpzfdTChQR4Q7sdeQPvNPEhYbnQy4doFWhdNCQdEwArdaC2ve1ras9WhYbkgoY67ych2QnQ",
+   "card": "2023 #087 Sandile PSA 10 Japanes",
+   "image": "https://arweave.net/FMFVunRR8bcVXByLn7Ab2NbRX2rEVKwZDvipmPBFduQ",
+   "cc_id": "2026071240C184546",
+   "insured": "40"
   }
  ],
  "balance_history": [
@@ -8203,6 +8212,13 @@
    "treasury_usdc": 3891.34,
    "bot_sol": 6.0919,
    "seller_sol": 0.3882
+  },
+  {
+   "ts": "2026-10-09T20:40:37.190182+00:00",
+   "seller_usdc": 251.86,
+   "treasury_usdc": 3891.34,
+   "bot_sol": 6.0562,
+   "seller_sol": 0.3895
   }
  ],
  "sweeps": [
