@@ -721,6 +721,15 @@
    "image": "https://arweave.net/vm7NcIXzCzitRX1WFHhWzldaLbWuvWTq3QFLMjIXNuM",
    "cc_id": "2026080245C219184",
    "insured": "25"
+  },
+  {
+   "time": "10-09 04:14",
+   "usdc_received": 14.7,
+   "tx": "3YCh46QvKpQupemC9RFUWJJQdXf9ZPGpcnKjmN9SetZ2SfK6XVZ7SgeL78pNnQBvwoXXsgnCdGoikaeZZSaHDDtD",
+   "card": "2025 #019 Quaxly PSA 9 Japanese",
+   "image": "https://nft.collectorcrypt.com/front/2026092954C270868",
+   "cc_id": "2026092954C270868",
+   "insured": "15"
   }
  ],
  "balance_history": [
@@ -7806,6 +7815,13 @@
    "treasury_usdc": 3545.82,
    "bot_sol": 5.4747,
    "seller_sol": 0.1025
+  },
+  {
+   "ts": "2026-10-09T04:20:32.438485+00:00",
+   "seller_usdc": 14.7,
+   "treasury_usdc": 3533.72,
+   "bot_sol": 5.4894,
+   "seller_sol": 0.0974
   }
  ],
  "sweeps": [
