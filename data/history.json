@@ -730,6 +730,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026092954C270868",
    "cc_id": "2026092954C270868",
    "insured": "15"
+  },
+  {
+   "time": "10-09 05:22",
+   "usdc_received": 45.08,
+   "tx": "5AmnSKB53z6ydKYbMwuhX7gp4nuzpSLGTbq7VYKeyrimipW3eeqHX3d83vHFKJYehxzd6FzT2EEfYKy87mrX5qEo",
+   "card": "2001 #045 Pupitar 1st Edition PS",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
   }
  ],
  "balance_history": [
@@ -7836,6 +7845,13 @@
    "treasury_usdc": 3533.72,
    "bot_sol": 5.767,
    "seller_sol": 0.0969
+  },
+  {
+   "ts": "2026-10-09T05:20:32.727477+00:00",
+   "seller_usdc": 59.78,
+   "treasury_usdc": 3533.72,
+   "bot_sol": 5.852,
+   "seller_sol": 0.0981
   }
  ],
  "sweeps": [
