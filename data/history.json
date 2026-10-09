@@ -766,6 +766,15 @@
    "image": "https://arweave.net/RfC3iOof2xm5_fF2_BGfFdr-UeyrOMonj7KEmGk6y3k",
    "cc_id": "2026071617C194457",
    "insured": "95"
+  },
+  {
+   "time": "10-09 16:27",
+   "usdc_received": 29.4,
+   "tx": "2thFqaqYDXo71rXQi7pCu3wLa7TDj6Nj811Gb3Kv93bGBmYcK1LwvAWKUVQa5HX5PKDAtWyny3SZykdAiVLcqMvX",
+   "card": "2026 #073 Sabo PSA 10 One Piece",
+   "image": "https://nft.collectorcrypt.com/front/2026090228C241516",
+   "cc_id": "2026090228C241516",
+   "insured": "33"
   }
  ],
  "balance_history": [
@@ -8110,6 +8119,13 @@
    "treasury_usdc": 3990.08,
    "bot_sol": 7.061,
    "seller_sol": 0.3899
+  },
+  {
+   "ts": "2026-10-09T16:40:36.036779+00:00",
+   "seller_usdc": 173.46,
+   "treasury_usdc": 3990.08,
+   "bot_sol": 7.0741,
+   "seller_sol": 0.3912
   }
  ],
  "sweeps": [
