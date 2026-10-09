@@ -739,6 +739,15 @@
    "image": "",
    "cc_id": "",
    "insured": ""
+  },
+  {
+   "time": "10-09 10:16",
+   "usdc_received": 44.59,
+   "tx": "3zTNPCH2gk6KxGQTdZfWdiWCwPPwaUdMENWAX95eNS7KjDkveMnK1PWuESPVTugZxsU597CHrmh1m5KCqYx5a1C2",
+   "card": "2025 #023 Mega Charizard X EX PS",
+   "image": "https://nft.collectorcrypt.com/front/2026082339C229684",
+   "cc_id": "2026082339C229684",
+   "insured": "42"
   }
  ],
  "balance_history": [
@@ -7950,6 +7959,13 @@
    "treasury_usdc": 3542.94,
    "bot_sol": 5.5237,
    "seller_sol": 0.0925
+  },
+  {
+   "ts": "2026-10-09T10:20:34.180030+00:00",
+   "seller_usdc": 44.59,
+   "treasury_usdc": 3542.94,
+   "bot_sol": 5.5533,
+   "seller_sol": 0.0937
   }
  ],
  "sweeps": [
