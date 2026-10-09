@@ -757,6 +757,15 @@
    "image": "https://arweave.net/MXaQAIIEkmp1YxYVVQAYCeBumg_zPtkuKegPlWq5I2E",
    "cc_id": "2026071654C195812",
    "insured": "76"
+  },
+  {
+   "time": "10-09 13:15",
+   "usdc_received": 144.06,
+   "tx": "3E4raruJYsPHu6C173Mnfhv1cnbJkMNSncWkdmPxJjQAM6neSh6U6bYAxJQqP2YwJ4vraSbB1vqmezRtMkoLtfzY",
+   "card": "2023 Pokemon Scarlet & Violet Pr",
+   "image": "https://arweave.net/RfC3iOof2xm5_fF2_BGfFdr-UeyrOMonj7KEmGk6y3k",
+   "cc_id": "2026071617C194457",
+   "insured": "95"
   }
  ],
  "balance_history": [
@@ -8031,6 +8040,13 @@
    "treasury_usdc": 4080.32,
    "bot_sol": 6.3644,
    "seller_sol": 0.3911
+  },
+  {
+   "ts": "2026-10-09T13:20:35.069010+00:00",
+   "seller_usdc": 144.06,
+   "treasury_usdc": 4011.48,
+   "bot_sol": 6.5674,
+   "seller_sol": 0.3923
   }
  ],
  "sweeps": [

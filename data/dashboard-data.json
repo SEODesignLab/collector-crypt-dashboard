@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-09T13:00:34.968410+00:00",
+ "generated": "2026-10-09T13:20:35.069010+00:00",
  "summary": {
-  "bot_txns_per_day": 13107,
-  "bot_window": "98 txns sampled",
+  "bot_txns_per_day": 167718,
+  "bot_window": "99 txns sampled",
   "bot_offers_out": 1023,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 4080.323311,
-  "seller_txns_per_day": 2732,
-  "seller_listing_updates": 25,
+  "seller_usdc_balance": 144.06,
+  "treasury_usdc_balance": 4011.484427,
+  "seller_txns_per_day": 2580,
+  "seller_listing_updates": 23,
   "total_acquisitions": 46,
-  "total_sales": 38,
+  "total_sales": 39,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 2409.33
+  "total_sale_usdc": 2553.39
  },
  "balance_history": [
   {
@@ -7286,6 +7286,13 @@
    "treasury_usdc": 4080.32,
    "bot_sol": 6.3644,
    "seller_sol": 0.3911
+  },
+  {
+   "ts": "2026-10-09T13:20:35.069010+00:00",
+   "seller_usdc": 144.06,
+   "treasury_usdc": 4011.48,
+   "bot_sol": 6.5674,
+   "seller_sol": 0.3923
   }
  ],
  "acquisitions": [
@@ -7706,6 +7713,16 @@
  ],
  "sales": [
   {
+   "time": "10-09 13:15",
+   "usdc_received": 144.06,
+   "tx": "3E4raruJYsPHu6C173Mnfhv1cnbJkMNSncWkdmPxJjQAM6neSh6U6bYAxJQqP2YwJ4vraSbB1vqmezRtMkoLtfzY",
+   "card": "2023 Pokemon Scarlet & Violet Pr",
+   "image": "https://arweave.net/RfC3iOof2xm5_fF2_BGfFdr-UeyrOMonj7KEmGk6y3k",
+   "cc_id": "2026071617C194457",
+   "insured": "95",
+   "buyer": ""
+  },
+  {
    "time": "10-09 10:28",
    "usdc_received": 73.01,
    "tx": "3rgWDGXqcYJm1VUGSrdED3UdfqqdMH7qSzXLt1LdB6Jtoef8qrgBT7ikPtrRfGntQqVcxoyU6dqNtxKBSpUTyKuz",
@@ -8087,13 +8104,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:28, CancelOffer:22, MakeOffer:20",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 6.364378017,
-  "seller_sol_balance": 0.39114016,
+  "bot_instruction_mix": "UpdateOffer:246, CancelOffer:1",
+  "seller_instruction_mix": "UpdateListing:23, MakeOffer:1, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 6.567384817,
+  "seller_sol_balance": 0.392299605,
   "bot_usdc_balance": 0.001164,
-  "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 4080.323311,
+  "seller_usdc_balance": 144.06,
+  "treasury_usdc_balance": 4011.484427,
   "bot_token_accounts": 1023,
   "seller_token_accounts": 278
  }
