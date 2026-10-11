@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T12:00:48.529646+00:00",
+ "generated": "2026-10-11T12:20:48.608906+00:00",
  "summary": {
-  "bot_txns_per_day": 7543,
-  "bot_window": "99 txns sampled",
+  "bot_txns_per_day": 172800,
+  "bot_window": "100 txns sampled",
   "bot_offers_out": 1024,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0011,
+  "seller_usdc_balance": 20.5811,
   "treasury_usdc_balance": 4124.451867,
-  "seller_txns_per_day": 2261,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 2057,
+  "seller_listing_updates": 24,
   "total_acquisitions": 51,
-  "total_sales": 42,
+  "total_sales": 43,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 2661.19
+  "total_sale_usdc": 2681.77
  },
  "balance_history": [
   {
@@ -8273,6 +8273,13 @@
    "treasury_usdc": 4124.45,
    "bot_sol": 4.3396,
    "seller_sol": 0.3081
+  },
+  {
+   "ts": "2026-10-11T12:20:48.608906+00:00",
+   "seller_usdc": 20.58,
+   "treasury_usdc": 4124.45,
+   "bot_sol": 4.446,
+   "seller_sol": 0.3093
   }
  ],
  "acquisitions": [
@@ -8738,6 +8745,16 @@
  ],
  "sales": [
   {
+   "time": "10-11 12:11",
+   "usdc_received": 20.58,
+   "tx": "2dWGokZk5cwGND4T9NQqVsamKxkS2AeE7fKYxL9L8hgTVL45sApsYYHq8aJrvqaRT324kee3UiVrbfShVaxdKWnP",
+   "card": "2024 #117 Lapras ex CGC 10 Stell",
+   "image": "https://arweave.net/zHXP9WFmevpjEtcZnAyzlQuq-4BRs2ylz9fpdLoT7Jo",
+   "cc_id": "2026062917C173691",
+   "insured": "21",
+   "buyer": ""
+  },
+  {
    "time": "10-11 00:32",
    "usdc_received": 33.32,
    "tx": "27vW4t5wTYxW74mE2CkzEQ8BDDWcnDkiwUhiT9JDkNbmAUY3nRdC2srZbQ4n16YDbNJ8k1QBrXMkQdKpPS98cft1",
@@ -9159,12 +9176,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:51, CancelOffer:31, MakeOffer:24",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 4.339561098,
-  "seller_sol_balance": 0.308050045,
+  "bot_instruction_mix": "UpdateOffer:235, CancelOffer:4, MakeOffer:1",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 4.446016978,
+  "seller_sol_balance": 0.309330165,
   "bot_usdc_balance": 0.004519,
-  "seller_usdc_balance": 0.0011,
+  "seller_usdc_balance": 20.5811,
   "treasury_usdc_balance": 4124.451867,
   "bot_token_accounts": 1024,
   "seller_token_accounts": 294

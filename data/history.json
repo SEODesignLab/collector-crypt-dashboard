@@ -838,6 +838,15 @@
    "image": "https://arweave.net/QZoR3LqoXrb_npPn61lYklSle0E6zTPxYknNb6ZXKlk",
    "cc_id": "2026072241C209544",
    "insured": "25"
+  },
+  {
+   "time": "10-11 12:11",
+   "usdc_received": 20.58,
+   "tx": "2dWGokZk5cwGND4T9NQqVsamKxkS2AeE7fKYxL9L8hgTVL45sApsYYHq8aJrvqaRT324kee3UiVrbfShVaxdKWnP",
+   "card": "2024 #117 Lapras ex CGC 10 Stell",
+   "image": "https://arweave.net/zHXP9WFmevpjEtcZnAyzlQuq-4BRs2ylz9fpdLoT7Jo",
+   "cc_id": "2026062917C173691",
+   "insured": "21"
   }
  ],
  "balance_history": [
@@ -9099,6 +9108,13 @@
    "treasury_usdc": 4124.45,
    "bot_sol": 4.3396,
    "seller_sol": 0.3081
+  },
+  {
+   "ts": "2026-10-11T12:20:48.608906+00:00",
+   "seller_usdc": 20.58,
+   "treasury_usdc": 4124.45,
+   "bot_sol": 4.446,
+   "seller_sol": 0.3093
   }
  ],
  "sweeps": [
