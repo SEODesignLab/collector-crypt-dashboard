@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T21:40:51.287787+00:00",
+ "generated": "2026-10-11T22:00:51.397576+00:00",
  "summary": {
-  "bot_txns_per_day": 7121,
+  "bot_txns_per_day": 8903,
   "bot_window": "98 txns sampled",
   "bot_offers_out": 1028,
   "bot_holdings": 4,
-  "seller_usdc_balance": 400.3311,
+  "seller_usdc_balance": 437.5711,
   "treasury_usdc_balance": 3028.420986,
-  "seller_txns_per_day": 2218,
-  "seller_listing_updates": 23,
+  "seller_txns_per_day": 2238,
+  "seller_listing_updates": 24,
   "total_acquisitions": 51,
-  "total_sales": 48,
+  "total_sales": 49,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 3055.15
+  "total_sale_usdc": 3092.39
  },
  "balance_history": [
   {
@@ -8476,6 +8476,13 @@
    "treasury_usdc": 3028.42,
    "bot_sol": 7.8248,
    "seller_sol": 0.2947
+  },
+  {
+   "ts": "2026-10-11T22:00:51.397576+00:00",
+   "seller_usdc": 437.57,
+   "treasury_usdc": 3028.42,
+   "bot_sol": 7.8507,
+   "seller_sol": 0.296
   }
  ],
  "acquisitions": [
@@ -8940,6 +8947,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-11 21:51",
+   "usdc_received": 37.24,
+   "tx": "dJHGR8hWzkzBXXLUuv9svNaMsKkyjwn3qiu5JqkeUJuZHem19zpNXCKnFBy3YuhYRqoo2FXxBvzQedhZ4bmPkSh",
+   "card": "2025 #214 PIKACHU PSA 9 Svp EN-S",
+   "image": "https://nft.collectorcrypt.com/front/2026091251C254681",
+   "cc_id": "2026091251C254681",
+   "insured": "28",
+   "buyer": ""
+  },
   {
    "time": "10-11 19:41",
    "usdc_received": 39.69,
@@ -9422,12 +9439,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:37, CancelOffer:27, MakeOffer:13",
-  "seller_instruction_mix": "UpdateListing:23, MakeOfferNDeposit:1, MakeOffer:1",
-  "bot_sol_balance": 7.824837273,
-  "seller_sol_balance": 0.294730127,
+  "bot_instruction_mix": "CancelOffer:36, UpdateOffer:35, MakeOffer:21",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 7.850668433,
+  "seller_sol_balance": 0.295970022,
   "bot_usdc_balance": 0.006719,
-  "seller_usdc_balance": 400.3311,
+  "seller_usdc_balance": 437.5711,
   "treasury_usdc_balance": 3028.420986,
   "bot_token_accounts": 1028,
   "seller_token_accounts": 295

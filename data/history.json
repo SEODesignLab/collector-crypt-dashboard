@@ -892,6 +892,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026092034C262514",
    "cc_id": "2026092034C262514",
    "insured": "46"
+  },
+  {
+   "time": "10-11 21:51",
+   "usdc_received": 37.24,
+   "tx": "dJHGR8hWzkzBXXLUuv9svNaMsKkyjwn3qiu5JqkeUJuZHem19zpNXCKnFBy3YuhYRqoo2FXxBvzQedhZ4bmPkSh",
+   "card": "2025 #214 PIKACHU PSA 9 Svp EN-S",
+   "image": "https://nft.collectorcrypt.com/front/2026091251C254681",
+   "cc_id": "2026091251C254681",
+   "insured": "28"
   }
  ],
  "balance_history": [
@@ -9356,6 +9365,13 @@
    "treasury_usdc": 3028.42,
    "bot_sol": 7.8248,
    "seller_sol": 0.2947
+  },
+  {
+   "ts": "2026-10-11T22:00:51.397576+00:00",
+   "seller_usdc": 437.57,
+   "treasury_usdc": 3028.42,
+   "bot_sol": 7.8507,
+   "seller_sol": 0.296
   }
  ],
  "sweeps": [
