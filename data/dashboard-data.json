@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T19:20:50.620506+00:00",
+ "generated": "2026-10-11T19:40:50.713403+00:00",
  "summary": {
-  "bot_txns_per_day": 11284,
+  "bot_txns_per_day": 9969,
   "bot_window": "99 txns sampled",
   "bot_offers_out": 1027,
   "bot_holdings": 3,
-  "seller_usdc_balance": 360.6411,
-  "treasury_usdc_balance": 3317.609946,
-  "seller_txns_per_day": 2123,
-  "seller_listing_updates": 25,
+  "seller_usdc_balance": 400.3311,
+  "treasury_usdc_balance": 3197.109946,
+  "seller_txns_per_day": 2221,
+  "seller_listing_updates": 24,
   "total_acquisitions": 51,
-  "total_sales": 47,
+  "total_sales": 48,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 3015.46
+  "total_sale_usdc": 3055.15
  },
  "balance_history": [
   {
@@ -8427,6 +8427,13 @@
    "treasury_usdc": 3317.61,
    "bot_sol": 6.84,
    "seller_sol": 0.2951
+  },
+  {
+   "ts": "2026-10-11T19:40:50.713403+00:00",
+   "seller_usdc": 400.33,
+   "treasury_usdc": 3197.11,
+   "bot_sol": 7.0463,
+   "seller_sol": 0.2962
   }
  ],
  "acquisitions": [
@@ -8891,6 +8898,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-11 19:41",
+   "usdc_received": 39.69,
+   "tx": "4GBLYWTnBaufu9CdKqLpLJy64QmnHjUGyNywpVhPma7fCQVxzuhhoagVqam8eAsZw69ceh5D2tAMLQ1EsTojnhVg",
+   "card": "2025 #022 Haunter CGC 10 Pristin",
+   "image": "https://nft.collectorcrypt.com/front/2026092034C262514",
+   "cc_id": "2026092034C262514",
+   "insured": "46",
+   "buyer": ""
+  },
   {
    "time": "10-11 16:31",
    "usdc_received": 148.96,
@@ -9363,13 +9380,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:68, CancelOffer:48, MakeOffer:19",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 6.840026538,
-  "seller_sol_balance": 0.295050962,
+  "bot_instruction_mix": "UpdateOffer:70, CancelOffer:49, MakeOffer:12",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 7.046289313,
+  "seller_sol_balance": 0.296226497,
   "bot_usdc_balance": 0.006719,
-  "seller_usdc_balance": 360.6411,
-  "treasury_usdc_balance": 3317.609946,
+  "seller_usdc_balance": 400.3311,
+  "treasury_usdc_balance": 3197.109946,
   "bot_token_accounts": 1027,
   "seller_token_accounts": 295
  }

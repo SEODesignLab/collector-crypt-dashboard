@@ -883,6 +883,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026090335C242220",
    "cc_id": "2026090335C242220",
    "insured": "170"
+  },
+  {
+   "time": "10-11 19:41",
+   "usdc_received": 39.69,
+   "tx": "4GBLYWTnBaufu9CdKqLpLJy64QmnHjUGyNywpVhPma7fCQVxzuhhoagVqam8eAsZw69ceh5D2tAMLQ1EsTojnhVg",
+   "card": "2025 #022 Haunter CGC 10 Pristin",
+   "image": "https://nft.collectorcrypt.com/front/2026092034C262514",
+   "cc_id": "2026092034C262514",
+   "insured": "46"
   }
  ],
  "balance_history": [
@@ -9298,6 +9307,13 @@
    "treasury_usdc": 3317.61,
    "bot_sol": 6.84,
    "seller_sol": 0.2951
+  },
+  {
+   "ts": "2026-10-11T19:40:50.713403+00:00",
+   "seller_usdc": 400.33,
+   "treasury_usdc": 3197.11,
+   "bot_sol": 7.0463,
+   "seller_sol": 0.2962
   }
  ],
  "sweeps": [
