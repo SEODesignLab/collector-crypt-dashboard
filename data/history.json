@@ -874,6 +874,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026090219C241496",
    "cc_id": "2026090219C241496",
    "insured": "45"
+  },
+  {
+   "time": "10-11 16:31",
+   "usdc_received": 148.96,
+   "tx": "3WQBhrDVQq8yvScpFYTb3TNAwB939DsZ6kPkLEfgX5FNN56xs9T1tfmQJYqtBHzCB6m8dHWFxjwXXzvcbzAsTwV",
+   "card": "2023 #008 Pikachu PSA 10 Clc-Tra",
+   "image": "https://nft.collectorcrypt.com/front/2026090335C242220",
+   "cc_id": "2026090335C242220",
+   "insured": "170"
   }
  ],
  "balance_history": [
@@ -9226,6 +9235,13 @@
    "treasury_usdc": 3829.73,
    "bot_sol": 5.2194,
    "seller_sol": 0.2993
+  },
+  {
+   "ts": "2026-10-11T16:40:49.842965+00:00",
+   "seller_usdc": 294.0,
+   "treasury_usdc": 3829.73,
+   "bot_sol": 5.2917,
+   "seller_sol": 0.3005
   }
  ],
  "sweeps": [
