@@ -856,6 +856,15 @@
    "image": "https://nft.collectorcrypt.com/front/202609093C251254",
    "cc_id": "202609093C251254",
    "insured": "35"
+  },
+  {
+   "time": "10-11 14:41",
+   "usdc_received": 105.84,
+   "tx": "tEwD5yNxoiS8JgkMdCbduUKwLqGbn6u3gG88RngE1f34tWzFk5SnFh4KJVfjRT7RxvhybYrcxZ9XUynLjuCLsHq",
+   "card": "2023 Pokemon Scarlet & Violet 15",
+   "image": "https://arweave.net/c70tYXEUjxE_jS4LwF-m9Dw1yFryeZtWf1-ZT-uL0Wo",
+   "cc_id": "2026071635C194618",
+   "insured": "120"
   }
  ],
  "balance_history": [
@@ -9166,6 +9175,13 @@
    "treasury_usdc": 4243.93,
    "bot_sol": 4.6246,
    "seller_sol": 0.3093
+  },
+  {
+   "ts": "2026-10-11T14:40:49.276796+00:00",
+   "seller_usdc": 105.84,
+   "treasury_usdc": 4243.93,
+   "bot_sol": 4.7674,
+   "seller_sol": 0.3106
   }
  ],
  "sweeps": [
