@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T00:20:45.135366+00:00",
+ "generated": "2026-10-11T00:40:45.234734+00:00",
  "summary": {
-  "bot_txns_per_day": 12254,
-  "bot_window": "99 txns sampled",
+  "bot_txns_per_day": 15596,
+  "bot_window": "100 txns sampled",
   "bot_offers_out": 1029,
   "bot_holdings": 7,
-  "seller_usdc_balance": 0.0011,
+  "seller_usdc_balance": 33.3211,
   "treasury_usdc_balance": 2054.812504,
-  "seller_txns_per_day": 2245,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 1988,
+  "seller_listing_updates": 24,
   "total_acquisitions": 48,
-  "total_sales": 41,
+  "total_sales": 42,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 2627.87
+  "total_sale_usdc": 2661.19
  },
  "balance_history": [
   {
@@ -8028,6 +8028,13 @@
    "treasury_usdc": 2054.81,
    "bot_sol": 2.169,
    "seller_sol": 0.3414
+  },
+  {
+   "ts": "2026-10-11T00:40:45.234734+00:00",
+   "seller_usdc": 33.32,
+   "treasury_usdc": 2054.81,
+   "bot_sol": 2.604,
+   "seller_sol": 0.3427
   }
  ],
  "acquisitions": [
@@ -8466,6 +8473,16 @@
  ],
  "sales": [
   {
+   "time": "10-11 00:32",
+   "usdc_received": 33.32,
+   "tx": "27vW4t5wTYxW74mE2CkzEQ8BDDWcnDkiwUhiT9JDkNbmAUY3nRdC2srZbQ4n16YDbNJ8k1QBrXMkQdKpPS98cft1",
+   "card": "2026 CGC 10 One Piece Japanese P",
+   "image": "https://arweave.net/QZoR3LqoXrb_npPn61lYklSle0E6zTPxYknNb6ZXKlk",
+   "cc_id": "2026072241C209544",
+   "insured": "25",
+   "buyer": ""
+  },
+  {
    "time": "10-09 20:42",
    "usdc_received": 45.08,
    "tx": "4K18erQpvUDJ3T3CthpzfdTChQR4Q7sdeQPvNPEhYbnQy4doFWhdNCQdEwArdaC2ve1ras9WhYbkgoY67ych2QnQ",
@@ -8877,12 +8894,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "CancelOffer:69, UpdateOffer:45, MakeOffer:23",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 2.168975689,
-  "seller_sol_balance": 0.341367112,
+  "bot_instruction_mix": "CancelOffer:52, UpdateOffer:51, MakeOffer:30",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 2.603964901,
+  "seller_sol_balance": 0.342679412,
   "bot_usdc_balance": 0.006145,
-  "seller_usdc_balance": 0.0011,
+  "seller_usdc_balance": 33.3211,
   "treasury_usdc_balance": 2054.812504,
   "bot_token_accounts": 1029,
   "seller_token_accounts": 283

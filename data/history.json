@@ -802,6 +802,15 @@
    "image": "https://arweave.net/FMFVunRR8bcVXByLn7Ab2NbRX2rEVKwZDvipmPBFduQ",
    "cc_id": "2026071240C184546",
    "insured": "40"
+  },
+  {
+   "time": "10-11 00:32",
+   "usdc_received": 33.32,
+   "tx": "27vW4t5wTYxW74mE2CkzEQ8BDDWcnDkiwUhiT9JDkNbmAUY3nRdC2srZbQ4n16YDbNJ8k1QBrXMkQdKpPS98cft1",
+   "card": "2026 CGC 10 One Piece Japanese P",
+   "image": "https://arweave.net/QZoR3LqoXrb_npPn61lYklSle0E6zTPxYknNb6ZXKlk",
+   "cc_id": "2026072241C209544",
+   "insured": "25"
   }
  ],
  "balance_history": [
@@ -8818,6 +8827,13 @@
    "treasury_usdc": 2054.81,
    "bot_sol": 2.169,
    "seller_sol": 0.3414
+  },
+  {
+   "ts": "2026-10-11T00:40:45.234734+00:00",
+   "seller_usdc": 33.32,
+   "treasury_usdc": 2054.81,
+   "bot_sol": 2.604,
+   "seller_sol": 0.3427
   }
  ],
  "sweeps": [
