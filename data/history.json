@@ -847,6 +847,15 @@
    "image": "https://arweave.net/zHXP9WFmevpjEtcZnAyzlQuq-4BRs2ylz9fpdLoT7Jo",
    "cc_id": "2026062917C173691",
    "insured": "21"
+  },
+  {
+   "time": "10-11 13:38",
+   "usdc_received": 39.69,
+   "tx": "5r2tVE3HpG33WC2a3RvY6pzRX9PcKzJiuyY6qvEAZYBRWb5JLAR69KsR6ayX9qe6RoPEjf2pAkgGFd1RpVLRKdZ1",
+   "card": "1999 #44 Bulbasaur PSA 8 Game",
+   "image": "https://nft.collectorcrypt.com/front/202609093C251254",
+   "cc_id": "202609093C251254",
+   "insured": "35"
   }
  ],
  "balance_history": [
@@ -9136,6 +9145,13 @@
    "treasury_usdc": 4124.45,
    "bot_sol": 4.5186,
    "seller_sol": 0.3072
+  },
+  {
+   "ts": "2026-10-11T13:40:48.992058+00:00",
+   "seller_usdc": 150.92,
+   "treasury_usdc": 4093.01,
+   "bot_sol": 4.5985,
+   "seller_sol": 0.3099
   }
  ],
  "sweeps": [
