@@ -865,6 +865,15 @@
    "image": "https://arweave.net/c70tYXEUjxE_jS4LwF-m9Dw1yFryeZtWf1-ZT-uL0Wo",
    "cc_id": "2026071635C194618",
    "insured": "120"
+  },
+  {
+   "time": "10-11 15:07",
+   "usdc_received": 39.2,
+   "tx": "2VXdtEZ18pVohGx4Ahw7v1mJUYTEDk2kDccPcmra9diQoyFNXgaeURsPrUnvkgxdkEuNUhyAVG5KhitniEbyUAh2",
+   "card": "2024 #052 Dracule Mihawk PSA 10",
+   "image": "https://nft.collectorcrypt.com/front/2026090219C241496",
+   "cc_id": "2026090219C241496",
+   "insured": "45"
   }
  ],
  "balance_history": [
@@ -9189,6 +9198,13 @@
    "treasury_usdc": 4243.93,
    "bot_sol": 4.8532,
    "seller_sol": 0.307
+  },
+  {
+   "ts": "2026-10-11T15:20:49.467489+00:00",
+   "seller_usdc": 145.04,
+   "treasury_usdc": 4243.93,
+   "bot_sol": 4.992,
+   "seller_sol": 0.3083
   }
  ],
  "sweeps": [

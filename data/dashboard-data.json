@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T15:00:49.403788+00:00",
+ "generated": "2026-10-11T15:20:49.467489+00:00",
  "summary": {
-  "bot_txns_per_day": 11727,
-  "bot_window": "98 txns sampled",
+  "bot_txns_per_day": 10612,
+  "bot_window": "99 txns sampled",
   "bot_offers_out": 1025,
   "bot_holdings": 1,
-  "seller_usdc_balance": 105.8411,
+  "seller_usdc_balance": 145.0411,
   "treasury_usdc_balance": 4243.926073,
-  "seller_txns_per_day": 2128,
+  "seller_txns_per_day": 2015,
   "seller_listing_updates": 23,
   "total_acquisitions": 51,
-  "total_sales": 45,
+  "total_sales": 46,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 2827.3
+  "total_sale_usdc": 2866.5
  },
  "balance_history": [
   {
@@ -8336,6 +8336,13 @@
    "treasury_usdc": 4243.93,
    "bot_sol": 4.8532,
    "seller_sol": 0.307
+  },
+  {
+   "ts": "2026-10-11T15:20:49.467489+00:00",
+   "seller_usdc": 145.04,
+   "treasury_usdc": 4243.93,
+   "bot_sol": 4.992,
+   "seller_sol": 0.3083
   }
  ],
  "acquisitions": [
@@ -8801,6 +8808,16 @@
  ],
  "sales": [
   {
+   "time": "10-11 15:07",
+   "usdc_received": 39.2,
+   "tx": "2VXdtEZ18pVohGx4Ahw7v1mJUYTEDk2kDccPcmra9diQoyFNXgaeURsPrUnvkgxdkEuNUhyAVG5KhitniEbyUAh2",
+   "card": "2024 #052 Dracule Mihawk PSA 10",
+   "image": "https://nft.collectorcrypt.com/front/2026090219C241496",
+   "cc_id": "2026090219C241496",
+   "insured": "45",
+   "buyer": ""
+  },
+  {
    "time": "10-11 14:41",
    "usdc_received": 105.84,
    "tx": "tEwD5yNxoiS8JgkMdCbduUKwLqGbn6u3gG88RngE1f34tWzFk5SnFh4KJVfjRT7RxvhybYrcxZ9XUynLjuCLsHq",
@@ -9252,12 +9269,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:117, CancelOffer:28, MakeOffer:15",
-  "seller_instruction_mix": "UpdateListing:23, ListCore:2, AddPlugin:1, ApprovePluginAuthority:1",
-  "bot_sol_balance": 4.853210218,
-  "seller_sol_balance": 0.307018877,
+  "bot_instruction_mix": "UpdateOffer:69, MakeOffer:25, CancelOffer:22",
+  "seller_instruction_mix": "UpdateListing:23, MakeOffer:1, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 4.991971618,
+  "seller_sol_balance": 0.308323132,
   "bot_usdc_balance": 0.006719,
-  "seller_usdc_balance": 105.8411,
+  "seller_usdc_balance": 145.0411,
   "treasury_usdc_balance": 4243.926073,
   "bot_token_accounts": 1025,
   "seller_token_accounts": 295
