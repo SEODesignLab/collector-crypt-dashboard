@@ -955,6 +955,15 @@
    "image": "https://arweave.net/EkueYH7MmZTIq3GR7o2UvYMSZlYYMrmTLwePL52BbWQ",
    "cc_id": "2026071642C202178",
    "insured": "23"
+  },
+  {
+   "time": "10-12 20:37",
+   "usdc_received": 29.4,
+   "tx": "527sHr3eyPrATNmmsfNojq3afz9MJ9xrctfnAyXr5nT2QpTeX1oHtt7j6QoxSHgqWf1gpVgY9bEnHZG32EUkAuXu",
+   "card": "2000 #8 Mew CGC 9 Pokemon League",
+   "image": "https://arweave.net/bGgICwjMv2_JdaLyMAyDNRZ94RAQ50Q4ogFBPeVXvi0",
+   "cc_id": "2026072228C210685",
+   "insured": "26"
   }
  ],
  "balance_history": [
@@ -9895,6 +9904,13 @@
    "treasury_usdc": 4556.77,
    "bot_sol": 8.907,
    "seller_sol": 0.2768
+  },
+  {
+   "ts": "2026-10-12T20:40:03.708969+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4465.86,
+   "bot_sol": 8.8017,
+   "seller_sol": 0.2779
   }
  ],
  "sweeps": [
@@ -10097,6 +10113,11 @@
    "time": "10-12 20:01",
    "usdc": -18.63,
    "tx": "4tSEQjP3AwFGEkvdJnB7WwqAefR8DDGQuMnseTAKKN8msZ4Adopmy9MQfX8P8xfja6BakVi11pDYKzyWCJq23JxH"
+  },
+  {
+   "time": "10-12 20:38",
+   "usdc": -29.4,
+   "tx": "4Tnhy8jMhJea2ExEk6qJR4kUkiHK1djC9CbLhmCHPAzF3N1ZNA3zphrgsNja1kcFgeggZ5otKp4pTqryePCR2SXh"
   }
  ]
 }
