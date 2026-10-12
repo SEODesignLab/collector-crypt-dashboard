@@ -919,6 +919,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026091251C254681",
    "cc_id": "2026091251C254681",
    "insured": "28"
+  },
+  {
+   "time": "10-12 03:51",
+   "usdc_received": 459.62,
+   "tx": "2abtTgxPwzR7Dr4eE51FgCM7cs6k9Jaosz9GTdfuSVKTMwb6dvW7YwsysStZPgsfRHZynCZEe5AQsfsUjjiL6PkM",
+   "card": "2016 #010 Pyroar Break 1st Editi",
+   "image": "https://arweave.net/gj7-AS0dL-GY2iUDuahEMPiNaX7SvYzz7_4LHUh0WyQ",
+   "cc_id": "2026062421C159206",
+   "insured": "113"
   }
  ],
  "balance_history": [
@@ -9509,6 +9518,13 @@
    "treasury_usdc": 4196.47,
    "bot_sol": 9.5116,
    "seller_sol": 0.2915
+  },
+  {
+   "ts": "2026-10-12T04:00:53.120454+00:00",
+   "seller_usdc": 459.62,
+   "treasury_usdc": 4166.63,
+   "bot_sol": 9.609,
+   "seller_sol": 0.2933
   }
  ],
  "sweeps": [
