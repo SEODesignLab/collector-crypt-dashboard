@@ -964,6 +964,15 @@
    "image": "https://arweave.net/bGgICwjMv2_JdaLyMAyDNRZ94RAQ50Q4ogFBPeVXvi0",
    "cc_id": "2026072228C210685",
    "insured": "26"
+  },
+  {
+   "time": "10-12 22:16",
+   "usdc_received": 106.82,
+   "tx": "448i1E7uQ2joM8wFazxYL2LKuQKsimFyzS1Ki4NgCvRnKv7BpA7MQ6SuGHVAZ72kXbvnArbMLKtQKjpQ5MJKJpXx",
+   "card": "2023 #173 Pikachu PSA 10 Japanes",
+   "image": "https://arweave.net/PrhRNzzRejCxAprFL3M-KzT3-Pq41aY69F3px5thZFs",
+   "cc_id": "2026072022C208137",
+   "insured": "106"
   }
  ],
  "balance_history": [
@@ -9939,6 +9948,13 @@
    "treasury_usdc": 3865.5,
    "bot_sol": 8.4868,
    "seller_sol": 0.277
+  },
+  {
+   "ts": "2026-10-12T22:20:04.190318+00:00",
+   "seller_usdc": 106.82,
+   "treasury_usdc": 3837.8,
+   "bot_sol": 8.2981,
+   "seller_sol": 0.2733
   }
  ],
  "sweeps": [
