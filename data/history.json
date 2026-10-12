@@ -928,6 +928,15 @@
    "image": "https://arweave.net/gj7-AS0dL-GY2iUDuahEMPiNaX7SvYzz7_4LHUh0WyQ",
    "cc_id": "2026062421C159206",
    "insured": "113"
+  },
+  {
+   "time": "10-12 14:52",
+   "usdc_received": 19.6,
+   "tx": "2AqMtH39xqQK1sxL2kUEzHTNCxsNLcokxwff6kyoJYEmQyZugNQmMRXEcQT448SqM7oVxJGrWvTjXEsvHQs13v6Z",
+   "card": "2022 Pokemon Sword & Shield Bril",
+   "image": "https://arweave.net/EkueYH7MmZTIq3GR7o2UvYMSZlYYMrmTLwePL52BbWQ",
+   "cc_id": "2026071642C202178",
+   "insured": "23"
   }
  ],
  "balance_history": [
@@ -9749,6 +9758,13 @@
    "treasury_usdc": 4093.45,
    "bot_sol": 7.9051,
    "seller_sol": 0.2816
+  },
+  {
+   "ts": "2026-10-12T15:00:02.096597+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3933.25,
+   "bot_sol": 7.7621,
+   "seller_sol": 0.2826
   }
  ],
  "sweeps": [
@@ -9936,6 +9952,11 @@
    "time": "10-11 14:15",
    "usdc": -150.92,
    "tx": "311vsjCMZQj6jk8mzQNg81ahVkvSqyE2h8S8HL6ASV8aS5Ab9VdauKngxoEk7sU3LwH55K7NSqn6TgZEy1MwR7CM"
+  },
+  {
+   "time": "10-12 15:02",
+   "usdc": -81.34,
+   "tx": "3y4Q9HtcJPmFkT9XYwR9C2mYbGVz2MSa3RtR18EYUXHyeTS1udnfqAh5FQkh7sgmRNN7kkJQMAypmid5y6ZutjfB"
   }
  ]
 }
