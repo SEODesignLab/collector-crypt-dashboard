@@ -973,6 +973,15 @@
    "image": "https://arweave.net/PrhRNzzRejCxAprFL3M-KzT3-Pq41aY69F3px5thZFs",
    "cc_id": "2026072022C208137",
    "insured": "106"
+  },
+  {
+   "time": "10-12 23:21",
+   "usdc_received": 77.42,
+   "tx": "3msJrpqgFq7BKU686fU3FmVer78gPnMdU2zDxWiPmmyUVKZNuvUyL9cBFFZfMsjKCC573q3zodcq63oWjCoyy2U5",
+   "card": "2022 #OP01-001 Alt Art Roronoa Z",
+   "image": "https://arweave.net/_4l6AYdH6_m2egokyp6gq4fH0EtsqU8Tf1j9eUsL4mw",
+   "cc_id": "2026061837C152407",
+   "insured": "44"
   }
  ],
  "balance_history": [
@@ -9969,6 +9978,13 @@
    "treasury_usdc": 3837.8,
    "bot_sol": 8.122,
    "seller_sol": 0.2727
+  },
+  {
+   "ts": "2026-10-12T23:20:04.478115+00:00",
+   "seller_usdc": 207.76,
+   "treasury_usdc": 3818.21,
+   "bot_sol": 8.0612,
+   "seller_sol": 0.2739
   }
  ],
  "sweeps": [
