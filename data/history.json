@@ -1018,6 +1018,15 @@
    "image": "https://arweave.net/d-dl6rhB3jwaWqWezE-g22ohUnmRknDmmphMAgNOKTY",
    "cc_id": "2026072232C210722",
    "insured": "35"
+  },
+  {
+   "time": "10-13 22:02",
+   "usdc_received": 35.28,
+   "tx": "3S5uxbTo4cHt4h9q8Ed4ghBciuoNAn2sqJJNxYdYaKNiXgrpdWEn38Hp5gkwsb8GgsxgXjWr1pWV9x8fx7cDBjzB",
+   "card": "2025 #102 Nami PSA 10 One Piece",
+   "image": "https://nft.collectorcrypt.com/front/2026091759C260323",
+   "cc_id": "2026091759C260323",
+   "insured": "40"
   }
  ],
  "balance_history": [
@@ -10490,6 +10499,13 @@
    "treasury_usdc": 4757.45,
    "bot_sol": 5.4829,
    "seller_sol": 0.242
+  },
+  {
+   "ts": "2026-10-13T22:00:11.077235+00:00",
+   "seller_usdc": 500.29,
+   "treasury_usdc": 4757.45,
+   "bot_sol": 5.4408,
+   "seller_sol": 0.2441
   }
  ],
  "sweeps": [
