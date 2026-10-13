@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-13T06:00:06.418474+00:00",
+ "generated": "2026-10-13T06:20:06.497458+00:00",
  "summary": {
-  "bot_txns_per_day": 118356,
+  "bot_txns_per_day": 40000,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1028,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 42.14,
   "treasury_usdc_balance": 3478.579736,
-  "seller_txns_per_day": 2456,
+  "seller_txns_per_day": 2537,
   "seller_listing_updates": 24,
   "total_acquisitions": 55,
-  "total_sales": 55,
+  "total_sales": 56,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 3820.04
+  "total_sale_usdc": 3862.18
  },
  "balance_history": [
   {
@@ -9155,6 +9155,13 @@
    "treasury_usdc": 3478.58,
    "bot_sol": 10.3833,
    "seller_sol": 0.2759
+  },
+  {
+   "ts": "2026-10-13T06:20:06.497458+00:00",
+   "seller_usdc": 42.14,
+   "treasury_usdc": 3478.58,
+   "bot_sol": 9.1705,
+   "seller_sol": 0.2771
   }
  ],
  "acquisitions": [
@@ -9655,6 +9662,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-13 06:19",
+   "usdc_received": 42.14,
+   "tx": "4RHnxbyDMDvqg1Kuo2LydL4uyUoR8GgaC47XtUmRTtBahdGoC94j9fYGWdkEi17g2WYKcSBAGa1KCs7rQLNNuLt3",
+   "card": "2021 #136 Mimikyu-Holo PSA 9 Sws",
+   "image": "https://nft.collectorcrypt.com/front/2026100914C282153",
+   "cc_id": "2026100914C282153",
+   "insured": "45",
+   "buyer": ""
+  },
   {
    "time": "10-13 03:42",
    "usdc_received": 34.79,
@@ -10207,12 +10224,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:210, MakeOffer:9",
-  "seller_instruction_mix": "UpdateListing:24",
-  "bot_sol_balance": 10.383322159,
-  "seller_sol_balance": 0.27591869,
+  "bot_instruction_mix": "UpdateOffer:117, MakeOffer:32, CancelOffer:1",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 9.17049749,
+  "seller_sol_balance": 0.27711836,
   "bot_usdc_balance": 0.006961,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 42.14,
   "treasury_usdc_balance": 3478.579736,
   "bot_token_accounts": 1028,
   "seller_token_accounts": 298

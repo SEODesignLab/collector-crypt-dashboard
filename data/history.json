@@ -991,6 +991,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026091643C256749",
    "cc_id": "2026091643C256749",
    "insured": "38"
+  },
+  {
+   "time": "10-13 06:19",
+   "usdc_received": 42.14,
+   "tx": "4RHnxbyDMDvqg1Kuo2LydL4uyUoR8GgaC47XtUmRTtBahdGoC94j9fYGWdkEi17g2WYKcSBAGa1KCs7rQLNNuLt3",
+   "card": "2021 #136 Mimikyu-Holo PSA 9 Sws",
+   "image": "https://nft.collectorcrypt.com/front/2026100914C282153",
+   "cc_id": "2026100914C282153",
+   "insured": "45"
   }
  ],
  "balance_history": [
@@ -10134,6 +10143,13 @@
    "treasury_usdc": 3478.58,
    "bot_sol": 10.3833,
    "seller_sol": 0.2759
+  },
+  {
+   "ts": "2026-10-13T06:20:06.497458+00:00",
+   "seller_usdc": 42.14,
+   "treasury_usdc": 3478.58,
+   "bot_sol": 9.1705,
+   "seller_sol": 0.2771
   }
  ],
  "sweeps": [
