@@ -1000,6 +1000,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026100914C282153",
    "cc_id": "2026100914C282153",
    "insured": "45"
+  },
+  {
+   "time": "10-13 07:09",
+   "usdc_received": 88.2,
+   "tx": "3N8fFdV84KceFjpde5jCeWHCtnXf8nV3axzHGALgEsfXPudN4K2fYa3k5DPLTxkEU7oYsD8JqzfsGufcBq1iGFhN",
+   "card": "2026 #038 Charmander PSA 10 Mep",
+   "image": "https://nft.collectorcrypt.com/front/2026090329C242209",
+   "cc_id": "2026090329C242209",
+   "insured": "100"
   }
  ],
  "balance_history": [
@@ -10164,6 +10173,13 @@
    "treasury_usdc": 3478.58,
    "bot_sol": 6.8617,
    "seller_sol": 0.2767
+  },
+  {
+   "ts": "2026-10-13T07:20:06.807521+00:00",
+   "seller_usdc": 130.34,
+   "treasury_usdc": 3478.58,
+   "bot_sol": 5.6507,
+   "seller_sol": 0.2779
   }
  ],
  "sweeps": [
