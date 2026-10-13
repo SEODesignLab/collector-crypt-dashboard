@@ -1009,6 +1009,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026090329C242209",
    "cc_id": "2026090329C242209",
    "insured": "100"
+  },
+  {
+   "time": "10-13 11:40",
+   "usdc_received": 30.38,
+   "tx": "xXbkny92Dn5oz7XbqM3pRagksUknnR8BrMsLG9mj8csHsFv9z7gQq11BYAv8VaiAXyUdegvA6XoXaBCu312ZNxN",
+   "card": "2022 #ST01-010 Franky CGC 10 One",
+   "image": "https://arweave.net/d-dl6rhB3jwaWqWezE-g22ohUnmRknDmmphMAgNOKTY",
+   "cc_id": "2026072232C210722",
+   "insured": "35"
   }
  ],
  "balance_history": [
@@ -10264,6 +10273,13 @@
    "treasury_usdc": 3016.98,
    "bot_sol": 3.7112,
    "seller_sol": 0.2627
+  },
+  {
+   "ts": "2026-10-13T11:40:08.042263+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3047.36,
+   "bot_sol": 9.0251,
+   "seller_sol": 0.2615
   }
  ],
  "sweeps": [
@@ -10476,6 +10492,11 @@
    "time": "10-13 05:47",
    "usdc": -36.26,
    "tx": "5eqQR3W6eDLvjSAkosfAgsXXhbrjhmUYuykUj1oxPWWgQsAxpTmSSv15PwT5eJJQf8udJvJCpaoaEBkgw1Ca8wsG"
+  },
+  {
+   "time": "10-13 11:42",
+   "usdc": -30.38,
+   "tx": "aAWMW3c8Lc7T6EoeAdsdNSRcN23csK1EjNXbyonynsTaonXN847RwUJvPcyEjE9EMA5Jq4qoCyB3K9ci55Lq4z4"
   }
  ]
 }
