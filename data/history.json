@@ -982,6 +982,15 @@
    "image": "https://arweave.net/_4l6AYdH6_m2egokyp6gq4fH0EtsqU8Tf1j9eUsL4mw",
    "cc_id": "2026061837C152407",
    "insured": "44"
+  },
+  {
+   "time": "10-13 03:42",
+   "usdc_received": 34.79,
+   "tx": "4STH12nqwZftvFZwmDcf8tgVTwU2RmGx23ZFtzE6VB1n6w5h5suEHqEuemdMuWkFufMFgEXc1tGJ6R4QauRhLcPi",
+   "card": "2026 #038 Charmander PSA 9 Mep E",
+   "image": "https://nft.collectorcrypt.com/front/2026091643C256749",
+   "cc_id": "2026091643C256749",
+   "insured": "38"
   }
  ],
  "balance_history": [
@@ -10069,6 +10078,13 @@
    "treasury_usdc": 1187.13,
    "bot_sol": 7.6276,
    "seller_sol": 0.2704
+  },
+  {
+   "ts": "2026-10-13T03:40:05.718826+00:00",
+   "seller_usdc": 394.45,
+   "treasury_usdc": 1187.13,
+   "bot_sol": 7.7091,
+   "seller_sol": 0.2717
   }
  ],
  "sweeps": [
