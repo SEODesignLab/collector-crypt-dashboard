@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-13T23:40:11.530980+00:00",
+ "generated": "2026-10-14T00:00:11.666116+00:00",
  "summary": {
-  "bot_txns_per_day": 39095,
+  "bot_txns_per_day": 15079,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1030,
   "bot_holdings": 3,
-  "seller_usdc_balance": 500.29,
+  "seller_usdc_balance": 562.03,
   "treasury_usdc_balance": 4441.204046,
-  "seller_txns_per_day": 6560,
+  "seller_txns_per_day": 9104,
   "seller_listing_updates": 24,
   "total_acquisitions": 55,
-  "total_sales": 59,
+  "total_sales": 60,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4016.04
+  "total_sale_usdc": 4077.78
  },
  "balance_history": [
   {
@@ -9526,6 +9526,13 @@
    "treasury_usdc": 4441.2,
    "bot_sol": 5.3787,
    "seller_sol": 0.2401
+  },
+  {
+   "ts": "2026-10-14T00:00:11.666116+00:00",
+   "seller_usdc": 562.03,
+   "treasury_usdc": 4441.2,
+   "bot_sol": 5.4084,
+   "seller_sol": 0.2406
   }
  ],
  "acquisitions": [
@@ -10026,6 +10033,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-14 00:03",
+   "usdc_received": 61.74,
+   "tx": "39zeVmyig23TnucNQuZNhqgbN1sn1K99dfeBNmBcSHw3VFNGm3qW5LXLG5hXqg9D8B62Jj8XPBjr2zjGqWj3rYwo",
+   "card": "2024 #055 Monkey D. Luffy PSA 10",
+   "image": "https://nft.collectorcrypt.com/front/202610050C276360",
+   "cc_id": "202610050C276360",
+   "insured": "70",
+   "buyer": ""
+  },
   {
    "time": "10-13 22:02",
    "usdc_received": 35.28,
@@ -10618,12 +10635,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:237, CancelOffer:5, MakeOffer:2",
-  "seller_instruction_mix": "UpdateListing:24, MakeOffer:1",
-  "bot_sol_balance": 5.378692103,
-  "seller_sol_balance": 0.240067287,
+  "bot_instruction_mix": "UpdateOffer:228, MakeOffer:3, CancelOffer:1",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 5.408352623,
+  "seller_sol_balance": 0.240639447,
   "bot_usdc_balance": 0.001353,
-  "seller_usdc_balance": 500.29,
+  "seller_usdc_balance": 562.03,
   "treasury_usdc_balance": 4441.204046,
   "bot_token_accounts": 1030,
   "seller_token_accounts": 303

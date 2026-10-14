@@ -1027,6 +1027,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026091759C260323",
    "cc_id": "2026091759C260323",
    "insured": "40"
+  },
+  {
+   "time": "10-14 00:03",
+   "usdc_received": 61.74,
+   "tx": "39zeVmyig23TnucNQuZNhqgbN1sn1K99dfeBNmBcSHw3VFNGm3qW5LXLG5hXqg9D8B62Jj8XPBjr2zjGqWj3rYwo",
+   "card": "2024 #055 Monkey D. Luffy PSA 10",
+   "image": "https://nft.collectorcrypt.com/front/202610050C276360",
+   "cc_id": "202610050C276360",
+   "insured": "70"
   }
  ],
  "balance_history": [
@@ -10541,6 +10550,13 @@
    "treasury_usdc": 4441.2,
    "bot_sol": 5.3787,
    "seller_sol": 0.2401
+  },
+  {
+   "ts": "2026-10-14T00:00:11.666116+00:00",
+   "seller_usdc": 562.03,
+   "treasury_usdc": 4441.2,
+   "bot_sol": 5.4084,
+   "seller_sol": 0.2406
   }
  ],
  "sweeps": [
