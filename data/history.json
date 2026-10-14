@@ -494,6 +494,24 @@
    "image": "",
    "cc_id": "",
    "insured": ""
+  },
+  {
+   "time": "10-14 02:03",
+   "usdc_paid": 0,
+   "tx": "5rL9mAetWUKiK7RaqTdzUEmBRFMdBqQnu6aqZKozxnDwrVJYDNtzset8Zu2Z5n5z4yJxwr1UEJrtaXkiXJSGHUkr",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
+  {
+   "time": "10-14 02:01",
+   "usdc_paid": 0,
+   "tx": "25Jr9iREx2ZzkjyeufgvHiAGpAFagaBLav6yaVzRoYQChfKNbh4KRsSuz3C31FHhsMTxmtAUn99JHE5gX2czQXiz",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
   }
  ],
  "sales": [
@@ -10592,6 +10610,13 @@
    "treasury_usdc": 4373.0,
    "bot_sol": 5.4612,
    "seller_sol": 0.2372
+  },
+  {
+   "ts": "2026-10-14T02:00:12.226209+00:00",
+   "seller_usdc": 562.03,
+   "treasury_usdc": 4312.18,
+   "bot_sol": 5.4652,
+   "seller_sol": 0.2365
   }
  ],
  "sweeps": [
