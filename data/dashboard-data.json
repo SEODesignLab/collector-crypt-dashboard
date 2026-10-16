@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-16T18:40:06.541313+00:00",
+ "generated": "2026-10-16T19:00:06.635594+00:00",
  "summary": {
-  "bot_txns_per_day": 160000,
+  "bot_txns_per_day": 200930,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1029,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 153.86,
   "treasury_usdc_balance": 4141.27754,
-  "seller_txns_per_day": 126,
+  "seller_txns_per_day": 125,
   "seller_listing_updates": 0,
   "total_acquisitions": 60,
-  "total_sales": 60,
+  "total_sales": 61,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4077.78
+  "total_sale_usdc": 4231.64
  },
  "balance_history": [
   {
@@ -10933,6 +10933,13 @@
    "treasury_usdc": 4141.28,
    "bot_sol": 6.4679,
    "seller_sol": 0.1106
+  },
+  {
+   "ts": "2026-10-16T19:00:06.635594+00:00",
+   "seller_usdc": 153.86,
+   "treasury_usdc": 4141.28,
+   "bot_sol": 6.4116,
+   "seller_sol": 0.1124
   }
  ],
  "acquisitions": [
@@ -11478,6 +11485,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-16 18:48",
+   "usdc_received": 153.86,
+   "tx": "4iv9YNL7UD53zG8dNmZsPYXKEU5ibBZvXECUpcPoLT1adeqgTLbJNC8Ny3hJFWDhL12aF35fcz3gXmExRdeEB9o1",
+   "card": "2016 #101 Full Art/M Charizard E",
+   "image": "https://arweave.net/23SOSZUKjPWv4e4nqRKfcCOHkDNdscgA4DursLM9rP0",
+   "cc_id": "202607107C182539",
+   "insured": "140",
+   "buyer": ""
+  },
   {
    "time": "10-14 00:03",
    "usdc_received": 61.74,
@@ -12080,12 +12097,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:249, CancelOffer:1",
-  "seller_instruction_mix": "MakeOffer:33, UpdateOffer:27, Transfer:2",
-  "bot_sol_balance": 6.467890863,
-  "seller_sol_balance": 0.110599578,
+  "bot_instruction_mix": "UpdateOffer:224, MakeOffer:5, CancelOffer:2",
+  "seller_instruction_mix": "MakeOffer:30, UpdateOffer:27, Transfer:3, BuyCore:1",
+  "bot_sol_balance": 6.411640279,
+  "seller_sol_balance": 0.112436148,
   "bot_usdc_balance": 0.00972,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 153.86,
   "treasury_usdc_balance": 4141.27754,
   "bot_token_accounts": 1029,
   "seller_token_accounts": 316
