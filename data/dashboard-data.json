@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-17T09:20:11.012420+00:00",
+ "generated": "2026-10-17T09:40:11.120380+00:00",
  "summary": {
-  "bot_txns_per_day": 31765,
+  "bot_txns_per_day": 30316,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1029,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 82.81,
   "treasury_usdc_balance": 3895.58754,
-  "seller_txns_per_day": 6672,
+  "seller_txns_per_day": 5434,
   "seller_listing_updates": 24,
   "total_acquisitions": 60,
-  "total_sales": 61,
+  "total_sales": 62,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4231.64
+  "total_sale_usdc": 4286.03
  },
  "balance_history": [
   {
@@ -11241,6 +11241,13 @@
    "treasury_usdc": 3895.59,
    "bot_sol": 3.5896,
    "seller_sol": 0.0824
+  },
+  {
+   "ts": "2026-10-17T09:40:11.120380+00:00",
+   "seller_usdc": 82.81,
+   "treasury_usdc": 3895.59,
+   "bot_sol": 3.0852,
+   "seller_sol": 0.0832
   }
  ],
  "acquisitions": [
@@ -11786,6 +11793,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-17 09:43",
+   "usdc_received": 54.39,
+   "tx": "VvpB3RZj8uFnUuz8AjnvpjBJRSMP65R54MYhCazqpDcRoHDwEvXeFobyEyJ1J8qhPL79KkDBJ17whybaQadCEFi",
+   "card": "2025 #23 Mega Charizard X Ex CGC",
+   "image": "https://arweave.net/Lt78ZZwNFd-Im4wuK6hOZk2Zpudy7yTT0gAkAZ890rU",
+   "cc_id": "2026072228C209411",
+   "insured": "50",
+   "buyer": ""
+  },
   {
    "time": "10-16 18:48",
    "usdc_received": 153.86,
@@ -12398,12 +12415,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:59, MakeOffer:41, CancelOffer:14",
-  "seller_instruction_mix": "UpdateListing:24, MakeOffer:1, SetOfferExpiry:1",
-  "bot_sol_balance": 3.589580495,
-  "seller_sol_balance": 0.082433938,
+  "bot_instruction_mix": "UpdateOffer:48, MakeOffer:43, CancelOffer:16",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 3.085183455,
+  "seller_sol_balance": 0.083229698,
   "bot_usdc_balance": 0.00972,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 82.81,
   "treasury_usdc_balance": 3895.58754,
   "bot_token_accounts": 1029,
   "seller_token_accounts": 316

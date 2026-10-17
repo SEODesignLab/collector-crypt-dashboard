@@ -1090,6 +1090,15 @@
    "image": "https://arweave.net/23SOSZUKjPWv4e4nqRKfcCOHkDNdscgA4DursLM9rP0",
    "cc_id": "202607107C182539",
    "insured": "140"
+  },
+  {
+   "time": "10-17 09:43",
+   "usdc_received": 54.39,
+   "tx": "VvpB3RZj8uFnUuz8AjnvpjBJRSMP65R54MYhCazqpDcRoHDwEvXeFobyEyJ1J8qhPL79KkDBJ17whybaQadCEFi",
+   "card": "2025 #23 Mega Charizard X Ex CGC",
+   "image": "https://arweave.net/Lt78ZZwNFd-Im4wuK6hOZk2Zpudy7yTT0gAkAZ890rU",
+   "cc_id": "2026072228C209411",
+   "insured": "50"
   }
  ],
  "balance_history": [
@@ -12319,6 +12328,13 @@
    "treasury_usdc": 3895.59,
    "bot_sol": 3.5896,
    "seller_sol": 0.0824
+  },
+  {
+   "ts": "2026-10-17T09:40:11.120380+00:00",
+   "seller_usdc": 82.81,
+   "treasury_usdc": 3895.59,
+   "bot_sol": 3.0852,
+   "seller_sol": 0.0832
   }
  ],
  "sweeps": [
