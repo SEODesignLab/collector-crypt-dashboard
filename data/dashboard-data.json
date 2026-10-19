@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-19T12:00:28.726538+00:00",
+ "generated": "2026-10-19T12:20:28.855547+00:00",
  "summary": {
-  "bot_txns_per_day": 11535,
+  "bot_txns_per_day": 8991,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1030,
   "bot_holdings": 1,
-  "seller_usdc_balance": 140.14,
+  "seller_usdc_balance": 229.32,
   "treasury_usdc_balance": 3568.936874,
-  "seller_txns_per_day": 9412,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 6433,
+  "seller_listing_updates": 23,
   "total_acquisitions": 60,
-  "total_sales": 62,
+  "total_sales": 63,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4286.03
+  "total_sale_usdc": 4375.21
  },
  "balance_history": [
   {
@@ -12305,6 +12305,13 @@
    "treasury_usdc": 3568.94,
    "bot_sol": 26.1528,
    "seller_sol": 0.1691
+  },
+  {
+   "ts": "2026-10-19T12:20:28.855547+00:00",
+   "seller_usdc": 229.32,
+   "treasury_usdc": 3568.94,
+   "bot_sol": 26.174,
+   "seller_sol": 0.1703
   }
  ],
  "acquisitions": [
@@ -12850,6 +12857,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-19 12:23",
+   "usdc_received": 89.18,
+   "tx": "5VYAwwfiYgqhb9soesJDYg8BZ3zfp5VEcXtafjpv5zj3HabeNBepHonk5tWwXtMkBTRAfKSbPcqA5gnakycU2nxE",
+   "card": "2022 #157 Sword & Shield Brillia",
+   "image": "https://nft.collectorcrypt.com/front/2026090328C244114",
+   "cc_id": "2026090328C244114",
+   "insured": "65",
+   "buyer": ""
+  },
   {
    "time": "10-17 09:43",
    "usdc_received": 54.39,
@@ -13472,12 +13489,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:49, CancelOffer:3, MakeOffer:3",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 26.152799877,
-  "seller_sol_balance": 0.169126107,
+  "bot_instruction_mix": "UpdateOffer:106, CancelOffer:17, MakeOffer:1",
+  "seller_instruction_mix": "UpdateListing:23, MakeOffer:1, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 26.174026677,
+  "seller_sol_balance": 0.170262762,
   "bot_usdc_balance": 0.003711,
-  "seller_usdc_balance": 140.14,
+  "seller_usdc_balance": 229.32,
   "treasury_usdc_balance": 3568.936874,
   "bot_token_accounts": 1030,
   "seller_token_accounts": 317

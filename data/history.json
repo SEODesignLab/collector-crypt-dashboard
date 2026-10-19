@@ -1099,6 +1099,15 @@
    "image": "https://arweave.net/Lt78ZZwNFd-Im4wuK6hOZk2Zpudy7yTT0gAkAZ890rU",
    "cc_id": "2026072228C209411",
    "insured": "50"
+  },
+  {
+   "time": "10-19 12:23",
+   "usdc_received": 89.18,
+   "tx": "5VYAwwfiYgqhb9soesJDYg8BZ3zfp5VEcXtafjpv5zj3HabeNBepHonk5tWwXtMkBTRAfKSbPcqA5gnakycU2nxE",
+   "card": "2022 #157 Sword & Shield Brillia",
+   "image": "https://nft.collectorcrypt.com/front/2026090328C244114",
+   "cc_id": "2026090328C244114",
+   "insured": "65"
   }
  ],
  "balance_history": [
@@ -13392,6 +13401,13 @@
    "treasury_usdc": 3568.94,
    "bot_sol": 26.1528,
    "seller_sol": 0.1691
+  },
+  {
+   "ts": "2026-10-19T12:20:28.855547+00:00",
+   "seller_usdc": 229.32,
+   "treasury_usdc": 3568.94,
+   "bot_sol": 26.174,
+   "seller_sol": 0.1703
   }
  ],
  "sweeps": [
