@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-21T09:40:54.303092+00:00",
+ "generated": "2026-10-21T10:00:54.426105+00:00",
  "summary": {
-  "bot_txns_per_day": 176327,
+  "bot_txns_per_day": 172800,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1030,
   "bot_holdings": 2,
-  "seller_usdc_balance": 97.02,
+  "seller_usdc_balance": 122.5,
   "treasury_usdc_balance": 3886.17679,
-  "seller_txns_per_day": 8244,
+  "seller_txns_per_day": 6293,
   "seller_listing_updates": 24,
   "total_acquisitions": 61,
-  "total_sales": 67,
+  "total_sales": 68,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4507.51
+  "total_sale_usdc": 4532.99
  },
  "balance_history": [
   {
@@ -13264,6 +13264,13 @@
    "treasury_usdc": 3886.18,
    "bot_sol": 14.2622,
    "seller_sol": 0.2559
+  },
+  {
+   "ts": "2026-10-21T10:00:54.426105+00:00",
+   "seller_usdc": 122.5,
+   "treasury_usdc": 3886.18,
+   "bot_sol": 14.2813,
+   "seller_sol": 0.2568
   }
  ],
  "acquisitions": [
@@ -13818,6 +13825,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-21 10:04",
+   "usdc_received": 25.48,
+   "tx": "3iuKELAa3yXUuemVo2op3D88NVRs5b7NQpQWVxjHGtrNzYqXqm2oSqw578KnDoHnMkT2bgLjUabmFYGakiKm7ajt",
+   "card": "2023 #120 PIKACHU PSA 9 Japanese",
+   "image": "https://nft.collectorcrypt.com/front/2026082133C228980",
+   "cc_id": "2026082133C228980",
+   "insured": "30",
+   "buyer": ""
+  },
   {
    "time": "10-21 09:42",
    "usdc_received": 49.49,
@@ -14490,12 +14507,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:234",
+  "bot_instruction_mix": "UpdateOffer:239",
   "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
-  "bot_sol_balance": 14.262206823,
-  "seller_sol_balance": 0.255906478,
+  "bot_sol_balance": 14.281257343,
+  "seller_sol_balance": 0.256760213,
   "bot_usdc_balance": 0.005127,
-  "seller_usdc_balance": 97.02,
+  "seller_usdc_balance": 122.5,
   "treasury_usdc_balance": 3886.17679,
   "bot_token_accounts": 1030,
   "seller_token_accounts": 323

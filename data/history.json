@@ -1153,6 +1153,15 @@
    "image": "https://nft.collectorcrypt.com/front/202608287C233052",
    "cc_id": "202608287C233052",
    "insured": "48"
+  },
+  {
+   "time": "10-21 10:04",
+   "usdc_received": 25.48,
+   "tx": "3iuKELAa3yXUuemVo2op3D88NVRs5b7NQpQWVxjHGtrNzYqXqm2oSqw578KnDoHnMkT2bgLjUabmFYGakiKm7ajt",
+   "card": "2023 #120 PIKACHU PSA 9 Japanese",
+   "image": "https://nft.collectorcrypt.com/front/2026082133C228980",
+   "cc_id": "2026082133C228980",
+   "insured": "30"
   }
  ],
  "balance_history": [
@@ -14405,6 +14414,13 @@
    "treasury_usdc": 3886.18,
    "bot_sol": 14.2622,
    "seller_sol": 0.2559
+  },
+  {
+   "ts": "2026-10-21T10:00:54.426105+00:00",
+   "seller_usdc": 122.5,
+   "treasury_usdc": 3886.18,
+   "bot_sol": 14.2813,
+   "seller_sol": 0.2568
   }
  ],
  "sweeps": [
