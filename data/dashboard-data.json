@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-21T15:20:56.208827+00:00",
+ "generated": "2026-10-21T15:40:56.313542+00:00",
  "summary": {
-  "bot_txns_per_day": 172800,
+  "bot_txns_per_day": 169412,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1029,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 116.62,
   "treasury_usdc_balance": 4586.75679,
-  "seller_txns_per_day": 5967,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 7254,
+  "seller_listing_updates": 23,
   "total_acquisitions": 61,
-  "total_sales": 68,
+  "total_sales": 70,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4532.99
+  "total_sale_usdc": 4649.61
  },
  "balance_history": [
   {
@@ -13383,6 +13383,13 @@
    "treasury_usdc": 4586.76,
    "bot_sol": 14.718,
    "seller_sol": 0.2497
+  },
+  {
+   "ts": "2026-10-21T15:40:56.313542+00:00",
+   "seller_usdc": 116.62,
+   "treasury_usdc": 4586.76,
+   "bot_sol": 14.7427,
+   "seller_sol": 0.2518
   }
  ],
  "acquisitions": [
@@ -13937,6 +13944,26 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-21 15:41",
+   "usdc_received": 51.94,
+   "tx": "5UWsgiZEUUkNjqY5h8Bp5CRXtr5dj7mNC9u2Ws3JrDu7co2LMvgZM4vaDTssUzGSEd8axc3euxe4zEfcpSG3Fv61",
+   "card": "1999 #4 PIKACHU PSA 6 Game Movie",
+   "image": "https://nft.collectorcrypt.com/front/2026091219C254191",
+   "cc_id": "2026091219C254191",
+   "insured": "50",
+   "buyer": ""
+  },
+  {
+   "time": "10-21 15:42",
+   "usdc_received": 64.68,
+   "tx": "4mnwnKU8wJuSvrTKa3W56jztcrBKunyhFBXyCdTPCZGm9gtcwgRrVUqtNhH8e7F7d56sHbxMXcKRhzsd1ahexjzN",
+   "card": "2000 #10 Meganium-Holo PSA 6 Neo",
+   "image": "https://arweave.net/wPhbLVCbvpxGaJY5zGUpzTmF8HQS_G3cQoMIPNP8SXY",
+   "cc_id": "2026062443C158806",
+   "insured": "71",
+   "buyer": ""
+  },
   {
    "time": "10-21 10:04",
    "usdc_received": 25.48,
@@ -14619,12 +14646,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:229",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 14.718023623,
-  "seller_sol_balance": 0.249658537,
+  "bot_instruction_mix": "UpdateOffer:235",
+  "seller_instruction_mix": "UpdateListing:23, BuyCore:2, Transfer:2",
+  "bot_sol_balance": 14.742650731,
+  "seller_sol_balance": 0.251840662,
   "bot_usdc_balance": 0.005627,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 116.62,
   "treasury_usdc_balance": 4586.75679,
   "bot_token_accounts": 1029,
   "seller_token_accounts": 323

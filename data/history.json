@@ -1162,6 +1162,24 @@
    "image": "https://nft.collectorcrypt.com/front/2026082133C228980",
    "cc_id": "2026082133C228980",
    "insured": "30"
+  },
+  {
+   "time": "10-21 15:42",
+   "usdc_received": 64.68,
+   "tx": "4mnwnKU8wJuSvrTKa3W56jztcrBKunyhFBXyCdTPCZGm9gtcwgRrVUqtNhH8e7F7d56sHbxMXcKRhzsd1ahexjzN",
+   "card": "2000 #10 Meganium-Holo PSA 6 Neo",
+   "image": "https://arweave.net/wPhbLVCbvpxGaJY5zGUpzTmF8HQS_G3cQoMIPNP8SXY",
+   "cc_id": "2026062443C158806",
+   "insured": "71"
+  },
+  {
+   "time": "10-21 15:41",
+   "usdc_received": 51.94,
+   "tx": "5UWsgiZEUUkNjqY5h8Bp5CRXtr5dj7mNC9u2Ws3JrDu7co2LMvgZM4vaDTssUzGSEd8axc3euxe4zEfcpSG3Fv61",
+   "card": "1999 #4 PIKACHU PSA 6 Game Movie",
+   "image": "https://nft.collectorcrypt.com/front/2026091219C254191",
+   "cc_id": "2026091219C254191",
+   "insured": "50"
   }
  ],
  "balance_history": [
@@ -14533,6 +14551,13 @@
    "treasury_usdc": 4586.76,
    "bot_sol": 14.718,
    "seller_sol": 0.2497
+  },
+  {
+   "ts": "2026-10-21T15:40:56.313542+00:00",
+   "seller_usdc": 116.62,
+   "treasury_usdc": 4586.76,
+   "bot_sol": 14.7427,
+   "seller_sol": 0.2518
   }
  ],
  "sweeps": [
