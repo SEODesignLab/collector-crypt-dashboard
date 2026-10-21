@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-21T09:20:54.204918+00:00",
+ "generated": "2026-10-21T09:40:54.303092+00:00",
  "summary": {
-  "bot_txns_per_day": 172800,
+  "bot_txns_per_day": 176327,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1030,
   "bot_holdings": 2,
-  "seller_usdc_balance": 47.53,
+  "seller_usdc_balance": 97.02,
   "treasury_usdc_balance": 3886.17679,
-  "seller_txns_per_day": 6555,
+  "seller_txns_per_day": 8244,
   "seller_listing_updates": 24,
   "total_acquisitions": 61,
-  "total_sales": 66,
+  "total_sales": 67,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4458.02
+  "total_sale_usdc": 4507.51
  },
  "balance_history": [
   {
@@ -13257,6 +13257,13 @@
    "treasury_usdc": 3886.18,
    "bot_sol": 14.2348,
    "seller_sol": 0.2553
+  },
+  {
+   "ts": "2026-10-21T09:40:54.303092+00:00",
+   "seller_usdc": 97.02,
+   "treasury_usdc": 3886.18,
+   "bot_sol": 14.2622,
+   "seller_sol": 0.2559
   }
  ],
  "acquisitions": [
@@ -13811,6 +13818,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-21 09:42",
+   "usdc_received": 49.49,
+   "tx": "2QaC9cEC3oF4W8WrNPcaUKp1uyPbLE39gzJ3vPR8BrxLmxd3ZKqjMBMBMY5SR2qBtEbZfATu3t5BWcfajshsqgsL",
+   "card": "2026 #055 Nico Robin PSA 10 One",
+   "image": "https://nft.collectorcrypt.com/front/202608287C233052",
+   "cc_id": "202608287C233052",
+   "insured": "48",
+   "buyer": ""
+  },
   {
    "time": "10-21 07:04",
    "usdc_received": 29.4,
@@ -14473,12 +14490,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:232",
-  "seller_instruction_mix": "UpdateListing:24, MakeOffer:2",
-  "bot_sol_balance": 14.234802583,
-  "seller_sol_balance": 0.255302138,
+  "bot_instruction_mix": "UpdateOffer:234",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 14.262206823,
+  "seller_sol_balance": 0.255906478,
   "bot_usdc_balance": 0.005127,
-  "seller_usdc_balance": 47.53,
+  "seller_usdc_balance": 97.02,
   "treasury_usdc_balance": 3886.17679,
   "bot_token_accounts": 1030,
   "seller_token_accounts": 323

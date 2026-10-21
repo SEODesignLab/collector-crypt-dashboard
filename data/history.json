@@ -1144,6 +1144,15 @@
    "image": "https://arweave.net/O3gpfPnJpel7CdWek5oj7idVJLTXJa3uK1irF0W7Wfk",
    "cc_id": "2026072222C210638",
    "insured": "29"
+  },
+  {
+   "time": "10-21 09:42",
+   "usdc_received": 49.49,
+   "tx": "2QaC9cEC3oF4W8WrNPcaUKp1uyPbLE39gzJ3vPR8BrxLmxd3ZKqjMBMBMY5SR2qBtEbZfATu3t5BWcfajshsqgsL",
+   "card": "2026 #055 Nico Robin PSA 10 One",
+   "image": "https://nft.collectorcrypt.com/front/202608287C233052",
+   "cc_id": "202608287C233052",
+   "insured": "48"
   }
  ],
  "balance_history": [
@@ -14389,6 +14398,13 @@
    "treasury_usdc": 3886.18,
    "bot_sol": 14.2348,
    "seller_sol": 0.2553
+  },
+  {
+   "ts": "2026-10-21T09:40:54.303092+00:00",
+   "seller_usdc": 97.02,
+   "treasury_usdc": 3886.18,
+   "bot_sol": 14.2622,
+   "seller_sol": 0.2559
   }
  ],
  "sweeps": [
