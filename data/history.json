@@ -1135,6 +1135,15 @@
    "image": "https://arweave.net/bj9Ki-zuQ4WxEAtGBUH4T3bDbgQbTUc2OGOT_3ABOYc",
    "cc_id": "2026072241C210799",
    "insured": "19"
+  },
+  {
+   "time": "10-21 07:04",
+   "usdc_received": 29.4,
+   "tx": "2dvw8ocbMDD5hhKp8yH6V8bp8CgRcbmqvgLoFtmA9qopm9DUNN99i9iHEvMbwUvUAoKdzbiBod7JGMW2YjTkDSCs",
+   "card": "2025 #108 Mega Heracross Ex CGC",
+   "image": "https://arweave.net/O3gpfPnJpel7CdWek5oj7idVJLTXJa3uK1irF0W7Wfk",
+   "cc_id": "2026072222C210638",
+   "insured": "29"
   }
  ],
  "balance_history": [
@@ -14324,6 +14333,13 @@
    "treasury_usdc": 4210.57,
    "bot_sol": 14.044,
    "seller_sol": 0.2589
+  },
+  {
+   "ts": "2026-10-21T07:00:53.429378+00:00",
+   "seller_usdc": 47.53,
+   "treasury_usdc": 3908.78,
+   "bot_sol": 14.0895,
+   "seller_sol": 0.2596
   }
  ],
  "sweeps": [
