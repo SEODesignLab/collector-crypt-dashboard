@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-22T15:00:03.972022+00:00",
+ "generated": "2026-10-22T15:20:04.044587+00:00",
  "summary": {
-  "bot_txns_per_day": 100465,
+  "bot_txns_per_day": 109367,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1033,
   "bot_holdings": 2,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 36.26,
   "treasury_usdc_balance": 4082.028656,
-  "seller_txns_per_day": 7592,
-  "seller_listing_updates": 25,
+  "seller_txns_per_day": 5922,
+  "seller_listing_updates": 24,
   "total_acquisitions": 61,
-  "total_sales": 70,
+  "total_sales": 71,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4649.61
+  "total_sale_usdc": 4685.87
  },
  "balance_history": [
   {
@@ -13880,6 +13880,13 @@
    "treasury_usdc": 4082.03,
    "bot_sol": 14.9798,
    "seller_sol": 0.2117
+  },
+  {
+   "ts": "2026-10-22T15:20:04.044587+00:00",
+   "seller_usdc": 36.26,
+   "treasury_usdc": 4082.03,
+   "bot_sol": 14.9873,
+   "seller_sol": 0.2125
   }
  ],
  "acquisitions": [
@@ -14434,6 +14441,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-22 15:22",
+   "usdc_received": 36.26,
+   "tx": "5KXDuT5yFVFXmJCEgfeeBnrgyZU899qg38eybELfec1Y5rkUbGK7yBTGLsFNaY4vQqq2Qiog3LKpjLxuK61ddV9m",
+   "card": "2024 #071 Phione PSA 10 Japanese",
+   "image": "https://nft.collectorcrypt.com/front/2026100610C277160",
+   "cc_id": "2026100610C277160",
+   "insured": "35",
+   "buyer": ""
+  },
   {
    "time": "10-21 15:41",
    "usdc_received": 51.94,
@@ -15136,12 +15153,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:98",
-  "seller_instruction_mix": "UpdateListing:25",
-  "bot_sol_balance": 14.979812832,
-  "seller_sol_balance": 0.211671691,
+  "bot_instruction_mix": "UpdateOffer:118",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 14.987255077,
+  "seller_sol_balance": 0.212533471,
   "bot_usdc_balance": 0.005627,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 36.26,
   "treasury_usdc_balance": 4082.028656,
   "bot_token_accounts": 1033,
   "seller_token_accounts": 323

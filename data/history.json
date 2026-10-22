@@ -1180,6 +1180,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026091219C254191",
    "cc_id": "2026091219C254191",
    "insured": "50"
+  },
+  {
+   "time": "10-22 15:22",
+   "usdc_received": 36.26,
+   "tx": "5KXDuT5yFVFXmJCEgfeeBnrgyZU899qg38eybELfec1Y5rkUbGK7yBTGLsFNaY4vQqq2Qiog3LKpjLxuK61ddV9m",
+   "card": "2024 #071 Phione PSA 10 Japanese",
+   "image": "https://nft.collectorcrypt.com/front/2026100610C277160",
+   "cc_id": "2026100610C277160",
+   "insured": "35"
   }
  ],
  "balance_history": [
@@ -15048,6 +15057,13 @@
    "treasury_usdc": 4082.03,
    "bot_sol": 14.9798,
    "seller_sol": 0.2117
+  },
+  {
+   "ts": "2026-10-22T15:20:04.044587+00:00",
+   "seller_usdc": 36.26,
+   "treasury_usdc": 4082.03,
+   "bot_sol": 14.9873,
+   "seller_sol": 0.2125
   }
  ],
  "sweeps": [
