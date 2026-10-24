@@ -1189,6 +1189,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026100610C277160",
    "cc_id": "2026100610C277160",
    "insured": "35"
+  },
+  {
+   "time": "10-24 02:22",
+   "usdc_received": 49.49,
+   "tx": "2Ca2Uit7Yymkqhv1RoCFJ6v9dBhqcySNCcYNhtqwk6VhVfxx6nD1shFFUHk5BxSWb9Q48D886EKiJjo1FJf4pUCq",
+   "card": "2026 #29 Mega Charizard X Ex CGC",
+   "image": "https://arweave.net/Q7mme-v0AjBVq3t9iGvN7UdaMhm3tDiT4gxwqlQmmGI",
+   "cc_id": "2026072223C209363",
+   "insured": "35"
   }
  ],
  "balance_history": [
@@ -15792,6 +15801,13 @@
    "treasury_usdc": 3668.13,
    "bot_sol": 73.7983,
    "seller_sol": 0.1347
+  },
+  {
+   "ts": "2026-10-24T02:20:15.223995+00:00",
+   "seller_usdc": 148.96,
+   "treasury_usdc": 3668.13,
+   "bot_sol": 73.7983,
+   "seller_sol": 0.1354
   }
  ],
  "sweeps": [

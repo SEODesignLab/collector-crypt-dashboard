@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-24T02:00:15.139265+00:00",
+ "generated": "2026-10-24T02:20:15.223995+00:00",
  "summary": {
   "bot_txns_per_day": 98182,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1036,
   "bot_holdings": 1,
-  "seller_usdc_balance": 99.47,
+  "seller_usdc_balance": 148.96,
   "treasury_usdc_balance": 3668.128656,
-  "seller_txns_per_day": 7701,
-  "seller_listing_updates": 23,
+  "seller_txns_per_day": 7303,
+  "seller_listing_updates": 24,
   "total_acquisitions": 61,
-  "total_sales": 71,
+  "total_sales": 72,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4685.87
+  "total_sale_usdc": 4735.36
  },
  "balance_history": [
   {
@@ -14615,6 +14615,13 @@
    "treasury_usdc": 3668.13,
    "bot_sol": 73.7983,
    "seller_sol": 0.1347
+  },
+  {
+   "ts": "2026-10-24T02:20:15.223995+00:00",
+   "seller_usdc": 148.96,
+   "treasury_usdc": 3668.13,
+   "bot_sol": 73.7983,
+   "seller_sol": 0.1354
   }
  ],
  "acquisitions": [
@@ -15169,6 +15176,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-24 02:22",
+   "usdc_received": 49.49,
+   "tx": "2Ca2Uit7Yymkqhv1RoCFJ6v9dBhqcySNCcYNhtqwk6VhVfxx6nD1shFFUHk5BxSWb9Q48D886EKiJjo1FJf4pUCq",
+   "card": "2026 #29 Mega Charizard X Ex CGC",
+   "image": "https://arweave.net/Q7mme-v0AjBVq3t9iGvN7UdaMhm3tDiT4gxwqlQmmGI",
+   "cc_id": "2026072223C209363",
+   "insured": "35",
+   "buyer": ""
+  },
   {
    "time": "10-22 15:22",
    "usdc_received": 36.26,
@@ -15882,11 +15899,11 @@
  ],
  "profile": {
   "bot_instruction_mix": "CancelOffer:270",
-  "seller_instruction_mix": "UpdateListing:23, MakeOffer:2, BuyPnft:1, Validate:1",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
   "bot_sol_balance": 73.798315698,
-  "seller_sol_balance": 0.134685413,
+  "seller_sol_balance": 0.135378248,
   "bot_usdc_balance": 0.001397,
-  "seller_usdc_balance": 99.47,
+  "seller_usdc_balance": 148.96,
   "treasury_usdc_balance": 3668.128656,
   "bot_token_accounts": 1036,
   "seller_token_accounts": 323
