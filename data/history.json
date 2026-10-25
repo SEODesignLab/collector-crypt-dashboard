@@ -1216,6 +1216,15 @@
    "image": "https://arweave.net/Q7mme-v0AjBVq3t9iGvN7UdaMhm3tDiT4gxwqlQmmGI",
    "cc_id": "2026072223C209363",
    "insured": "35"
+  },
+  {
+   "time": "10-25 00:01",
+   "usdc_received": 117.6,
+   "tx": "29VKKyJun7iKkDoR349XH8mcz3vXTrnFyiyokaseGLkvsBGXbZpVtLVYvB2cgRwHqkqapNrBDeVXdm5aQzzv9WzP",
+   "card": "2024 #154 Pikachu in Batik Shirt",
+   "image": "https://arweave.net/7U4WxlVr42ld_hEVjn6iMisjVVd3XipGXHcl3BiACys",
+   "cc_id": "2026070811C180334",
+   "insured": "140"
   }
  ],
  "balance_history": [
@@ -16274,6 +16283,13 @@
    "treasury_usdc": 5018.08,
    "bot_sol": 3.2513,
    "seller_sol": 0.0952
+  },
+  {
+   "ts": "2026-10-25T00:00:22.132893+00:00",
+   "seller_usdc": 117.6,
+   "treasury_usdc": 5018.08,
+   "bot_sol": 3.2618,
+   "seller_sol": 0.096
   }
  ],
  "sweeps": [

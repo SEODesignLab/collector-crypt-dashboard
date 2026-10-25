@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-24T23:40:22.011360+00:00",
+ "generated": "2026-10-25T00:00:22.132893+00:00",
  "summary": {
-  "bot_txns_per_day": 22442,
+  "bot_txns_per_day": 128955,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1036,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 117.6,
   "treasury_usdc_balance": 5018.075174,
-  "seller_txns_per_day": 6050,
+  "seller_txns_per_day": 6448,
   "seller_listing_updates": 24,
   "total_acquisitions": 63,
-  "total_sales": 72,
+  "total_sales": 73,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4735.36
+  "total_sale_usdc": 4852.96
  },
  "balance_history": [
   {
@@ -15070,6 +15070,13 @@
    "treasury_usdc": 5018.08,
    "bot_sol": 3.2513,
    "seller_sol": 0.0952
+  },
+  {
+   "ts": "2026-10-25T00:00:22.132893+00:00",
+   "seller_usdc": 117.6,
+   "treasury_usdc": 5018.08,
+   "bot_sol": 3.2618,
+   "seller_sol": 0.096
   }
  ],
  "acquisitions": [
@@ -15642,6 +15649,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-25 00:01",
+   "usdc_received": 117.6,
+   "tx": "29VKKyJun7iKkDoR349XH8mcz3vXTrnFyiyokaseGLkvsBGXbZpVtLVYvB2cgRwHqkqapNrBDeVXdm5aQzzv9WzP",
+   "card": "2024 #154 Pikachu in Batik Shirt",
+   "image": "https://arweave.net/7U4WxlVr42ld_hEVjn6iMisjVVd3XipGXHcl3BiACys",
+   "cc_id": "2026070811C180334",
+   "insured": "140",
+   "buyer": ""
+  },
   {
    "time": "10-24 02:22",
    "usdc_received": 49.49,
@@ -16364,12 +16381,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:56, CancelOffer:16, MakeOffer:13, SetOfferExpiry:13",
-  "seller_instruction_mix": "UpdateListing:24, MakeOffer:3",
-  "bot_sol_balance": 3.251262523,
-  "seller_sol_balance": 0.095161908,
+  "bot_instruction_mix": "UpdateOffer:214, CancelOffer:8, MakeOffer:4, SetOfferExpiry:4",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 3.261836363,
+  "seller_sol_balance": 0.095967373,
   "bot_usdc_balance": 0.001397,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 117.6,
   "treasury_usdc_balance": 5018.075174,
   "bot_token_accounts": 1036,
   "seller_token_accounts": 323
