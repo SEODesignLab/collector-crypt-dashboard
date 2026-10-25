@@ -1234,6 +1234,15 @@
    "image": "https://arweave.net/7U4WxlVr42ld_hEVjn6iMisjVVd3XipGXHcl3BiACys",
    "cc_id": "2026070811C180334",
    "insured": "140"
+  },
+  {
+   "time": "10-25 12:05",
+   "usdc_received": 51.94,
+   "tx": "5Z6mW15dGQCp5Zk3LQWMeWFca8RQHDmA16nhWwKYt2PqQgd36GdJAa3uBbppzB6MPECd1j3neTexqN6zkkx1ZTpP",
+   "card": "2025 #002 Portgas D. Ace PSA 10",
+   "image": "https://nft.collectorcrypt.com/front/2026082919C235370",
+   "cc_id": "2026082919C235370",
+   "insured": "43"
   }
  ],
  "balance_history": [
@@ -16544,6 +16553,13 @@
    "treasury_usdc": 6027.12,
    "bot_sol": 4.9565,
    "seller_sol": 0.0718
+  },
+  {
+   "ts": "2026-10-25T12:00:26.158886+00:00",
+   "seller_usdc": 51.94,
+   "treasury_usdc": 5991.45,
+   "bot_sol": 4.9809,
+   "seller_sol": 0.0726
   }
  ],
  "sweeps": [
