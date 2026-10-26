@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-26T03:00:31.091512+00:00",
+ "generated": "2026-10-26T03:20:31.190483+00:00",
  "summary": {
-  "bot_txns_per_day": 227368,
+  "bot_txns_per_day": 210732,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1036,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 138.67,
   "treasury_usdc_balance": 5445.430855,
-  "seller_txns_per_day": 834,
+  "seller_txns_per_day": 433,
   "seller_listing_updates": 0,
   "total_acquisitions": 64,
-  "total_sales": 74,
+  "total_sales": 75,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4904.9
+  "total_sale_usdc": 4967.13
  },
  "balance_history": [
   {
@@ -15644,6 +15644,13 @@
    "treasury_usdc": 5445.43,
    "bot_sol": 4.9822,
    "seller_sol": 0.0546
+  },
+  {
+   "ts": "2026-10-26T03:20:31.190483+00:00",
+   "seller_usdc": 138.67,
+   "treasury_usdc": 5445.43,
+   "bot_sol": 4.9526,
+   "seller_sol": 0.0575
   }
  ],
  "acquisitions": [
@@ -16225,6 +16232,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-26 03:13",
+   "usdc_received": 62.23,
+   "tx": "2S3cx9XNPSF6FgiSvqTqQfTRFUA2XryMzLiZA2GCRFTVGL5TDQKRg664gY4pUMMysbkByvo1Yg8rNEJqJ69a7qLw",
+   "card": "1999 #12 Vaporeon-Holo PSA 6 Jun",
+   "image": "https://arweave.net/sXhu-LdT-cXlg11umSQCkVDNt60xXBVhLvoLETK3fVA",
+   "cc_id": "2026071017C182417",
+   "insured": "64",
+   "buyer": ""
+  },
   {
    "time": "10-25 12:05",
    "usdc_received": 51.94,
@@ -16967,12 +16984,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:243, MakeOffer:1, SetOfferExpiry:1",
-  "seller_instruction_mix": "MakeOffer:25, SetOfferExpiry:23",
-  "bot_sol_balance": 4.982161029,
-  "seller_sol_balance": 0.054555809,
+  "bot_instruction_mix": "UpdateOffer:242, MakeOffer:2, SetOfferExpiry:2",
+  "seller_instruction_mix": "MakeOffer:23, SetOfferExpiry:17, BuyPnft:1, Validate:1",
+  "bot_sol_balance": 4.952603909,
+  "seller_sol_balance": 0.057502209,
   "bot_usdc_balance": 0.00858,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 138.67,
   "treasury_usdc_balance": 5445.430855,
   "bot_token_accounts": 1036,
   "seller_token_accounts": 323

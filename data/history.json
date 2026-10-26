@@ -1243,6 +1243,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026082919C235370",
    "cc_id": "2026082919C235370",
    "insured": "43"
+  },
+  {
+   "time": "10-26 03:13",
+   "usdc_received": 62.23,
+   "tx": "2S3cx9XNPSF6FgiSvqTqQfTRFUA2XryMzLiZA2GCRFTVGL5TDQKRg664gY4pUMMysbkByvo1Yg8rNEJqJ69a7qLw",
+   "card": "1999 #12 Vaporeon-Holo PSA 6 Jun",
+   "image": "https://arweave.net/sXhu-LdT-cXlg11umSQCkVDNt60xXBVhLvoLETK3fVA",
+   "cc_id": "2026071017C182417",
+   "insured": "64"
   }
  ],
  "balance_history": [
@@ -16875,6 +16884,13 @@
    "treasury_usdc": 5445.43,
    "bot_sol": 4.9822,
    "seller_sol": 0.0546
+  },
+  {
+   "ts": "2026-10-26T03:20:31.190483+00:00",
+   "seller_usdc": 138.67,
+   "treasury_usdc": 5445.43,
+   "bot_sol": 4.9526,
+   "seller_sol": 0.0575
   }
  ],
  "sweeps": [
