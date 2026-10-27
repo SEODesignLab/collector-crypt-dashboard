@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-27T17:40:20.114111+00:00",
+ "generated": "2026-10-27T18:00:20.210805+00:00",
  "summary": {
-  "bot_txns_per_day": 205714,
+  "bot_txns_per_day": 297931,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1039,
   "bot_holdings": 3,
-  "seller_usdc_balance": 80.36,
+  "seller_usdc_balance": 152.88,
   "treasury_usdc_balance": 4073.751007,
-  "seller_txns_per_day": 7188,
-  "seller_listing_updates": 22,
+  "seller_txns_per_day": 6787,
+  "seller_listing_updates": 23,
   "total_acquisitions": 68,
-  "total_sales": 75,
+  "total_sales": 76,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 4967.13
+  "total_sale_usdc": 5039.65
  },
  "balance_history": [
   {
@@ -16456,6 +16456,13 @@
    "treasury_usdc": 4073.75,
    "bot_sol": 11.3885,
    "seller_sol": 0.1928
+  },
+  {
+   "ts": "2026-10-27T18:00:20.210805+00:00",
+   "seller_usdc": 152.88,
+   "treasury_usdc": 4073.75,
+   "bot_sol": 11.4061,
+   "seller_sol": 0.1935
   }
  ],
  "acquisitions": [
@@ -17073,6 +17080,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-27 18:03",
+   "usdc_received": 72.52,
+   "tx": "38LiY4XhyiDKirjgooRodqcMhu5aFf4nFK2GtPh8q2Z3X2Wu2ZWjn5612uFX4D9rm4cK6dLsaorGyryGRA6KRTcp",
+   "card": "2023 #142 BELLE PSA 9 Disney Lor",
+   "image": "https://nft.collectorcrypt.com/front/2026091226C254346",
+   "cc_id": "2026091226C254346",
+   "insured": "30",
+   "buyer": ""
+  },
   {
    "time": "10-26 03:13",
    "usdc_received": 62.23,
@@ -17825,12 +17842,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:217, MakeOffer:5, SetOfferExpiry:5, CancelOffer:1",
-  "seller_instruction_mix": "UpdateListing:22, MakeOffer:3",
-  "bot_sol_balance": 11.388476303,
-  "seller_sol_balance": 0.192751528,
+  "bot_instruction_mix": "UpdateOffer:236, CancelOffer:1, MakeOffer:1, SetOfferExpiry:1",
+  "seller_instruction_mix": "UpdateListing:23, BuyCore:1, Transfer:1, MakeOffer:1",
+  "bot_sol_balance": 11.406112357,
+  "seller_sol_balance": 0.193532858,
   "bot_usdc_balance": 0.003319,
-  "seller_usdc_balance": 80.36,
+  "seller_usdc_balance": 152.88,
   "treasury_usdc_balance": 4073.751007,
   "bot_token_accounts": 1039,
   "seller_token_accounts": 323

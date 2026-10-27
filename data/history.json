@@ -1288,6 +1288,15 @@
    "image": "https://arweave.net/sXhu-LdT-cXlg11umSQCkVDNt60xXBVhLvoLETK3fVA",
    "cc_id": "2026071017C182417",
    "insured": "64"
+  },
+  {
+   "time": "10-27 18:03",
+   "usdc_received": 72.52,
+   "tx": "38LiY4XhyiDKirjgooRodqcMhu5aFf4nFK2GtPh8q2Z3X2Wu2ZWjn5612uFX4D9rm4cK6dLsaorGyryGRA6KRTcp",
+   "card": "2023 #142 BELLE PSA 9 Disney Lor",
+   "image": "https://nft.collectorcrypt.com/front/2026091226C254346",
+   "cc_id": "2026091226C254346",
+   "insured": "30"
   }
  ],
  "balance_history": [
@@ -17732,6 +17741,13 @@
    "treasury_usdc": 4073.75,
    "bot_sol": 11.3885,
    "seller_sol": 0.1928
+  },
+  {
+   "ts": "2026-10-27T18:00:20.210805+00:00",
+   "seller_usdc": 152.88,
+   "treasury_usdc": 4073.75,
+   "bot_sol": 11.4061,
+   "seller_sol": 0.1935
   }
  ],
  "sweeps": [
