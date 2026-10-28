@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-28T16:20:26.922146+00:00",
+ "generated": "2026-10-28T16:40:27.027511+00:00",
  "summary": {
-  "bot_txns_per_day": 99310,
-  "bot_window": "100 txns sampled",
+  "bot_txns_per_day": 38900,
+  "bot_window": "95 txns sampled",
   "bot_offers_out": 1039,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 166.6,
   "treasury_usdc_balance": 3928.159323,
-  "seller_txns_per_day": 7876,
-  "seller_listing_updates": 24,
+  "seller_txns_per_day": 6307,
+  "seller_listing_updates": 20,
   "total_acquisitions": 68,
-  "total_sales": 76,
+  "total_sales": 77,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 5039.65
+  "total_sale_usdc": 5206.25
  },
  "balance_history": [
   {
@@ -16932,6 +16932,13 @@
    "treasury_usdc": 3928.16,
    "bot_sol": 6.8026,
    "seller_sol": 0.1536
+  },
+  {
+   "ts": "2026-10-28T16:40:27.027511+00:00",
+   "seller_usdc": 166.6,
+   "treasury_usdc": 3928.16,
+   "bot_sol": 6.7482,
+   "seller_sol": 0.1545
   }
  ],
  "acquisitions": [
@@ -17549,6 +17556,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "10-28 16:43",
+   "usdc_received": 166.6,
+   "tx": "23UsKjPg9NZxYHdqRjNNyGzt1XUwdGM1NqCxhzV7fRctVyCqzRB9F9y8bssvEAK4jYDFuZj4vc5h8C2xhzHmgCnq",
+   "card": "",
+   "image": "",
+   "cc_id": "",
+   "insured": "",
+   "buyer": ""
+  },
   {
    "time": "10-27 18:03",
    "usdc_received": 72.52,
@@ -18311,12 +18328,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:236, MakeOffer:2, SetOfferExpiry:2",
-  "seller_instruction_mix": "UpdateListing:24, MakeOffer:1",
-  "bot_sol_balance": 6.802647056,
-  "seller_sol_balance": 0.153583959,
+  "bot_instruction_mix": "UpdateOffer:224, CancelOffer:9, MakeOffer:1, SetOfferExpiry:1",
+  "seller_instruction_mix": "UpdateListing:20, MakeOffer:4, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 6.748177976,
+  "seller_sol_balance": 0.154502054,
   "bot_usdc_balance": 0.000849,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 166.6,
   "treasury_usdc_balance": 3928.159323,
   "bot_token_accounts": 1039,
   "seller_token_accounts": 323

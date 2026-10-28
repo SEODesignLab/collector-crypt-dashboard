@@ -1297,6 +1297,15 @@
    "image": "https://nft.collectorcrypt.com/front/2026091226C254346",
    "cc_id": "2026091226C254346",
    "insured": "30"
+  },
+  {
+   "time": "10-28 16:43",
+   "usdc_received": 166.6,
+   "tx": "23UsKjPg9NZxYHdqRjNNyGzt1XUwdGM1NqCxhzV7fRctVyCqzRB9F9y8bssvEAK4jYDFuZj4vc5h8C2xhzHmgCnq",
+   "card": "",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
   }
  ],
  "balance_history": [
@@ -18217,6 +18226,13 @@
    "treasury_usdc": 3928.16,
    "bot_sol": 6.8026,
    "seller_sol": 0.1536
+  },
+  {
+   "ts": "2026-10-28T16:40:27.027511+00:00",
+   "seller_usdc": 166.6,
+   "treasury_usdc": 3928.16,
+   "bot_sol": 6.7482,
+   "seller_sol": 0.1545
   }
  ],
  "sweeps": [
