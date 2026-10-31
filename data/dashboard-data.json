@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-31T20:00:49.940819+00:00",
+ "generated": "2026-10-31T20:20:50.024442+00:00",
  "summary": {
-  "bot_txns_per_day": 329,
+  "bot_txns_per_day": 261,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1039,
   "bot_holdings": 2,
   "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 3455.057047,
+  "treasury_usdc_balance": 3444.557047,
   "seller_txns_per_day": 186,
   "seller_listing_updates": 0,
-  "total_acquisitions": 70,
+  "total_acquisitions": 71,
   "total_sales": 77,
   "total_acq_usdc": 0,
   "total_sale_usdc": 5206.25
@@ -18521,9 +18521,25 @@
    "treasury_usdc": 3455.06,
    "bot_sol": 0.9945,
    "seller_sol": 0.0115
+  },
+  {
+   "ts": "2026-10-31T20:20:50.024442+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3444.56,
+   "bot_sol": 0.996,
+   "seller_sol": 0.0115
   }
  ],
  "acquisitions": [
+  {
+   "time": "10-31 20:21",
+   "usdc_paid": 0,
+   "tx": "hSqxyHGD9sjaraFCSFNzqb9mM4eBtPA9bEDvvqEwLvG8G2qKiktGDdXAwzbo938ocBLEnKSySmREcHwctyuwrUF",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "10-31 16:46",
    "usdc_paid": 0,
@@ -19928,13 +19944,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "Transfer:11, UpdateOffer:3, AcceptOfferForPnft:3, Validate:3",
+  "bot_instruction_mix": "Transfer:12, UpdateOffer:3, AcceptOfferForPnft:3, Validate:3",
   "seller_instruction_mix": "MakeOffer:24, SetOfferExpiry:16",
-  "bot_sol_balance": 0.9944501,
+  "bot_sol_balance": 0.99595886,
   "seller_sol_balance": 0.011521702,
   "bot_usdc_balance": 0.002579,
   "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 3455.057047,
+  "treasury_usdc_balance": 3444.557047,
   "bot_token_accounts": 1039,
   "seller_token_accounts": 322
  }
