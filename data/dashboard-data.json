@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T22:00:50.513634+00:00",
+ "generated": "2026-10-31T22:20:50.627132+00:00",
  "summary": {
   "bot_txns_per_day": 229,
   "bot_window": "100 txns sampled",
@@ -18559,6 +18559,13 @@
   },
   {
    "ts": "2026-10-31T22:00:50.513634+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3423.69,
+   "bot_sol": 0.9975,
+   "seller_sol": 0.0115
+  },
+  {
+   "ts": "2026-10-31T22:20:50.627132+00:00",
    "seller_usdc": 0.0,
    "treasury_usdc": 3423.69,
    "bot_sol": 0.9975,
