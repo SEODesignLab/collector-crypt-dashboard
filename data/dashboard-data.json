@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T12:00:47.650015+00:00",
+ "generated": "2026-10-31T12:20:47.711075+00:00",
  "summary": {
   "bot_txns_per_day": 2875,
   "bot_window": "100 txns sampled",
@@ -7,7 +7,7 @@
   "bot_holdings": 1,
   "seller_usdc_balance": 0.0,
   "treasury_usdc_balance": 3250.667047,
-  "seller_txns_per_day": 472,
+  "seller_txns_per_day": 383,
   "seller_listing_updates": 0,
   "total_acquisitions": 69,
   "total_sales": 77,
@@ -18349,6 +18349,13 @@
   },
   {
    "ts": "2026-10-31T12:00:47.650015+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3250.67,
+   "bot_sol": 1.9856,
+   "seller_sol": 0.0115
+  },
+  {
+   "ts": "2026-10-31T12:20:47.711075+00:00",
    "seller_usdc": 0.0,
    "treasury_usdc": 3250.67,
    "bot_sol": 1.9856,
