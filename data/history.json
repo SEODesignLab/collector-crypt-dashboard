@@ -647,6 +647,15 @@
    "image": "",
    "cc_id": "",
    "insured": ""
+  },
+  {
+   "time": "11-01 12:23",
+   "usdc_paid": 0,
+   "tx": "3ZuFgNCAVVskaDdpKsRXY8TufxK5oC5aQtJTRnBNqF4AXjMWTud7fA8KvxjiZRj23dD8HkuTApkKH5eSrDaKX2z9",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
   }
  ],
  "sales": [
@@ -20186,6 +20195,13 @@
    "seller_usdc": 0.0,
    "treasury_usdc": 3066.9,
    "bot_sol": 1.0079,
+   "seller_sol": 0.0115
+  },
+  {
+   "ts": "2026-11-01T12:20:54.800659+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3041.9,
+   "bot_sol": 1.0094,
    "seller_sol": 0.0115
   }
  ],
