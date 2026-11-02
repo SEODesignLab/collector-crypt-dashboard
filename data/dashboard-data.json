@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-02T02:00:58.999819+00:00",
+ "generated": "2026-11-02T02:20:59.078978+00:00",
  "summary": {
   "bot_txns_per_day": 60,
   "bot_window": "96 txns sampled",
   "bot_offers_out": 1038,
   "bot_holdings": 2,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 60.76,
   "treasury_usdc_balance": 3568.317047,
-  "seller_txns_per_day": 138,
+  "seller_txns_per_day": 137,
   "seller_listing_updates": 0,
   "total_acquisitions": 78,
-  "total_sales": 77,
+  "total_sales": 78,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 5206.25
+  "total_sale_usdc": 5267.01
  },
  "balance_history": [
   {
@@ -19151,6 +19151,13 @@
    "treasury_usdc": 3568.32,
    "bot_sol": 1.0215,
    "seller_sol": 0.0115
+  },
+  {
+   "ts": "2026-11-02T02:20:59.078978+00:00",
+   "seller_usdc": 60.76,
+   "treasury_usdc": 3568.32,
+   "bot_sol": 1.0215,
+   "seller_sol": 0.013
   }
  ],
  "acquisitions": [
@@ -19858,6 +19865,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "11-02 02:10",
+   "usdc_received": 60.76,
+   "tx": "3NkZYJsoVv5Su7e7Udg57QsQP5dE5uWTW7wnu1sU8qfhaHFDSSzGJU7UjQ6jYD887zN3NRftrEaJcnLWmmNtEhzd",
+   "card": "2025 #087 Nico Robin PSA 10 One",
+   "image": "https://arweave.net/ua9DB_v8q0IMqNX_6kbcOWsjEhfDVUKRJOstk1pXaQk",
+   "cc_id": "202607113C183412",
+   "insured": "65",
+   "buyer": ""
+  },
   {
    "time": "10-28 16:43",
    "usdc_received": 166.6,
@@ -20631,11 +20648,11 @@
  ],
  "profile": {
   "bot_instruction_mix": "Transfer:14, AcceptOfferForCore:6, AcceptOfferForListedCore:3, MakeOffer:2",
-  "seller_instruction_mix": "MakeOffer:59",
+  "seller_instruction_mix": "MakeOffer:56, BuyCore:1, Transfer:1",
   "bot_sol_balance": 1.02150942,
-  "seller_sol_balance": 0.011521702,
+  "seller_sol_balance": 0.012994902,
   "bot_usdc_balance": 0.001352,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 60.76,
   "treasury_usdc_balance": 3568.317047,
   "bot_token_accounts": 1038,
   "seller_token_accounts": 322

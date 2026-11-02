@@ -1396,6 +1396,15 @@
    "image": "",
    "cc_id": "",
    "insured": ""
+  },
+  {
+   "time": "11-02 02:10",
+   "usdc_received": 60.76,
+   "tx": "3NkZYJsoVv5Su7e7Udg57QsQP5dE5uWTW7wnu1sU8qfhaHFDSSzGJU7UjQ6jYD887zN3NRftrEaJcnLWmmNtEhzd",
+   "card": "2025 #087 Nico Robin PSA 10 One",
+   "image": "https://arweave.net/ua9DB_v8q0IMqNX_6kbcOWsjEhfDVUKRJOstk1pXaQk",
+   "cc_id": "202607113C183412",
+   "insured": "65"
   }
  ],
  "balance_history": [
@@ -20535,6 +20544,13 @@
    "treasury_usdc": 3568.32,
    "bot_sol": 1.0215,
    "seller_sol": 0.0115
+  },
+  {
+   "ts": "2026-11-02T02:20:59.078978+00:00",
+   "seller_usdc": 60.76,
+   "treasury_usdc": 3568.32,
+   "bot_sol": 1.0215,
+   "seller_sol": 0.013
   }
  ],
  "sweeps": [
