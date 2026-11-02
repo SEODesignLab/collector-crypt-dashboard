@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-02T23:20:23.656766+00:00",
+ "generated": "2026-11-02T23:40:23.829765+00:00",
  "summary": {
-  "bot_txns_per_day": 25714,
+  "bot_txns_per_day": 23736,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1037,
   "bot_holdings": 1,
   "seller_usdc_balance": 0.0,
   "treasury_usdc_balance": 4452.172647,
-  "seller_txns_per_day": 6545,
-  "seller_listing_updates": 23,
+  "seller_txns_per_day": 5726,
+  "seller_listing_updates": 24,
   "total_acquisitions": 85,
   "total_sales": 79,
   "total_acq_usdc": 0,
@@ -19578,6 +19578,13 @@
    "treasury_usdc": 4452.17,
    "bot_sol": 4.2409,
    "seller_sol": 0.0824
+  },
+  {
+   "ts": "2026-11-02T23:40:23.829765+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 4452.17,
+   "bot_sol": 3.957,
+   "seller_sol": 0.0818
   }
  ],
  "acquisitions": [
@@ -21140,10 +21147,10 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:121, MakeOffer:18, SetOfferExpiry:18, CancelOffer:4",
-  "seller_instruction_mix": "UpdateListing:23, MakeOffer:2",
-  "bot_sol_balance": 4.240938458,
-  "seller_sol_balance": 0.082409141,
+  "bot_instruction_mix": "UpdateOffer:68, MakeOffer:30, SetOfferExpiry:30, CancelOffer:9",
+  "seller_instruction_mix": "UpdateListing:24, MakeOffer:1",
+  "bot_sol_balance": 3.956955338,
+  "seller_sol_balance": 0.081845991,
   "bot_usdc_balance": 0.001752,
   "seller_usdc_balance": 0.0,
   "treasury_usdc_balance": 4452.172647,
