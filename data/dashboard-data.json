@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-02T08:40:00.962576+00:00",
+ "generated": "2026-11-02T09:00:01.083891+00:00",
  "summary": {
-  "bot_txns_per_day": 53,
+  "bot_txns_per_day": 51,
   "bot_window": "96 txns sampled",
   "bot_offers_out": 1037,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 3158.367047,
-  "seller_txns_per_day": 18189,
-  "seller_listing_updates": 8,
-  "total_acquisitions": 83,
+  "seller_usdc_balance": 26.705,
+  "treasury_usdc_balance": 3135.597047,
+  "seller_txns_per_day": 12800,
+  "seller_listing_updates": 12,
+  "total_acquisitions": 85,
   "total_sales": 78,
   "total_acq_usdc": 0,
   "total_sale_usdc": 5267.01
@@ -19291,9 +19291,34 @@
    "treasury_usdc": 3158.37,
    "bot_sol": 0.9293,
    "seller_sol": 0.103
+  },
+  {
+   "ts": "2026-11-02T09:00:01.083891+00:00",
+   "seller_usdc": 26.7,
+   "treasury_usdc": 3135.6,
+   "bot_sol": 0.9323,
+   "seller_sol": 0.1038
   }
  ],
  "acquisitions": [
+  {
+   "time": "11-02 09:00",
+   "usdc_paid": 0,
+   "tx": "3isCVe8LVNNnRagobqx7vPMQdWePZKqJvDVuEx5PH7B5NNgb584pzucBGTx2GXnDfXStbuZkzMkt5BD1bzUH1Swo",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
+  {
+   "time": "11-02 09:00",
+   "usdc_paid": 0,
+   "tx": "5h4nYZddoQPw7x9dF3is2QsPmLcNvu4i1Vmu1Lb5Jrqcto57qP5EJ1tbDj3zJxeRxquYcKwo5j33yiJBX1M1TtZ6",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "11-02 06:59",
    "usdc_paid": 0,
@@ -20825,13 +20850,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "Transfer:14, UpdateOffer:4, MakeOffer:2, AcceptOfferForCore:1",
-  "seller_instruction_mix": "MakeOffer:17, UpdateListing:8",
-  "bot_sol_balance": 0.929252046,
-  "seller_sol_balance": 0.103012081,
+  "bot_instruction_mix": "Transfer:16, AcceptOfferForCore:3, UpdateOffer:2, MakeOffer:2",
+  "seller_instruction_mix": "MakeOffer:14, UpdateListing:12, SetOfferExpiry:3",
+  "bot_sol_balance": 0.932269566,
+  "seller_sol_balance": 0.103841681,
   "bot_usdc_balance": 0.006352,
-  "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 3158.367047,
+  "seller_usdc_balance": 26.705,
+  "treasury_usdc_balance": 3135.597047,
   "bot_token_accounts": 1037,
   "seller_token_accounts": 322
  }
