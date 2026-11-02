@@ -1468,6 +1468,15 @@
    "image": "https://arweave.net/ua9DB_v8q0IMqNX_6kbcOWsjEhfDVUKRJOstk1pXaQk",
    "cc_id": "202607113C183412",
    "insured": "65"
+  },
+  {
+   "time": "11-02 19:39",
+   "usdc_received": 31.85,
+   "tx": "54Us15YcMycd5K8voqdvDBNbNX6rSTPQ3DJVnSbErBYB4vaNz4Bz2GA5T7raQt3aiVysb18cH4f9TXLLCa1rQVp6",
+   "card": "2025 Pokemon Mega Evolution Phan",
+   "image": "https://arweave.net/aKBMrJ9nMMJlJlCHcf_YgfFNIOB91VsmIx2zHjxYvEo",
+   "cc_id": "2026071618C200702",
+   "insured": "25"
   }
  ],
  "balance_history": [
@@ -20950,6 +20959,13 @@
    "treasury_usdc": 3931.69,
    "bot_sol": 1.1388,
    "seller_sol": 0.0861
+  },
+  {
+   "ts": "2026-11-02T19:40:22.194071+00:00",
+   "seller_usdc": 31.85,
+   "treasury_usdc": 3931.69,
+   "bot_sol": 0.7186,
+   "seller_sol": 0.087
   }
  ],
  "sweeps": [
