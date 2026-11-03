@@ -1486,6 +1486,15 @@
    "image": "https://arweave.net/-JkgidAxuIvqIGxmWtjMSnvvk77jrnNUl89T_l_YnyU",
    "cc_id": "2026071647C193719",
    "insured": "148"
+  },
+  {
+   "time": "11-03 04:55",
+   "usdc_received": 49.0,
+   "tx": "P7aLxsdL7uN5vPBc1DSy4xmuiN7FxpS17a52SRg3RUFFwR1mQ2tt1YsVvffAH94tVqcRxMzt6zkxHxGDPeHCZhR",
+   "card": "2026 #54 Woody - Jungle Guide PS",
+   "image": "https://nft.collectorcrypt.com/front/2026101914C301979",
+   "cc_id": "2026101914C301979",
+   "insured": "41"
   }
  ],
  "balance_history": [
@@ -21164,6 +21173,13 @@
    "treasury_usdc": 4242.32,
    "bot_sol": 11.2958,
    "seller_sol": 0.0735
+  },
+  {
+   "ts": "2026-11-03T05:00:25.875825+00:00",
+   "seller_usdc": 49.0,
+   "treasury_usdc": 4391.28,
+   "bot_sol": 11.8987,
+   "seller_sol": 0.0743
   }
  ],
  "sweeps": [
