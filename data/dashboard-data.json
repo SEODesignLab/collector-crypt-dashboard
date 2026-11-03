@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-03T00:00:23.983523+00:00",
+ "generated": "2026-11-03T00:20:24.072777+00:00",
  "summary": {
-  "bot_txns_per_day": 21873,
+  "bot_txns_per_day": 73220,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1037,
   "bot_holdings": 1,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 148.96,
   "treasury_usdc_balance": 4452.172647,
-  "seller_txns_per_day": 6000,
+  "seller_txns_per_day": 6698,
   "seller_listing_updates": 24,
   "total_acquisitions": 85,
-  "total_sales": 79,
+  "total_sales": 80,
   "total_acq_usdc": 0,
-  "total_sale_usdc": 5298.86
+  "total_sale_usdc": 5447.82
  },
  "balance_history": [
   {
@@ -19592,6 +19592,13 @@
    "treasury_usdc": 4452.17,
    "bot_sol": 3.7061,
    "seller_sol": 0.0812
+  },
+  {
+   "ts": "2026-11-03T00:20:24.072777+00:00",
+   "seller_usdc": 148.96,
+   "treasury_usdc": 4452.17,
+   "bot_sol": 2.9313,
+   "seller_sol": 0.0819
   }
  ],
  "acquisitions": [
@@ -20362,6 +20369,16 @@
   }
  ],
  "sales": [
+  {
+   "time": "11-03 00:17",
+   "usdc_received": 148.96,
+   "tx": "3HBxf9BwBGZXbh9VdeQNprMDQC3jzHNFvq7THpo4gaUFnPWKNmjdYyP5vrsjXTAmM814hjKvcLdTSUU6hecZ643z",
+   "card": "2018 #038 Gengar & Mimikyu GX PS",
+   "image": "https://arweave.net/-JkgidAxuIvqIGxmWtjMSnvvk77jrnNUl89T_l_YnyU",
+   "cc_id": "2026071647C193719",
+   "insured": "148",
+   "buyer": ""
+  },
   {
    "time": "11-02 19:39",
    "usdc_received": 31.85,
@@ -21154,12 +21171,12 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:74, MakeOffer:26, SetOfferExpiry:26, CancelOffer:9",
-  "seller_instruction_mix": "UpdateListing:24, MakeOffer:1",
-  "bot_sol_balance": 3.706094298,
-  "seller_sol_balance": 0.081162166,
+  "bot_instruction_mix": "UpdateOffer:134, MakeOffer:18, SetOfferExpiry:18, CancelOffer:6",
+  "seller_instruction_mix": "UpdateListing:24, BuyCore:1, Transfer:1",
+  "bot_sol_balance": 2.931346698,
+  "seller_sol_balance": 0.081887181,
   "bot_usdc_balance": 0.001752,
-  "seller_usdc_balance": 0.0,
+  "seller_usdc_balance": 148.96,
   "treasury_usdc_balance": 4452.172647,
   "bot_token_accounts": 1037,
   "seller_token_accounts": 322

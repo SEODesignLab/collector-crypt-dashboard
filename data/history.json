@@ -1477,6 +1477,15 @@
    "image": "https://arweave.net/aKBMrJ9nMMJlJlCHcf_YgfFNIOB91VsmIx2zHjxYvEo",
    "cc_id": "2026071618C200702",
    "insured": "25"
+  },
+  {
+   "time": "11-03 00:17",
+   "usdc_received": 148.96,
+   "tx": "3HBxf9BwBGZXbh9VdeQNprMDQC3jzHNFvq7THpo4gaUFnPWKNmjdYyP5vrsjXTAmM814hjKvcLdTSUU6hecZ643z",
+   "card": "2018 #038 Gengar & Mimikyu GX PS",
+   "image": "https://arweave.net/-JkgidAxuIvqIGxmWtjMSnvvk77jrnNUl89T_l_YnyU",
+   "cc_id": "2026071647C193719",
+   "insured": "148"
   }
  ],
  "balance_history": [
@@ -21057,6 +21066,13 @@
    "treasury_usdc": 4452.17,
    "bot_sol": 3.7061,
    "seller_sol": 0.0812
+  },
+  {
+   "ts": "2026-11-03T00:20:24.072777+00:00",
+   "seller_usdc": 148.96,
+   "treasury_usdc": 4452.17,
+   "bot_sol": 2.9313,
+   "seller_sol": 0.0819
   }
  ],
  "sweeps": [
