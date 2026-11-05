@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-05T15:40:51.016777+00:00",
+ "generated": "2026-11-05T16:00:51.129900+00:00",
  "summary": {
-  "bot_txns_per_day": 16395,
+  "bot_txns_per_day": 14328,
   "bot_window": "100 txns sampled",
-  "bot_offers_out": 1042,
-  "bot_holdings": 1,
+  "bot_offers_out": 1043,
+  "bot_holdings": 2,
   "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 3726.896957,
+  "treasury_usdc_balance": 3439.056957,
   "seller_txns_per_day": 452,
   "seller_listing_updates": 22,
-  "total_acquisitions": 85,
+  "total_acquisitions": 86,
   "total_sales": 81,
   "total_acq_usdc": 0,
   "total_sale_usdc": 5496.82
@@ -20929,9 +20929,25 @@
    "treasury_usdc": 3726.9,
    "bot_sol": 17.6976,
    "seller_sol": 0.0917
+  },
+  {
+   "ts": "2026-11-05T16:00:51.129900+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3439.06,
+   "bot_sol": 17.8973,
+   "seller_sol": 0.0917
   }
  ],
  "acquisitions": [
+  {
+   "time": "11-05 16:00",
+   "usdc_paid": 0,
+   "tx": "p7ZniGF32nbgLxAA5xYakJY2CRKGEty39Bzvsu1W75YYjdyTXmL7k9212waCqBhHJighFCwaAB7evfbKmM94nn5",
+   "card": "Collector Crypt",
+   "image": "",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "11-02 09:00",
    "usdc_paid": 0,
@@ -22511,14 +22527,14 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:93, CancelOffer:17, MakeOffer:9, SetOfferExpiry:9",
+  "bot_instruction_mix": "CancelOffer:34, UpdateOffer:32, MakeOffer:8, SetOfferExpiry:8",
   "seller_instruction_mix": "UpdateListing:22, MakeOffer:3, SetOfferExpiry:2",
-  "bot_sol_balance": 17.697648549,
+  "bot_sol_balance": 17.897283629,
   "seller_sol_balance": 0.091736071,
   "bot_usdc_balance": 0.007813,
   "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 3726.896957,
-  "bot_token_accounts": 1042,
+  "treasury_usdc_balance": 3439.056957,
+  "bot_token_accounts": 1043,
   "seller_token_accounts": 322
  }
 }
