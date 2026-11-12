@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-12T09:20:35.190721+00:00",
+ "generated": "2026-11-12T09:40:35.308314+00:00",
  "summary": {
-  "bot_txns_per_day": 69120,
+  "bot_txns_per_day": 24686,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1049,
   "bot_holdings": 1,
@@ -24289,6 +24289,13 @@
    "treasury_usdc": 3121.17,
    "bot_sol": 11.0853,
    "seller_sol": 0.0302
+  },
+  {
+   "ts": "2026-11-12T09:40:35.308314+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3121.17,
+   "bot_sol": 11.0584,
+   "seller_sol": 0.0302
   }
  ],
  "acquisitions": [
@@ -25979,9 +25986,9 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:175, CancelOffer:9, MakeOffer:7, SetOfferExpiry:7",
+  "bot_instruction_mix": "UpdateOffer:71, MakeOffer:13, SetOfferExpiry:13, CancelOffer:7",
   "seller_instruction_mix": "Transfer:13, CancelCoreListing:6, RemovePlugin:6, CancelPnftListing:2",
-  "bot_sol_balance": 11.085318163,
+  "bot_sol_balance": 11.058433003,
   "seller_sol_balance": 0.030226423,
   "bot_usdc_balance": 4.4e-05,
   "seller_usdc_balance": 0.0,
