@@ -890,6 +890,15 @@
    "image": "https://arweave.net/jsSk1Tuu5gugBcaEc10npIy8g4Le6YEOslTBDHw4EBI",
    "cc_id": "",
    "insured": ""
+  },
+  {
+   "time": "11-18 22:39",
+   "usdc_paid": 0,
+   "tx": "2JgqHnVJNAPP6uqcJv2nCJfHrhXRTiBaC9ryHgkNWyKJYVSsTGBvEHCzPLhFxe8bh5h2Swm6t3ioFgQT7es5F3kE",
+   "card": "2022 #013 Sanji PSA 10 One Piece",
+   "image": "https://arweave.net/_P3clRIQ9U1hj44TdRJgF0AG4sOBV7tIsIU05UUYVx8",
+   "cc_id": "2026071320C185877",
+   "insured": "30"
   }
  ],
  "sales": [
@@ -29194,6 +29203,13 @@
    "seller_usdc": 0.0,
    "treasury_usdc": 3730.39,
    "bot_sol": 32.8463,
+   "seller_sol": 0.0301
+  },
+  {
+   "ts": "2026-11-18T22:40:26.742682+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 3709.14,
+   "bot_sol": 32.8269,
    "seller_sol": 0.0301
   }
  ],
