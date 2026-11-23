@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-23T03:00:58.243634+00:00",
+ "generated": "2026-11-23T03:20:58.331077+00:00",
  "summary": {
-  "bot_txns_per_day": 54340,
+  "bot_txns_per_day": 79266,
   "bot_window": "100 txns sampled",
   "bot_offers_out": 1058,
   "bot_holdings": 1,
   "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 4575.09213,
+  "treasury_usdc_balance": 799.66213,
   "seller_txns_per_day": 17,
   "seller_listing_updates": 0,
-  "total_acquisitions": 100,
+  "total_acquisitions": 101,
   "total_sales": 81,
   "total_acq_usdc": 0,
   "total_sale_usdc": 5496.82
@@ -29700,9 +29700,25 @@
    "treasury_usdc": 4575.09,
    "bot_sol": 8.7269,
    "seller_sol": 0.0301
+  },
+  {
+   "ts": "2026-11-23T03:20:58.331077+00:00",
+   "seller_usdc": 0.0,
+   "treasury_usdc": 799.66,
+   "bot_sol": 8.5418,
+   "seller_sol": 0.0301
   }
  ],
  "acquisitions": [
+  {
+   "time": "11-23 03:20",
+   "usdc_paid": 0,
+   "tx": "3a2Kp7STZ58JHYStkaKde2GbijkEdkVYtqMBEQG8XoYEwuTeZ29aLmRSzaqwDKVEDJ7XdzN45x6jUHrgyDfgW5HS",
+   "card": "Collector Crypt",
+   "image": "https://arweave.net/jsSk1Tuu5gugBcaEc10npIy8g4Le6YEOslTBDHw4EBI",
+   "cc_id": "",
+   "insured": ""
+  },
   {
    "time": "11-18 22:39",
    "usdc_paid": 0,
@@ -31417,13 +31433,13 @@
   }
  ],
  "profile": {
-  "bot_instruction_mix": "UpdateOffer:184, CancelOffer:9, MakeOffer:5, SetOfferExpiry:5",
+  "bot_instruction_mix": "UpdateOffer:188, CancelOffer:15, MakeOffer:5, SetOfferExpiry:5",
   "seller_instruction_mix": "Transfer:13, CancelCoreListing:3, RemovePlugin:3, CancelPnftListing:2",
-  "bot_sol_balance": 8.726859892,
+  "bot_sol_balance": 8.541848692,
   "seller_sol_balance": 0.030147485,
   "bot_usdc_balance": 0.002735,
   "seller_usdc_balance": 0.0,
-  "treasury_usdc_balance": 4575.09213,
+  "treasury_usdc_balance": 799.66213,
   "bot_token_accounts": 1058,
   "seller_token_accounts": 234
  }
